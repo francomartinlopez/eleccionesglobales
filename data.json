@@ -1240,9 +1240,9 @@
 "n": "Paraguay",
 "c": "a",
 "marca": null,
-"motivo": "Peña (ANR), aliado regional de Milei.",
+"motivo": "Gobierno colorado aliado de Milei. Peña fue destituido en noviembre de 2026 y asumió su vice, Alliana; la Cancillería argentina habla de «excelente relación» y no prevé cambios.",
 "sis": "Presidencial. Congreso bicameral: Diputados (80) y Senado (45).",
-"gob": "Santiago Peña (ANR-Partido Colorado), desde 2023",
+"gob": "Pedro Alliana (ANR-Partido Colorado), desde el 6/11/2026, tras la destitución de Santiago Peña por la crisis de Ueno Bank; completa el mandato hasta agosto de 2028",
 "ej": [
 {
 "anio": 2023,
@@ -1339,10 +1339,93 @@
 "prox": {
 "fecha": "Abr 2028",
 "que": "Presidente y Congreso",
-"pron": "Sin encuestas todavía",
+"pron": "Sin encuestas todavía. Internas del Partido Colorado en 2027; Alliana había desistido de su precandidatura antes de la crisis.",
 "pc": null
 },
-"prio": true
+"prio": true,
+"impacto": {
+"eleccion": "Pedro Alliana completa el mandato hasta agosto de 2028, después de la destitución de Santiago Peña. La próxima elección general es en abril de 2028, con internas partidarias en 2027. Paraguay comparte con la Argentina Yacyretá, la hidrovía Paraguay-Paraná y los pasos de Clorinda-Falcón y Posadas-Encarnación.",
+"escenarios": [
+{
+"si": "Sigue el Partido Colorado (Alliana hasta 2028 y un colorado electo en 2028)",
+"c": "a",
+"comercio": "La Argentina compra a Paraguay más de lo que le vende: en junio de 2025 exportó US$ 119 millones e importó US$ 324 millones (INDEC). La Argentina fue el principal destino de las exportaciones paraguayas entre enero y mayo de 2025 (Banco Central del Paraguay), sobre todo soja.",
+"aranceles": "Socio en la agenda de apertura del Mercosur y del acuerdo con la Unión Europea.",
+"inversiones": "Paraguay compite por empresas argentinas con impuestos más bajos; los dos gobiernos estudian un nuevo puente entre Misión La Paz y Pozo Hondo.",
+"politica": "Alianza política estrecha: Peña fue el primer jefe de Estado latinoamericano en visitar a Milei en la Casa Rosada. Con Alliana, el gobierno argentino no prevé cambios, aunque la crisis de Ueno Bank deja un gobierno débil en Asunción.",
+"rubros": {
+"industria": [
+"incierto",
+"Paraguay atrae plantas por menores impuestos y por la maquila; competencia para la industria argentina de frontera."
+],
+"agro": [
+"favorable",
+"La soja paraguaya abastece la molienda argentina."
+],
+"mineria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"energia": [
+"neutro",
+"Yacyretá es binacional; sin cambios previstos en la relación energética."
+],
+"construccion": [
+"favorable",
+"Estudios para un nuevo puente internacional entre Misión La Paz y Pozo Hondo."
+],
+"comercio": [
+"incierto",
+"Peaje de la hidrovía en negociación: Paraguay pide una cifra que no le quite competitividad a su transporte fluvial."
+]
+}
+},
+{
+"si": "Gana la oposición en 2028",
+"c": "m",
+"comercio": "Los flujos de soja y energía siguen; dependen de la geografía y no del gobierno.",
+"aranceles": "Sin cambios de fondo en el Mercosur.",
+"inversiones": "Más incertidumbre después de la crisis bancaria.",
+"politica": "Se pierde el aliado político más cercano de Milei en Sudamérica; la oposición paraguaya criticó la cercanía de Peña con Milei.",
+"rubros": {
+"industria": [
+"incierto",
+"Igual que con el Partido Colorado."
+],
+"agro": [
+"favorable",
+"Igual que con el Partido Colorado."
+],
+"mineria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"energia": [
+"neutro",
+"Yacyretá sigue siendo binacional."
+],
+"construccion": [
+"incierto",
+"Obras binacionales con menos impulso político."
+],
+"comercio": [
+"incierto",
+"Peaje de la hidrovía."
+]
+}
+}
+],
+"fuentes": [
+"INDEC, Intercambio comercial argentino, junio 2025",
+"Banco Central del Paraguay vía InfoNegocios (destinos de exportación, enero a mayo de 2025)",
+"Presidencia de la Nación (puente Misión La Paz–Pozo Hondo)",
+"Última Hora (peaje de la hidrovía, jul 2026; oposición sobre Milei, jul 2026)",
+"EFE y Emol (destitución de Peña y asunción de Alliana, 6/11/2026)",
+"TN vía Contexto Tucumán (Quirno: «excelente relación», nov 2026)",
+"Perfil (primera visita de Peña a Milei)"
+],
+"revisado": "25/11/2026"
+}
 },
 "858": {
 "n": "Uruguay",
