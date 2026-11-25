@@ -1,0 +1,4449 @@
+{
+"actualizado": "25/11/2026",
+"paises": {
+"076": {
+"n": "Brasil",
+"c": "e",
+"marca": null,
+"motivo": "Gobierno del PT. Brasil retiró su embajador en Buenos Aires en agosto de 2026.",
+"sis": "Presidencial. Congreso bicameral: Cámara de Diputados (513) y Senado (81).",
+"gob": "Luiz Inácio Lula da Silva (PT), reelecto en 2026",
+"ej": [
+{
+"anio": 2026,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "1.ª vuelta (4/10)",
+"c": [
+[
+"Flávio Bolsonaro",
+"PL",
+47.03
+],
+[
+"Lula",
+"PT",
+45.16
+],
+[
+"Augusto Cury",
+"Avante",
+2.89
+]
+]
+},
+{
+"r": "2.ª vuelta (25/10)",
+"c": [
+[
+"Lula",
+"PT",
+51.77
+],
+[
+"Flávio Bolsonaro",
+"PL",
+48.23
+]
+]
+}
+],
+"fuente": "TSE, vía Folha de Pernambuco y Bloomberg Línea"
+},
+{
+"anio": 2022,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "1.ª vuelta",
+"c": [
+[
+"Lula",
+"PT",
+48.43
+],
+[
+"Jair Bolsonaro",
+"PL",
+43.2
+]
+]
+},
+{
+"r": "2.ª vuelta",
+"c": [
+[
+"Lula",
+"PT",
+50.9
+],
+[
+"Jair Bolsonaro",
+"PL",
+49.1
+]
+]
+}
+],
+"fuente": "TSE",
+"res": "Cargado de referencia; falta contrastar con el TSE"
+}
+],
+"leg": [
+{
+"cam": "Cámara de Diputados",
+"anio": 2026,
+"total": 513,
+"p": [
+[
+"PL",
+121,
+0
+],
+[
+"Fed. PT-PCdoB-PV",
+88,
+1
+],
+[
+"União-PP",
+87,
+0
+],
+[
+"PSD",
+43,
+0
+],
+[
+"Republicanos",
+41,
+0
+],
+[
+"Otros",
+133,
+0
+]
+],
+"fuente": "Congresso em Foco, 5/10/2026"
+},
+{
+"cam": "Cámara de Diputados",
+"anio": 2022,
+"total": 513,
+"p": [
+[
+"PL",
+99,
+0
+],
+[
+"União + PP",
+105,
+0
+],
+[
+"Fed. PT-PCdoB-PV",
+80,
+1
+],
+[
+"Otros",
+229,
+0
+]
+],
+"fuente": "Congresso em Foco (comparación 2022–2026)",
+"res": "Agrupado como lo publica la fuente"
+},
+{
+"cam": "Senado (asume en 2027)",
+"anio": 2026,
+"total": 81,
+"p": [
+[
+"PL",
+28,
+0
+],
+[
+"Otros",
+53,
+0
+]
+],
+"fuente": "Congresso em Foco: el PL pasa de 15 a 28 senadores",
+"res": "Falta el desglose del resto de las bancas"
+}
+],
+"prox": {
+"fecha": "Oct 2030",
+"que": "Presidente y Congreso",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": true
+},
+"484": {
+"n": "México",
+"c": "e",
+"marca": null,
+"motivo": "Gobierno de Morena; relación fría con Milei.",
+"sis": "Presidencial. Congreso bicameral: Diputados (500) y Senado (128).",
+"gob": "Claudia Sheinbaum (Morena), desde 2024",
+"ej": [
+{
+"anio": 2024,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Vuelta única",
+"c": [
+[
+"Claudia Sheinbaum",
+"Morena-PT-PVEM",
+59.76
+],
+[
+"Xóchitl Gálvez",
+"PAN-PRI-PRD",
+27.45
+],
+[
+"Jorge Álvarez Máynez",
+"MC",
+10.32
+]
+]
+}
+],
+"fuente": "INE",
+"res": "Cargado de referencia; falta contrastar con el INE"
+},
+{
+"anio": 2018,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Vuelta única",
+"c": [
+[
+"Andrés Manuel López Obrador",
+"Morena-PT-PES",
+53.19
+],
+[
+"Ricardo Anaya",
+"PAN-PRD-MC",
+22.27
+],
+[
+"José Antonio Meade",
+"PRI-PVEM-PANAL",
+16.4
+]
+]
+}
+],
+"fuente": "INE",
+"res": "Cargado de referencia; falta contrastar con el INE"
+}
+],
+"leg": [
+{
+"cam": "Cámara de Diputados",
+"anio": 2024,
+"total": 500,
+"p": [
+[
+"Morena + PT + PVEM",
+364,
+1
+],
+[
+"PAN",
+72,
+0
+],
+[
+"PRI",
+35,
+0
+],
+[
+"MC",
+27,
+0
+],
+[
+"Otros",
+2,
+0
+]
+],
+"fuente": "INE",
+"res": "Cifras de la asignación inicial; falta contrastar"
+}
+],
+"prox": {
+"fecha": "6/6/2027",
+"que": "Intermedias: toda la Cámara de Diputados y 17 gobernaciones",
+"pron": "Morena primera en todas las encuestas, entre 35% y 46%; PAN segundo, entre 8% y 20%",
+"pc": "e",
+"fuente": "El Imparcial (oct 2026), Diario Puntual, Grupo Animal"
+},
+"prio": false
+},
+"152": {
+"n": "Chile",
+"c": "a",
+"marca": null,
+"motivo": "Kast, afinidad ideológica declarada con Milei.",
+"sis": "Presidencial. Congreso bicameral: Diputados (155) y Senado (50).",
+"gob": "José Antonio Kast (Republicanos), desde 11/3/2026",
+"ej": [
+{
+"anio": 2025,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "1.ª vuelta (16/11)",
+"c": [
+[
+"Jeannette Jara",
+"Unidad por Chile",
+26.85
+],
+[
+"José Antonio Kast",
+"Republicanos",
+23.92
+],
+[
+"Franco Parisi",
+"PDG",
+19.71
+],
+[
+"Johannes Kaiser",
+"PNL",
+13.94
+],
+[
+"Evelyn Matthei",
+"Chile Vamos",
+12.46
+]
+]
+},
+{
+"r": "2.ª vuelta (14/12)",
+"c": [
+[
+"José Antonio Kast",
+"Republicanos",
+58.17
+],
+[
+"Jeannette Jara",
+"Unidad por Chile",
+41.83
+]
+]
+}
+],
+"fuente": "Servel",
+"res": "Cargado de referencia; falta contrastar con el Servel"
+},
+{
+"anio": 2021,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "1.ª vuelta",
+"c": [
+[
+"José Antonio Kast",
+"Republicanos",
+27.91
+],
+[
+"Gabriel Boric",
+"Apruebo Dignidad",
+25.82
+],
+[
+"Franco Parisi",
+"PDG",
+12.8
+]
+]
+},
+{
+"r": "2.ª vuelta",
+"c": [
+[
+"Gabriel Boric",
+"Apruebo Dignidad",
+55.87
+],
+[
+"José Antonio Kast",
+"Republicanos",
+44.13
+]
+]
+}
+],
+"fuente": "Servel",
+"res": "Cargado de referencia; falta contrastar con el Servel"
+}
+],
+"leg": [
+{
+"cam": "Cámara de Diputados",
+"anio": 2025,
+"total": 155,
+"p": [
+[
+"Unidad por Chile",
+61,
+0
+],
+[
+"Cambio por Chile (Rep., PNL, PSC)",
+42,
+1
+],
+[
+"Chile Grande y Unido",
+34,
+0
+],
+[
+"PDG",
+14,
+0
+],
+[
+"Verdes, Reg. y Humanistas",
+3,
+0
+],
+[
+"Otros",
+1,
+0
+]
+],
+"fuente": "Emol y BioBioChile, 16–17/11/2025"
+},
+{
+"cam": "Senado",
+"anio": 2025,
+"total": 50,
+"p": [
+[
+"Unidad por Chile",
+20,
+0
+],
+[
+"Resto",
+30,
+0
+]
+],
+"fuente": "El Dínamo: Unidad por Chile queda con 20 senadores; Pauta: Senado dividido en partes iguales",
+"res": "Falta el desglose del resto"
+}
+],
+"prox": {
+"fecha": "Nov 2029",
+"que": "Presidente y Congreso",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": true
+},
+"170": {
+"n": "Colombia",
+"c": "a",
+"marca": null,
+"motivo": "De la Espriella, alineado con Milei y Trump. Reemplazó a Petro, enfrentado.",
+"sis": "Presidencial. Congreso bicameral: Senado (108) y Cámara de Representantes.",
+"gob": "Abelardo de la Espriella (Defensores de la Patria), desde 7/8/2026",
+"ej": [
+{
+"anio": 2026,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "1.ª vuelta (31/5)",
+"c": [
+[
+"Abelardo de la Espriella",
+"Defensores de la Patria",
+43.7
+],
+[
+"Iván Cepeda",
+"Pacto Histórico",
+40.9
+]
+]
+},
+{
+"r": "2.ª vuelta (21/6)",
+"c": [
+[
+"Abelardo de la Espriella",
+"Defensores de la Patria",
+49.2
+],
+[
+"Iván Cepeda",
+"Pacto Histórico",
+48.24
+]
+]
+}
+],
+"fuente": "CNE, escrutinio final (Valora Analitik); 1.ª vuelta: O Povo y Semana",
+"res": "El porcentaje de Cepeda en 1.ª vuelta está calculado a partir de los votos del escrutinio"
+},
+{
+"anio": 2022,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "1.ª vuelta",
+"c": [
+[
+"Gustavo Petro",
+"Pacto Histórico",
+40.32
+],
+[
+"Rodolfo Hernández",
+"Liga Anticorrupción",
+28.17
+],
+[
+"Federico Gutiérrez",
+"Equipo por Colombia",
+23.91
+]
+]
+},
+{
+"r": "2.ª vuelta",
+"c": [
+[
+"Gustavo Petro",
+"Pacto Histórico",
+50.44
+],
+[
+"Rodolfo Hernández",
+"Liga Anticorrupción",
+47.31
+]
+]
+}
+],
+"fuente": "Registraduría",
+"res": "Cargado de referencia; falta contrastar con la Registraduría"
+}
+],
+"leg": [
+{
+"cam": "Senado",
+"anio": 2026,
+"total": 102,
+"p": [
+[
+"Pacto Histórico",
+25,
+0
+],
+[
+"Centro Democrático",
+17,
+1
+],
+[
+"Liberal",
+13,
+0
+],
+[
+"Alianza por Colombia",
+11,
+0
+],
+[
+"Conservador",
+10,
+0
+],
+[
+"De la U",
+8,
+0
+],
+[
+"Cambio Radical–Alma",
+7,
+0
+],
+[
+"Ahora Colombia",
+5,
+0
+],
+[
+"Otros",
+6,
+0
+]
+],
+"fuente": "Colombia.com y Noticias RCN, resultados oficiales",
+"res": "Las fuentes difieren en 1 banca para La U y Salvación Nacional. No incluye las bancas especiales"
+}
+],
+"prox": {
+"fecha": "Mar–may 2030",
+"que": "Congreso y Presidente",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": true
+},
+"604": {
+"n": "Perú",
+"c": "a",
+"marca": null,
+"motivo": "Keiko Fujimori, derecha afín al gobierno argentino.",
+"sis": "Presidencial. Desde 2026, Congreso bicameral: Senado (60) y Diputados (130).",
+"gob": "Keiko Fujimori (Fuerza Popular), desde 28/7/2026",
+"ej": [
+{
+"anio": 2026,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "2.ª vuelta (7/6)",
+"c": [
+[
+"Keiko Fujimori",
+"Fuerza Popular",
+50.135
+],
+[
+"Roberto Sánchez",
+"Juntos por el Perú",
+49.865
+]
+]
+}
+],
+"fuente": "JNE, Resolución 1625-2026-JNE; ONPE",
+"res": "Falta cargar la 1.ª vuelta"
+},
+{
+"anio": 2021,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "1.ª vuelta",
+"c": [
+[
+"Pedro Castillo",
+"Perú Libre",
+18.92
+],
+[
+"Keiko Fujimori",
+"Fuerza Popular",
+13.41
+]
+]
+},
+{
+"r": "2.ª vuelta",
+"c": [
+[
+"Pedro Castillo",
+"Perú Libre",
+50.13
+],
+[
+"Keiko Fujimori",
+"Fuerza Popular",
+49.87
+]
+]
+}
+],
+"fuente": "JNE",
+"res": "Cargado de referencia; falta contrastar con el JNE"
+}
+],
+"leg": [
+{
+"cam": "Senado",
+"anio": 2026,
+"total": 60,
+"p": [
+[
+"Fuerza Popular",
+22,
+1
+],
+[
+"Juntos por el Perú",
+14,
+0
+],
+[
+"Renovación Popular",
+8,
+0
+],
+[
+"Buen Gobierno",
+7,
+0
+],
+[
+"Cívico Obras",
+5,
+0
+],
+[
+"Ahora Nación",
+4,
+0
+]
+],
+"fuente": "JNE, vía El Tiempo y RPP"
+},
+{
+"cam": "Cámara de Diputados",
+"anio": 2026,
+"total": 130,
+"p": [
+[
+"Fuerza Popular",
+41,
+1
+],
+[
+"Juntos por el Perú",
+32,
+0
+],
+[
+"Buen Gobierno",
+18,
+0
+],
+[
+"Renovación Popular",
+15,
+0
+],
+[
+"Cívico Obras",
+14,
+0
+],
+[
+"Ahora Nación",
+10,
+0
+]
+],
+"fuente": "El Peruano y La República"
+},
+{
+"cam": "Congreso unicameral",
+"anio": 2021,
+"total": 130,
+"p": [
+[
+"Perú Libre",
+37,
+0
+],
+[
+"Fuerza Popular",
+24,
+1
+],
+[
+"Acción Popular",
+16,
+0
+],
+[
+"APP",
+15,
+0
+],
+[
+"Renovación Popular",
+13,
+0
+],
+[
+"Otros",
+25,
+0
+]
+],
+"fuente": "JNE",
+"res": "Cargado de referencia; falta contrastar con el JNE"
+}
+],
+"prox": {
+"fecha": "2031",
+"que": "Presidente y Congreso",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": false
+},
+"218": {
+"n": "Ecuador",
+"c": "a",
+"marca": null,
+"motivo": "Noboa, alineado con EE.UU. y con buena relación con Milei.",
+"sis": "Presidencial. Asamblea Nacional unicameral (151).",
+"gob": "Daniel Noboa (ADN), reelecto en 2025",
+"ej": [
+{
+"anio": 2025,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "1.ª vuelta (9/2)",
+"c": [
+[
+"Daniel Noboa",
+"ADN",
+44.17
+],
+[
+"Luisa González",
+"RC-RETO",
+44.0
+]
+]
+},
+{
+"r": "2.ª vuelta (13/4)",
+"c": [
+[
+"Daniel Noboa",
+"ADN",
+55.63
+],
+[
+"Luisa González",
+"RC-RETO",
+44.37
+]
+]
+}
+],
+"fuente": "CNE, vía Expreso",
+"res": "La 2.ª vuelta está cargada de referencia; falta contrastar con el CNE"
+},
+{
+"anio": 2023,
+"titulo": "Presidente (anticipada)",
+"rondas": [
+{
+"r": "1.ª vuelta",
+"c": [
+[
+"Luisa González",
+"RC",
+33.61
+],
+[
+"Daniel Noboa",
+"ADN",
+23.47
+]
+]
+},
+{
+"r": "2.ª vuelta",
+"c": [
+[
+"Daniel Noboa",
+"ADN",
+51.83
+],
+[
+"Luisa González",
+"RC",
+48.17
+]
+]
+}
+],
+"fuente": "CNE",
+"res": "Cargado de referencia; falta contrastar con el CNE"
+}
+],
+"leg": [
+{
+"cam": "Asamblea Nacional",
+"anio": 2025,
+"total": 151,
+"p": [
+[
+"Revolución Ciudadana",
+67,
+0
+],
+[
+"ADN",
+66,
+1
+],
+[
+"Pachakutik",
+9,
+0
+],
+[
+"Otros",
+9,
+0
+]
+],
+"fuente": "Primicias, resultados del CNE",
+"res": "Las fuentes difieren en 1 o 2 bancas entre ADN y RC"
+}
+],
+"prox": {
+"fecha": "Feb 2029",
+"que": "Presidente y Asamblea",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": false
+},
+"068": {
+"n": "Bolivia",
+"c": "a",
+"marca": null,
+"motivo": "Rodrigo Paz: fin de 20 años del MAS; relación cercana con Milei.",
+"sis": "Presidencial. Asamblea bicameral: Diputados (130) y Senado (36).",
+"gob": "Rodrigo Paz Pereira (PDC), desde 8/11/2025",
+"ej": [
+{
+"anio": 2025,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "1.ª vuelta (17/8)",
+"c": [
+[
+"Rodrigo Paz",
+"PDC",
+32.06
+],
+[
+"Jorge Quiroga",
+"Libre",
+26.7
+]
+]
+},
+{
+"r": "2.ª vuelta (19/10)",
+"c": [
+[
+"Rodrigo Paz",
+"PDC",
+54.5
+],
+[
+"Jorge Quiroga",
+"Libre",
+45.5
+]
+]
+}
+],
+"fuente": "TSE, vía SEAE y Correo del Sur",
+"res": "2.ª vuelta con porcentajes redondeados del conteo preliminar"
+},
+{
+"anio": 2020,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Vuelta única",
+"c": [
+[
+"Luis Arce",
+"MAS-IPSP",
+55.11
+],
+[
+"Carlos Mesa",
+"Comunidad Ciudadana",
+28.83
+],
+[
+"Luis Fernando Camacho",
+"Creemos",
+14.0
+]
+]
+}
+],
+"fuente": "TSE",
+"res": "Cargado de referencia; falta contrastar con el TSE"
+}
+],
+"leg": [
+{
+"cam": "Senado",
+"anio": 2025,
+"total": 36,
+"p": [
+[
+"PDC",
+16,
+1
+],
+[
+"Libre",
+12,
+0
+],
+[
+"Unidad",
+7,
+0
+],
+[
+"Otros",
+1,
+0
+]
+],
+"fuente": "Diario de Cuba y Gestión, cómputo oficial del TSE",
+"res": "\"Otros\" calculado por diferencia"
+},
+{
+"cam": "Cámara de Diputados",
+"anio": 2025,
+"total": 130,
+"p": [
+[
+"PDC",
+49,
+1
+],
+[
+"Resto",
+81,
+0
+]
+],
+"fuente": "Gestión, cómputo oficial del TSE",
+"res": "Las fuentes difieren: Diario de Cuba da PDC 54, Libre 41 y Unidad 28; Gestión da PDC 49 y MAS 2. Falta el desglose oficial"
+}
+],
+"prox": {
+"fecha": "2030",
+"que": "Presidente y Asamblea",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": true
+},
+"600": {
+"n": "Paraguay",
+"c": "a",
+"marca": null,
+"motivo": "Peña (ANR), aliado regional de Milei.",
+"sis": "Presidencial. Congreso bicameral: Diputados (80) y Senado (45).",
+"gob": "Santiago Peña (ANR-Partido Colorado), desde 2023",
+"ej": [
+{
+"anio": 2023,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Vuelta única",
+"c": [
+[
+"Santiago Peña",
+"ANR",
+42.74
+],
+[
+"Efraín Alegre",
+"Concertación",
+27.48
+],
+[
+"Paraguayo Cubas",
+"Cruzada Nacional",
+22.91
+]
+]
+}
+],
+"fuente": "TSJE",
+"res": "Cargado de referencia; falta contrastar con el TSJE"
+},
+{
+"anio": 2018,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Vuelta única",
+"c": [
+[
+"Mario Abdo Benítez",
+"ANR",
+46.4
+],
+[
+"Efraín Alegre",
+"GANAR",
+42.7
+]
+]
+}
+],
+"fuente": "TSJE",
+"res": "Cargado de referencia; falta contrastar con el TSJE"
+}
+],
+"leg": [
+{
+"cam": "Diputados",
+"anio": 2023,
+"total": 80,
+"p": [
+[
+"ANR",
+48,
+1
+],
+[
+"Resto",
+32,
+0
+]
+],
+"fuente": "TSJE",
+"res": "Cargado de referencia; falta contrastar"
+},
+{
+"cam": "Senado",
+"anio": 2023,
+"total": 45,
+"p": [
+[
+"ANR",
+23,
+1
+],
+[
+"Resto",
+22,
+0
+]
+],
+"fuente": "TSJE",
+"res": "Cargado de referencia; falta contrastar"
+}
+],
+"prox": {
+"fecha": "Abr 2028",
+"que": "Presidente y Congreso",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": true
+},
+"858": {
+"n": "Uruguay",
+"c": "m",
+"marca": null,
+"motivo": "El Frente Amplio está en la vereda opuesta, pero Orsi califica de \"excelente\" la relación con Milei (nov 2026).",
+"sis": "Presidencial. Asamblea General bicameral: Representantes (99) y Senado (30).",
+"gob": "Yamandú Orsi (Frente Amplio), desde 1/3/2025",
+"ej": [
+{
+"anio": 2024,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "1.ª vuelta",
+"c": [
+[
+"Yamandú Orsi",
+"Frente Amplio",
+43.9
+],
+[
+"Álvaro Delgado",
+"Partido Nacional",
+26.8
+],
+[
+"Andrés Ojeda",
+"Partido Colorado",
+16.9
+]
+]
+},
+{
+"r": "2.ª vuelta",
+"c": [
+[
+"Yamandú Orsi",
+"Frente Amplio",
+52.1
+],
+[
+"Álvaro Delgado",
+"Partido Nacional",
+47.9
+]
+]
+}
+],
+"fuente": "Corte Electoral",
+"res": "Cargado de referencia; falta contrastar con la Corte Electoral"
+},
+{
+"anio": 2019,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "1.ª vuelta",
+"c": [
+[
+"Daniel Martínez",
+"Frente Amplio",
+39.0
+],
+[
+"Luis Lacalle Pou",
+"Partido Nacional",
+28.6
+],
+[
+"Ernesto Talvi",
+"Partido Colorado",
+12.3
+]
+]
+},
+{
+"r": "2.ª vuelta",
+"c": [
+[
+"Luis Lacalle Pou",
+"Partido Nacional",
+50.8
+],
+[
+"Daniel Martínez",
+"Frente Amplio",
+49.2
+]
+]
+}
+],
+"fuente": "Corte Electoral",
+"res": "Cargado de referencia; falta contrastar con la Corte Electoral"
+}
+],
+"leg": [
+{
+"cam": "Cámara de Representantes",
+"anio": 2024,
+"total": 99,
+"p": [
+[
+"Frente Amplio",
+48,
+1
+],
+[
+"Partido Nacional",
+29,
+0
+],
+[
+"Partido Colorado",
+17,
+0
+],
+[
+"Otros",
+5,
+0
+]
+],
+"fuente": "Corte Electoral",
+"res": "Cargado de referencia; falta contrastar"
+},
+{
+"cam": "Senado",
+"anio": 2024,
+"total": 30,
+"p": [
+[
+"Frente Amplio",
+16,
+1
+],
+[
+"Partido Nacional",
+9,
+0
+],
+[
+"Partido Colorado",
+5,
+0
+]
+],
+"fuente": "Corte Electoral",
+"res": "Cargado de referencia; falta contrastar"
+}
+],
+"prox": {
+"fecha": "Oct 2029",
+"que": "Presidente y Asamblea",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": true
+},
+"862": {
+"n": "Venezuela",
+"c": "m",
+"marca": "cuestionada",
+"motivo": "Gobierno chavista que hoy coopera con EE.UU. Elección presidencial de 2024 desconocida por la oposición y buena parte de la región.",
+"sis": "Presidencial. Asamblea Nacional unicameral.",
+"gob": "Delcy Rodríguez, presidenta encargada desde ene 2026, tras la captura de Maduro",
+"ej": [
+{
+"anio": 2024,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Según el CNE (sin actas publicadas)",
+"c": [
+[
+"Nicolás Maduro",
+"PSUV",
+51.95
+],
+[
+"Edmundo González",
+"Plataforma Unitaria",
+43.18
+]
+]
+},
+{
+"r": "Según las actas reunidas por la oposición",
+"c": [
+[
+"Edmundo González",
+"Plataforma Unitaria",
+67
+],
+[
+"Nicolás Maduro",
+"PSUV",
+30
+]
+]
+}
+],
+"fuente": "CNE y Plataforma Unitaria",
+"res": "Elección cuestionada: el CNE no publicó resultados por mesa"
+},
+{
+"anio": 2018,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Vuelta única (boicoteada por la oposición)",
+"c": [
+[
+"Nicolás Maduro",
+"PSUV",
+67.84
+],
+[
+"Henri Falcón",
+"Avanzada Progresista",
+20.93
+]
+]
+}
+],
+"fuente": "CNE",
+"res": "Elección cuestionada y sin reconocimiento internacional amplio"
+}
+],
+"leg": [],
+"prox": {
+"fecha": "Sin fecha",
+"que": "Presidente",
+"pron": "Delcy Rodríguez promete elecciones con un CNE renovado, sin fecha (29/10/2026). La oposición exige que sean en 2027",
+"pc": null,
+"fuente": "El Comercio, Emol"
+},
+"prio": false
+},
+"192": {
+"n": "Cuba",
+"c": "e",
+"marca": "sin-competencia",
+"motivo": "Régimen de partido único, enfrentado al gobierno argentino.",
+"sis": "Partido único. La Asamblea Nacional elige al presidente.",
+"gob": "Miguel Díaz-Canel (PCC)",
+"ej": [
+{
+"anio": 2023,
+"titulo": "Presidente (elegido por la Asamblea)",
+"rondas": [
+{
+"r": "Voto de la Asamblea",
+"c": [
+[
+"Miguel Díaz-Canel",
+"PCC",
+97.7
+]
+]
+}
+],
+"fuente": "Asamblea Nacional",
+"res": "Sin competencia: candidato único. Porcentaje cargado de referencia"
+}
+],
+"leg": [],
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones competitivas",
+"pron": "No corresponde",
+"pc": null
+},
+"prio": false
+},
+"558": {
+"n": "Nicaragua",
+"c": "e",
+"marca": "sin-competencia",
+"motivo": "Ortega y Murillo, régimen enfrentado. La elección de nov 2026 no se hizo y Ortega anunció que no habrá más elecciones.",
+"sis": "Presidencial, con copresidencia desde la reforma de 2025. Asamblea unicameral (90).",
+"gob": "Daniel Ortega y Rosario Murillo (FSLN)",
+"ej": [
+{
+"anio": 2021,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Vuelta única",
+"c": [
+[
+"Daniel Ortega",
+"FSLN",
+75.9
+]
+]
+}
+],
+"fuente": "CSE",
+"res": "La OEA declaró que no fue libre, justa ni transparente; candidatos opositores presos"
+},
+{
+"anio": 2016,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Vuelta única",
+"c": [
+[
+"Daniel Ortega",
+"FSLN",
+72.4
+]
+]
+}
+],
+"fuente": "CSE",
+"res": "Elección cuestionada"
+}
+],
+"leg": [],
+"prox": {
+"fecha": "Sin elecciones",
+"que": "La de nov 2026 no se hizo",
+"pron": "Ortega: \"Aquí no volverá a haber elecciones\" (20/7/2026)",
+"pc": null,
+"fuente": "CNN en Español, Atlantic Council"
+},
+"prio": false
+},
+"222": {
+"n": "El Salvador",
+"c": "a",
+"marca": null,
+"motivo": "Bukele, aliado explícito de Milei.",
+"sis": "Presidencial; desde 2027, mandato de 6 años y sin segunda vuelta. Asamblea Legislativa unicameral (60).",
+"gob": "Nayib Bukele (Nuevas Ideas), desde 2019",
+"ej": [
+{
+"anio": 2024,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Vuelta única",
+"c": [
+[
+"Nayib Bukele",
+"Nuevas Ideas",
+84.6
+],
+[
+"Manuel Flores",
+"FMLN",
+6.4
+],
+[
+"Joel Sánchez",
+"ARENA",
+5.6
+]
+]
+}
+],
+"fuente": "TSE",
+"res": "Cargado de referencia; falta contrastar con el TSE"
+},
+{
+"anio": 2019,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Vuelta única",
+"c": [
+[
+"Nayib Bukele",
+"GANA",
+53.1
+],
+[
+"Carlos Calleja",
+"ARENA",
+31.7
+],
+[
+"Hugo Martínez",
+"FMLN",
+14.4
+]
+]
+}
+],
+"fuente": "TSE",
+"res": "Cargado de referencia; falta contrastar con el TSE"
+}
+],
+"leg": [
+{
+"cam": "Asamblea Legislativa",
+"anio": 2024,
+"total": 60,
+"p": [
+[
+"Nuevas Ideas",
+54,
+1
+],
+[
+"Otros",
+6,
+0
+]
+],
+"fuente": "TSE",
+"res": "Cargado de referencia; falta contrastar"
+}
+],
+"prox": {
+"fecha": "28/2/2027",
+"que": "Presidente, Asamblea y municipios",
+"pron": "Bukele busca un tercer mandato y es favorito",
+"pc": "a",
+"fuente": "El Imparcial, Bloomberg Línea"
+},
+"prio": false
+},
+"340": {
+"n": "Honduras",
+"c": "a",
+"marca": null,
+"motivo": "Asfura, con respaldo de Trump; afín al gobierno argentino.",
+"sis": "Presidencial. Congreso Nacional unicameral (128).",
+"gob": "Nasry Asfura (Partido Nacional), desde 27/1/2026",
+"ej": [
+{
+"anio": 2025,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Vuelta única (30/11)",
+"c": [
+[
+"Nasry Asfura",
+"Partido Nacional",
+40.3
+],
+[
+"Salvador Nasralla",
+"Partido Liberal",
+39.5
+],
+[
+"Rixi Moncada",
+"Libre",
+19
+]
+]
+}
+],
+"fuente": "CNE, vía Al Jazeera y Reuters",
+"res": "Nasralla no reconoció el resultado. El porcentaje de Moncada es aproximado"
+},
+{
+"anio": 2021,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Vuelta única",
+"c": [
+[
+"Xiomara Castro",
+"Libre",
+51.1
+],
+[
+"Nasry Asfura",
+"Partido Nacional",
+36.9
+],
+[
+"Yani Rosenthal",
+"Partido Liberal",
+10.0
+]
+]
+}
+],
+"fuente": "CNE",
+"res": "Cargado de referencia; falta contrastar con el CNE"
+}
+],
+"leg": [
+{
+"cam": "Congreso Nacional",
+"anio": 2025,
+"total": 128,
+"p": [
+[
+"Partido Nacional",
+49,
+1
+],
+[
+"Partido Liberal",
+41,
+0
+],
+[
+"Libre",
+35,
+0
+],
+[
+"PINU",
+2,
+0
+],
+[
+"DC",
+1,
+0
+]
+],
+"fuente": "CNE, declaratoria del 30/12/2025 (TuNota)"
+}
+],
+"prox": {
+"fecha": "Nov 2029",
+"que": "Generales",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": false
+},
+"320": {
+"n": "Guatemala",
+"c": "m",
+"marca": null,
+"motivo": "Arévalo, centroizquierda pragmática; sin conflicto ni afinidad con Milei.",
+"sis": "Presidencial. Congreso unicameral (160).",
+"gob": "Bernardo Arévalo (Semilla), desde 2024",
+"ej": [
+{
+"anio": 2023,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "1.ª vuelta",
+"c": [
+[
+"Sandra Torres",
+"UNE",
+15.9
+],
+[
+"Bernardo Arévalo",
+"Semilla",
+11.8
+]
+]
+},
+{
+"r": "2.ª vuelta",
+"c": [
+[
+"Bernardo Arévalo",
+"Semilla",
+60.9
+],
+[
+"Sandra Torres",
+"UNE",
+39.1
+]
+]
+}
+],
+"fuente": "TSE",
+"res": "Cargado de referencia; falta contrastar con el TSE"
+},
+{
+"anio": 2019,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "2.ª vuelta",
+"c": [
+[
+"Alejandro Giammattei",
+"Vamos",
+57.9
+],
+[
+"Sandra Torres",
+"UNE",
+42.1
+]
+]
+}
+],
+"fuente": "TSE",
+"res": "Cargado de referencia; falta contrastar con el TSE"
+}
+],
+"leg": [],
+"prox": {
+"fecha": "27/6/2027; balotaje 22/8",
+"que": "Generales",
+"pron": "Lidera Roberto Arzú, candidato antisistema de mano dura. Arévalo no puede reelegirse",
+"pc": "a",
+"fuente": "Prensa Latina (calendario del TSE), Voz Media"
+},
+"prio": false
+},
+"188": {
+"n": "Costa Rica",
+"c": "a",
+"marca": null,
+"motivo": "Laura Fernández, continuidad de Chaves, derecha afín.",
+"sis": "Presidencial. Asamblea Legislativa unicameral (57).",
+"gob": "Laura Fernández (Pueblo Soberano), desde 8/5/2026",
+"ej": [
+{
+"anio": 2026,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Primera vuelta, ganó sin balotaje (1/2)",
+"c": [
+[
+"Laura Fernández",
+"Pueblo Soberano",
+48.3
+]
+]
+}
+],
+"fuente": "TSE, vía El Peruano y Directorio Legislativo",
+"res": "Faltan los demás candidatos"
+},
+{
+"anio": 2022,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "1.ª vuelta",
+"c": [
+[
+"José María Figueres",
+"PLN",
+27.3
+],
+[
+"Rodrigo Chaves",
+"PPSD",
+16.7
+]
+]
+},
+{
+"r": "2.ª vuelta",
+"c": [
+[
+"Rodrigo Chaves",
+"PPSD",
+52.8
+],
+[
+"José María Figueres",
+"PLN",
+47.2
+]
+]
+}
+],
+"fuente": "TSE",
+"res": "Cargado de referencia; falta contrastar con el TSE"
+}
+],
+"leg": [
+{
+"cam": "Asamblea Legislativa",
+"anio": 2026,
+"total": 57,
+"p": [
+[
+"Pueblo Soberano",
+31,
+1
+],
+[
+"Frente Amplio",
+7,
+0
+],
+[
+"Resto",
+19,
+0
+]
+],
+"fuente": "La Nación y Semanario Universidad (preliminar del TSE)",
+"res": "Falta el desglose del resto"
+}
+],
+"prox": {
+"fecha": "Feb 2030",
+"que": "Generales",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": false
+},
+"591": {
+"n": "Panamá",
+"c": "a",
+"marca": null,
+"motivo": "Mulino, centroderecha alineado con EE.UU.",
+"sis": "Presidencial, vuelta única. Asamblea Nacional unicameral (71).",
+"gob": "José Raúl Mulino (Realizando Metas), desde 2024",
+"ej": [
+{
+"anio": 2024,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Vuelta única",
+"c": [
+[
+"José Raúl Mulino",
+"RM-Alianza",
+34.2
+],
+[
+"Ricardo Lombana",
+"MOCA",
+24.6
+],
+[
+"Martín Torrijos",
+"PP",
+16.0
+],
+[
+"Rómulo Roux",
+"CD-Panameñista",
+11.4
+]
+]
+}
+],
+"fuente": "Tribunal Electoral",
+"res": "Cargado de referencia; falta contrastar con el Tribunal Electoral"
+},
+{
+"anio": 2019,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Vuelta única",
+"c": [
+[
+"Laurentino Cortizo",
+"PRD",
+33.3
+],
+[
+"Rómulo Roux",
+"CD",
+31.0
+]
+]
+}
+],
+"fuente": "Tribunal Electoral",
+"res": "Cargado de referencia; falta contrastar"
+}
+],
+"leg": [],
+"prox": {
+"fecha": "May 2029",
+"que": "Generales",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": false
+},
+"214": {
+"n": "Rep. Dominicana",
+"c": "m",
+"marca": null,
+"motivo": "Abinader, centrista pragmático.",
+"sis": "Presidencial. Congreso bicameral: Diputados (190) y Senado (32).",
+"gob": "Luis Abinader (PRM), reelecto en 2024",
+"ej": [
+{
+"anio": 2024,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Vuelta única",
+"c": [
+[
+"Luis Abinader",
+"PRM",
+57.4
+],
+[
+"Leonel Fernández",
+"Fuerza del Pueblo",
+28.9
+],
+[
+"Abel Martínez",
+"PLD",
+10.4
+]
+]
+}
+],
+"fuente": "JCE",
+"res": "Cargado de referencia; falta contrastar con la JCE"
+},
+{
+"anio": 2020,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Vuelta única",
+"c": [
+[
+"Luis Abinader",
+"PRM",
+52.5
+],
+[
+"Gonzalo Castillo",
+"PLD",
+37.5
+],
+[
+"Leonel Fernández",
+"Fuerza del Pueblo",
+8.9
+]
+]
+}
+],
+"fuente": "JCE",
+"res": "Cargado de referencia; falta contrastar"
+}
+],
+"leg": [],
+"prox": {
+"fecha": "May 2028",
+"que": "Generales",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": false
+},
+"332": {
+"n": "Haití",
+"c": "g",
+"marca": "sin-control",
+"motivo": "Sin autoridades electas y con gran parte del territorio en manos de bandas.",
+"sis": "Gobierno de transición.",
+"gob": "Primer ministro Alix Didier Fils-Aimé (no electo)",
+"ej": [
+{
+"anio": 2016,
+"titulo": "Presidente (última elección)",
+"rondas": [
+{
+"r": "Vuelta única",
+"c": [
+[
+"Jovenel Moïse",
+"PHTK",
+55.6
+],
+[
+"Jude Célestin",
+"LAPEH",
+19.5
+]
+]
+}
+],
+"fuente": "CEP",
+"res": "Cargado de referencia; falta contrastar. Moïse fue asesinado en 2021"
+}
+],
+"leg": [],
+"prox": {
+"fecha": "18/7/2027 (1.ª vuelta); 4/10/2027 (2.ª)",
+"que": "Presidente y Parlamento",
+"pron": "Postergada otra vez; depende de la seguridad",
+"pc": null,
+"fuente": "Bloomberg Línea, calendario del CEP del 28/10/2026"
+},
+"prio": false
+},
+"388": {
+"n": "Jamaica",
+"c": "m",
+"marca": null,
+"motivo": "Gobierno pragmático, sin vínculo político con Milei.",
+"sis": "Parlamentario. Cámara de Representantes (63).",
+"gob": "Andrew Holness (JLP)",
+"ej": [],
+"leg": [
+{
+"cam": "Cámara de Representantes",
+"anio": 2025,
+"total": 63,
+"p": [
+[
+"JLP",
+34,
+1
+],
+[
+"PNP",
+29,
+0
+]
+],
+"fuente": "Comisión Electoral",
+"res": "Cargado de referencia; falta contrastar"
+},
+{
+"cam": "Cámara de Representantes",
+"anio": 2020,
+"total": 63,
+"p": [
+[
+"JLP",
+49,
+1
+],
+[
+"PNP",
+14,
+0
+]
+],
+"fuente": "Comisión Electoral",
+"res": "Cargado de referencia; falta contrastar"
+}
+],
+"prox": {
+"fecha": "2030",
+"que": "Generales",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": false
+},
+"780": {
+"n": "Trinidad y Tobago",
+"c": "m",
+"marca": null,
+"motivo": "Gobierno pragmático, cercano a EE.UU., sin vínculo con Milei.",
+"sis": "Parlamentario. Cámara de Representantes (41).",
+"gob": "Kamla Persad-Bissessar (UNC)",
+"ej": [],
+"leg": [
+{
+"cam": "Cámara de Representantes",
+"anio": 2025,
+"total": 41,
+"p": [
+[
+"UNC",
+26,
+1
+],
+[
+"PNM",
+13,
+0
+],
+[
+"TPP",
+2,
+0
+]
+],
+"fuente": "EBC",
+"res": "Cargado de referencia; falta contrastar"
+},
+{
+"cam": "Cámara de Representantes",
+"anio": 2020,
+"total": 41,
+"p": [
+[
+"PNM",
+22,
+0
+],
+[
+"UNC",
+19,
+1
+]
+],
+"fuente": "EBC",
+"res": "Cargado de referencia; falta contrastar"
+}
+],
+"prox": {
+"fecha": "2030",
+"que": "Generales",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": false
+},
+"044": {
+"n": "Bahamas",
+"c": "m",
+"marca": null,
+"motivo": "Gobierno pragmático, sin vínculo con Milei.",
+"sis": "Parlamentario. Cámara de la Asamblea (41).",
+"gob": "Philip Davis (PLP), reelecto en 2026",
+"ej": [],
+"leg": [
+{
+"cam": "Cámara de la Asamblea",
+"anio": 2026,
+"total": 41,
+"p": [
+[
+"PLP",
+33,
+1
+],
+[
+"FNM",
+8,
+0
+]
+],
+"fuente": "CARICOM y Caribbean360 (resultados no oficiales del 12/5/2026)"
+},
+{
+"cam": "Cámara de la Asamblea",
+"anio": 2021,
+"total": 39,
+"p": [
+[
+"PLP",
+32,
+1
+],
+[
+"FNM",
+7,
+0
+]
+],
+"fuente": "CBC Barbados"
+}
+],
+"prox": {
+"fecha": "2031",
+"que": "Generales",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": false
+},
+"052": {
+"n": "Barbados",
+"c": "m",
+"marca": null,
+"motivo": "Mottley, referente del Caribe, sin vínculo con Milei.",
+"sis": "Parlamentario. Cámara de la Asamblea (30).",
+"gob": "Mia Mottley (BLP), tercer mandato",
+"ej": [],
+"leg": [
+{
+"cam": "Cámara de la Asamblea",
+"anio": 2026,
+"total": 30,
+"p": [
+[
+"BLP",
+30,
+1
+],
+[
+"DLP",
+0,
+0
+]
+],
+"fuente": "CBC Barbados, vía Searchlight (11/2/2026)"
+},
+{
+"cam": "Cámara de la Asamblea",
+"anio": 2022,
+"total": 30,
+"p": [
+[
+"BLP",
+30,
+1
+],
+[
+"DLP",
+0,
+0
+]
+],
+"fuente": "Wikipedia, elección de 2026 (antecedentes)"
+}
+],
+"prox": {
+"fecha": "2031",
+"que": "Generales",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": false
+},
+"328": {
+"n": "Guyana",
+"c": "m",
+"marca": null,
+"motivo": "Gobierno pragmático; la prioridad es el diferendo con Venezuela.",
+"sis": "Presidente que surge de la lista más votada. Asamblea Nacional (65).",
+"gob": "Irfaan Ali (PPP/C), reelecto en 2025",
+"ej": [],
+"leg": [
+{
+"cam": "Asamblea Nacional",
+"anio": 2025,
+"total": 65,
+"p": [
+[
+"PPP/C",
+36,
+1
+],
+[
+"WIN",
+16,
+0
+],
+[
+"APNU",
+12,
+0
+],
+[
+"FGM",
+1,
+0
+]
+],
+"fuente": "GECOM",
+"res": "Cargado de referencia; falta contrastar"
+},
+{
+"cam": "Asamblea Nacional",
+"anio": 2020,
+"total": 65,
+"p": [
+[
+"PPP/C",
+33,
+1
+],
+[
+"APNU+AFC",
+31,
+0
+],
+[
+"Otros",
+1,
+0
+]
+],
+"fuente": "GECOM",
+"res": "Cargado de referencia; falta contrastar"
+}
+],
+"prox": {
+"fecha": "2030",
+"que": "Generales",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": false
+},
+"740": {
+"n": "Surinam",
+"c": "m",
+"marca": null,
+"motivo": "Gobierno pragmático, sin vínculo con Milei.",
+"sis": "La Asamblea (51) elige al presidente.",
+"gob": "Jennifer Geerlings-Simons (NDP), desde jul 2025",
+"ej": [],
+"leg": [
+{
+"cam": "Asamblea Nacional",
+"anio": 2025,
+"total": 51,
+"p": [
+[
+"NDP",
+18,
+1
+],
+[
+"VHP",
+17,
+0
+],
+[
+"ABOP",
+6,
+0
+],
+[
+"NPS",
+6,
+0
+],
+[
+"Otros",
+4,
+0
+]
+],
+"fuente": "OKB",
+"res": "Cargado de referencia; falta contrastar"
+},
+{
+"cam": "Asamblea Nacional",
+"anio": 2020,
+"total": 51,
+"p": [
+[
+"VHP",
+20,
+0
+],
+[
+"NDP",
+16,
+1
+],
+[
+"ABOP",
+8,
+0
+],
+[
+"Otros",
+7,
+0
+]
+],
+"fuente": "OKB",
+"res": "Cargado de referencia; falta contrastar"
+}
+],
+"prox": {
+"fecha": "2030",
+"que": "Generales",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": false
+},
+"084": {
+"n": "Belice",
+"c": "m",
+"marca": null,
+"motivo": "Gobierno pragmático, sin vínculo con Milei.",
+"sis": "Parlamentario. Cámara de Representantes (31).",
+"gob": "Johnny Briceño (PUP)",
+"ej": [],
+"leg": [
+{
+"cam": "Cámara de Representantes",
+"anio": 2025,
+"total": 31,
+"p": [
+[
+"PUP",
+26,
+1
+],
+[
+"UDP",
+5,
+0
+]
+],
+"fuente": "Elections and Boundaries Department",
+"res": "Cargado de referencia; falta contrastar"
+},
+{
+"cam": "Cámara de Representantes",
+"anio": 2020,
+"total": 31,
+"p": [
+[
+"PUP",
+26,
+1
+],
+[
+"UDP",
+5,
+0
+]
+],
+"fuente": "Elections and Boundaries Department",
+"res": "Cargado de referencia; falta contrastar"
+}
+],
+"prox": {
+"fecha": "2030",
+"que": "Generales",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": false
+},
+"662": {
+"n": "Santa Lucía",
+"c": "m",
+"marca": null,
+"motivo": "Gobierno socialdemócrata, miembro del ALBA.",
+"sis": "Parlamentario. Cámara de la Asamblea (17).",
+"gob": "Philip J. Pierre (SLP)",
+"ej": [],
+"leg": [
+{
+"cam": "Cámara de la Asamblea",
+"anio": 2025,
+"total": 17,
+"p": [
+[
+"SLP",
+14,
+1
+],
+[
+"Independientes aliados al SLP",
+2,
+0
+],
+[
+"UWP",
+1,
+0
+]
+],
+"fuente": "Electoral Department, vía St Lucia Times y ElectionGuide"
+},
+{
+"cam": "Cámara de la Asamblea",
+"anio": 2021,
+"total": 17,
+"p": [
+[
+"SLP",
+13,
+1
+],
+[
+"Independientes",
+2,
+0
+],
+[
+"UWP",
+2,
+0
+]
+],
+"fuente": "ElectionGuide (IFES)"
+}
+],
+"prox": {
+"fecha": "2030",
+"que": "Generales",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": false
+},
+"670": {
+"n": "San Vicente y las Granadinas",
+"c": "m",
+"marca": null,
+"motivo": "Nuevo gobierno del NDP tras 24 años de Gonsalves (ALBA).",
+"sis": "Parlamentario. Cámara de la Asamblea (15 bancas electas).",
+"gob": "Godwin Friday (NDP), desde nov 2025",
+"ej": [],
+"leg": [
+{
+"cam": "Cámara de la Asamblea",
+"anio": 2025,
+"total": 15,
+"p": [
+[
+"NDP",
+14,
+1
+],
+[
+"ULP",
+1,
+0
+]
+],
+"fuente": "Supervisor of Elections",
+"res": "Cargado de referencia; falta contrastar"
+},
+{
+"cam": "Cámara de la Asamblea",
+"anio": 2020,
+"total": 15,
+"p": [
+[
+"ULP",
+9,
+0
+],
+[
+"NDP",
+6,
+1
+]
+],
+"fuente": "Supervisor of Elections",
+"res": "Cargado de referencia; falta contrastar"
+}
+],
+"prox": {
+"fecha": "2030",
+"que": "Generales",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": false
+},
+"308": {
+"n": "Granada",
+"c": "m",
+"marca": null,
+"motivo": "Gobierno del NDC, miembro del ALBA.",
+"sis": "Parlamentario. Cámara de Representantes (15).",
+"gob": "Dickon Mitchell (NDC)",
+"ej": [],
+"leg": [
+{
+"cam": "Cámara de Representantes",
+"anio": 2022,
+"total": 15,
+"p": [
+[
+"NDC",
+9,
+1
+],
+[
+"NNP",
+6,
+0
+]
+],
+"fuente": "Parliamentary Elections Office",
+"res": "Cargado de referencia; falta contrastar"
+},
+{
+"cam": "Cámara de Representantes",
+"anio": 2018,
+"total": 15,
+"p": [
+[
+"NNP",
+15,
+0
+],
+[
+"NDC",
+0,
+1
+]
+],
+"fuente": "Parliamentary Elections Office",
+"res": "Cargado de referencia; falta contrastar"
+}
+],
+"prox": {
+"fecha": "Antes de fin de 2027",
+"que": "Generales",
+"pron": "Sin encuestas publicadas",
+"pc": null
+},
+"prio": false
+},
+"212": {
+"n": "Dominica",
+"c": "m",
+"marca": null,
+"motivo": "Skerrit, miembro del ALBA y con lazos con Venezuela.",
+"sis": "Parlamentario. Cámara de la Asamblea (21 bancas electas).",
+"gob": "Roosevelt Skerrit (DLP)",
+"ej": [],
+"leg": [
+{
+"cam": "Cámara de la Asamblea",
+"anio": 2022,
+"total": 21,
+"p": [
+[
+"DLP",
+19,
+1
+],
+[
+"Independientes",
+2,
+0
+]
+],
+"fuente": "Electoral Office",
+"res": "La oposición boicoteó la elección. Cargado de referencia"
+},
+{
+"cam": "Cámara de la Asamblea",
+"anio": 2019,
+"total": 21,
+"p": [
+[
+"DLP",
+18,
+1
+],
+[
+"UWP",
+3,
+0
+]
+],
+"fuente": "Electoral Office",
+"res": "Cargado de referencia; falta contrastar"
+}
+],
+"prox": {
+"fecha": "~2027",
+"que": "Generales",
+"pron": "Sin encuestas publicadas",
+"pc": null
+},
+"prio": false
+},
+"028": {
+"n": "Antigua y Barbuda",
+"c": "m",
+"marca": null,
+"motivo": "Browne, miembro del ALBA.",
+"sis": "Parlamentario. Cámara de Representantes (17).",
+"gob": "Gaston Browne (ABLP), cuarto mandato desde abril de 2026",
+"ej": [],
+"leg": [
+{
+"cam": "Cámara de Representantes",
+"anio": 2026,
+"total": 17,
+"p": [
+[
+"ABLP",
+15,
+1
+],
+[
+"UPP",
+1,
+0
+],
+[
+"BPM",
+1,
+0
+]
+],
+"fuente": "ABEC, vía WIC News y Caribbean Today"
+},
+{
+"cam": "Cámara de Representantes",
+"anio": 2023,
+"total": 17,
+"p": [
+[
+"ABLP",
+9,
+1
+],
+[
+"UPP",
+6,
+0
+],
+[
+"BPM",
+1,
+0
+],
+[
+"Independiente",
+1,
+0
+]
+],
+"fuente": "Jamaica Observer (antecedentes)"
+}
+],
+"prox": {
+"fecha": "2031",
+"que": "Generales",
+"pron": "Sin encuestas todavía",
+"pc": null
+},
+"prio": false
+},
+"659": {
+"n": "San Cristóbal y Nieves",
+"c": "m",
+"marca": null,
+"motivo": "Drew (SKNLP), miembro del ALBA.",
+"sis": "Parlamentario. Asamblea Nacional (11 bancas electas).",
+"gob": "Terrance Drew (SKNLP)",
+"ej": [],
+"leg": [
+{
+"cam": "Asamblea Nacional",
+"anio": 2022,
+"total": 11,
+"p": [
+[
+"SKNLP",
+6,
+1
+],
+[
+"CCM",
+3,
+0
+],
+[
+"PAM",
+2,
+0
+]
+],
+"fuente": "Electoral Office",
+"res": "Cargado de referencia; falta contrastar"
+}
+],
+"prox": {
+"fecha": "Antes de fin de 2027",
+"que": "Generales",
+"pron": "Sin encuestas publicadas",
+"pc": null
+},
+"prio": false
+},
+"724": {
+"n": "España",
+"c": "e",
+"marca": null,
+"prio": true,
+"motivo": "Gobierno de Pedro Sánchez (PSOE). En 2024 España retiró a su embajadora tras los dichos de Milei y volvió a nombrar embajador en octubre de 2024. En la campaña de 2026 Milei apoyó en video a Santiago Abascal (Vox) y Sánchez usa a Milei como contraejemplo.",
+"sis": "Monarquía parlamentaria. Cortes Generales: Congreso de los Diputados (350), que inviste al presidente del Gobierno, y Senado.",
+"gob": "Pedro Sánchez (PSOE), presidente del Gobierno desde 2018",
+"ej": [],
+"leg": [
+{
+"cam": "Congreso de los Diputados",
+"anio": 2023,
+"total": 350,
+"p": [
+[
+"PP",
+137,
+0
+],
+[
+"PSOE",
+121,
+1
+],
+[
+"Vox",
+33,
+0
+],
+[
+"Sumar",
+31,
+0
+],
+[
+"ERC",
+7,
+0
+],
+[
+"Junts",
+7,
+0
+],
+[
+"EH Bildu",
+6,
+0
+],
+[
+"PNV",
+5,
+0
+],
+[
+"Otros",
+3,
+0
+]
+],
+"fuente": "Ministerio del Interior",
+"res": "Cargado de referencia; falta contrastar con el Ministerio del Interior"
+},
+{
+"cam": "Congreso de los Diputados",
+"anio": 2019,
+"total": 350,
+"p": [
+[
+"PSOE",
+120,
+1
+],
+[
+"PP",
+89,
+0
+],
+[
+"Vox",
+52,
+0
+],
+[
+"Unidas Podemos",
+35,
+0
+],
+[
+"ERC",
+13,
+0
+],
+[
+"Ciudadanos",
+10,
+0
+],
+[
+"Otros",
+31,
+0
+]
+],
+"fuente": "Ministerio del Interior (elección de noviembre)",
+"res": "Cargado de referencia; falta contrastar con el Ministerio del Interior"
+}
+],
+"prox": {
+"fecha": "29/11/2026",
+"que": "Elecciones generales: Congreso y Senado",
+"pron": "PP primero (31,0%), PSOE segundo (27,7%) y Vox tercero (19,1%) en el promedio de 19 encuestadoras; la mayoría de las encuestas da a PP y Vox juntos la mayoría absoluta (176 bancas)",
+"pc": "a",
+"fuente": "Demócrata (19/11/2026), 40dB. para El País y la SER"
+},
+"impacto": {
+"eleccion": "Elecciones generales del 29 de noviembre de 2026. España es el segundo inversor extranjero en la Argentina y el primero de la Unión Europea.",
+"escenarios": [
+{
+"si": "Gana el PP y gobierna con apoyo de Vox (Feijóo presidente)",
+"c": "a",
+"comercio": "El comercio bilateral de bienes fue de US$ 2.393 millones en 2025 (exportaciones argentinas por US$ 1.226 millones). Sin cambios inmediatos: la política comercial es de la UE. El acuerdo UE-Mercosur ya se aplica en forma provisional; el PP lo votó a favor y Vox lo rechaza y pide un referéndum.",
+"aranceles": "España no fija aranceles propios. Riesgo: que Vox presione en el Consejo de la UE por más salvaguardias agrícolas contra el Mercosur.",
+"inversiones": "Mejor clima político para las empresas españolas ya instaladas (stock de US$ 25.715 millones a fines de 2025) y para su interés en concesiones y privatizaciones.",
+"politica": "Relación cercana: Milei apoyó a Vox en la campaña. Con Feijóo el vínculo sería cordial pero más distante que con Abascal.",
+"rubros": {
+"industria": [
+"neutro",
+"Las compras a España (maquinaria, combustibles como gasolinas) no dependen del color del gobierno."
+],
+"agro": [
+"incierto",
+"Gana espacio político Vox, que rechaza el acuerdo UE-Mercosur y defiende salvaguardias para el campo español. Santa Fe, Buenos Aires y Chubut son las provincias que más exportan a España."
+],
+"mineria": [
+"neutro",
+"Las empresas españolas tienen poco peso en la minería argentina."
+],
+"energia": [
+"neutro",
+"Sin cambios esperables en el intercambio energético."
+],
+"construccion": [
+"favorable",
+"Constructoras y concesionarias españolas (Acciona, Dragados, Abertis) siguen el plan de concesiones; la afinidad política ayuda."
+],
+"comercio": [
+"favorable",
+"Bancos, seguros, aerolíneas y comercio españoles (Santander, BBVA, Mapfre, Iberia, Zara, Meliá, Cabify) con un gobierno afín al argentino."
+]
+}
+},
+{
+"si": "Sigue Pedro Sánchez (PSOE con sus socios)",
+"c": "e",
+"comercio": "Continuidad. El PSOE apoya el acuerdo UE-Mercosur y votó junto al PP en contra de demorarlo en la Justicia europea.",
+"aranceles": "Sin cambios: España sigue a favor de aplicar el acuerdo UE-Mercosur.",
+"inversiones": "Las empresas españolas siguieron operando durante la crisis diplomática de 2024; el riesgo es político, no regulatorio.",
+"politica": "Relación tensa entre los dos presidentes, con nuevos cruces probables; la relación institucional se normalizó desde octubre de 2024.",
+"rubros": {
+"industria": [
+"neutro",
+"Sin cambios en el intercambio industrial."
+],
+"agro": [
+"favorable",
+"Gobierno español a favor del acuerdo UE-Mercosur, que abre cupos a carne, granos y otros productos del agro."
+],
+"mineria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"energia": [
+"neutro",
+"Sin cambios relevantes."
+],
+"construccion": [
+"neutro",
+"Las constructoras deciden por negocio; el roce político no las frenó en 2024."
+],
+"comercio": [
+"neutro",
+"Servicios y bancos españoles siguen operando con normalidad."
+]
+}
+}
+],
+"fuentes": [
+"Bolsa de Comercio de Rosario (comercio 2025 y provincias)",
+"Perfil y MDZ (stock de inversión española a fines de 2025)",
+"BCR, jun 2026 (empresas españolas)",
+"Ámbito (aplicación del acuerdo UE-Mercosur, 1/5/2026)",
+"Infoagro (voto de PP y PSOE en el Parlamento Europeo)",
+"El Debate y Europa Press (Vox y el referéndum sobre el Mercosur)",
+"Perfil (video de Milei en el acto de Vox)",
+"Vozpópuli (empresas españolas y el plan de concesiones)"
+],
+"revisado": "25/11/2026"
+}
+},
+"250": {
+"n": "Francia",
+"c": "m",
+"marca": null,
+"prio": true,
+"motivo": "Macron mantiene una relación cordial con Milei (lo recibió en el Elíseo el 1/10/2026, con foco en inversiones), pero Francia es el principal opositor al acuerdo UE-Mercosur.",
+"sis": "Semipresidencial. Presidente elegido por voto directo a dos vueltas; Parlamento con Asamblea Nacional (577) y Senado (348).",
+"gob": "Presidente Emmanuel Macron (Renacimiento), hasta mayo de 2027; primer ministro Sébastien Lecornu",
+"ej": [
+{
+"anio": 2022,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "1.ª vuelta",
+"c": [
+[
+"Emmanuel Macron",
+"LREM",
+27.85
+],
+[
+"Marine Le Pen",
+"RN",
+23.15
+],
+[
+"Jean-Luc Mélenchon",
+"LFI",
+21.95
+]
+]
+},
+{
+"r": "2.ª vuelta",
+"c": [
+[
+"Emmanuel Macron",
+"LREM",
+58.55
+],
+[
+"Marine Le Pen",
+"RN",
+41.45
+]
+]
+}
+],
+"fuente": "Consejo Constitucional",
+"res": "Cargado de referencia; falta contrastar con el Ministerio del Interior francés"
+},
+{
+"anio": 2017,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "1.ª vuelta",
+"c": [
+[
+"Emmanuel Macron",
+"En Marche",
+24.01
+],
+[
+"Marine Le Pen",
+"FN",
+21.3
+],
+[
+"François Fillon",
+"LR",
+20.01
+],
+[
+"Jean-Luc Mélenchon",
+"LFI",
+19.58
+]
+]
+},
+{
+"r": "2.ª vuelta",
+"c": [
+[
+"Emmanuel Macron",
+"En Marche",
+66.1
+],
+[
+"Marine Le Pen",
+"FN",
+33.9
+]
+]
+}
+],
+"fuente": "Consejo Constitucional",
+"res": "Cargado de referencia; falta contrastar con el Ministerio del Interior francés"
+}
+],
+"leg": [
+{
+"cam": "Asamblea Nacional",
+"anio": 2024,
+"total": 577,
+"p": [
+[
+"Nuevo Frente Popular",
+193,
+0
+],
+[
+"Ensemble (macronismo)",
+166,
+1
+],
+[
+"RN y aliados",
+142,
+0
+],
+[
+"Los Republicanos",
+47,
+0
+],
+[
+"Otros",
+29,
+0
+]
+],
+"fuente": "LCP (bloques al día siguiente de la elección)",
+"res": "Solo el total del Nuevo Frente Popular está tomado de la fuente; el resto está cargado de referencia. Hoy el grupo RN tiene 122 diputados (Datan)"
+},
+{
+"cam": "Asamblea Nacional",
+"anio": 2022,
+"total": 577,
+"p": [
+[
+"Ensemble",
+245,
+1
+],
+[
+"NUPES",
+131,
+0
+],
+[
+"RN",
+89,
+0
+],
+[
+"LR y aliados",
+61,
+0
+],
+[
+"Otros",
+51,
+0
+]
+],
+"fuente": "Ministerio del Interior",
+"res": "Cargado de referencia; falta contrastar con el Ministerio del Interior francés"
+}
+],
+"prox": {
+"fecha": "18/4/2027 (1.ª vuelta) y 2/5/2027 (2.ª)",
+"que": "Presidente. Macron no puede presentarse",
+"pron": "Marine Le Pen primera (entre 30% y 37%) y Jean-Luc Mélenchon segundo (entre 18% y 21%) en las encuestas de noviembre; en septiembre, Toluna Harris daba a Le Pen ganadora del balotaje con 69% contra Mélenchon y 57% contra Édouard Philippe",
+"pc": "a",
+"fuente": "i24news, Toute l'Europe (Elabe, Ifop), Euronews (Toluna Harris Interactive)"
+},
+"impacto": {
+"eleccion": "Elección presidencial del 18 de abril y 2 de mayo de 2027. Francia es uno de los principales inversores europeos en la Argentina y el país que más se opone al acuerdo UE-Mercosur.",
+"escenarios": [
+{
+"si": "Gana Marine Le Pen (Rassemblement National)",
+"c": "a",
+"comercio": "Francia endurecería su rechazo al acuerdo UE-Mercosur: Le Pen lo calificó de \"acto de agresión mayor contra la agricultura\". La harina de soja y de girasol, langostinos, maní y vino son exportaciones argentinas a Francia.",
+"aranceles": "Francia no fija aranceles propios, pero presionaría en el Consejo de la UE por más salvaguardias o por frenar la ratificación definitiva del acuerdo.",
+"inversiones": "Prioridad a producir en Francia; menos impulso político a las inversiones francesas en el exterior.",
+"politica": "Afín a la derecha europea que apoya Milei, aunque proteccionista y contraria al libre comercio con el Mercosur.",
+"rubros": {
+"industria": [
+"incierto",
+"Automotrices francesas con plantas en la Argentina (Renault, Stellantis) bajo presión para relocalizar producción en Francia."
+],
+"agro": [
+"desfavorable",
+"Rechazo frontal al acuerdo UE-Mercosur y presión por salvaguardias contra carne, granos y oleaginosas."
+],
+"mineria": [
+"incierto",
+"Sin señales claras sobre las inversiones de Eramet en litio."
+],
+"energia": [
+"incierto",
+"Sin señales claras sobre TotalEnergies en Vaca Muerta y gas."
+],
+"construccion": [
+"neutro",
+"Poco peso de constructoras francesas."
+],
+"comercio": [
+"neutro",
+"Sin cambios esperables en servicios."
+]
+}
+},
+{
+"si": "Gana Jean-Luc Mélenchon (La France Insoumise)",
+"c": "e",
+"comercio": "También contrario al acuerdo UE-Mercosur; más peso a las exigencias ambientales sobre las importaciones agrícolas.",
+"aranceles": "Presión en la UE contra el acuerdo, igual que con Le Pen.",
+"inversiones": "Mayor incertidumbre para las empresas francesas con proyectos de minería y energía en la Argentina.",
+"politica": "Enfrentado ideológicamente con Milei.",
+"rubros": {
+"industria": [
+"incierto",
+"Mayor presión sobre las automotrices francesas para producir en Francia."
+],
+"agro": [
+"desfavorable",
+"Rechazo al acuerdo UE-Mercosur y más exigencias ambientales."
+],
+"mineria": [
+"desfavorable",
+"Menos respaldo político a la inversión en litio de Eramet."
+],
+"energia": [
+"desfavorable",
+"Menos respaldo a inversiones en gas y petróleo no convencional."
+],
+"construccion": [
+"neutro",
+"Poco peso de constructoras francesas."
+],
+"comercio": [
+"neutro",
+"Sin cambios esperables en servicios."
+]
+}
+},
+{
+"si": "Gana un candidato de centro o centroderecha (por ejemplo Édouard Philippe)",
+"c": "m",
+"comercio": "Continuidad de la línea de Macron: rechazo al acuerdo UE-Mercosur \"en su estado actual\", pero sin bloquear su aplicación provisional.",
+"aranceles": "Sin cambios inmediatos.",
+"inversiones": "Continuidad del interés en energía, minería y agro que Macron planteó en la reunión con Milei de octubre de 2026.",
+"politica": "Relación cordial y pragmática, como con Macron.",
+"rubros": {
+"industria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"agro": [
+"incierto",
+"Francia sigue siendo crítica del acuerdo; el riesgo son nuevas salvaguardias."
+],
+"mineria": [
+"favorable",
+"Continuidad del apoyo a Eramet y a nuevos proyectos en litio."
+],
+"energia": [
+"favorable",
+"Continuidad del interés francés en energía en la Argentina."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+}
+],
+"fuentes": [
+"Bolsa de Comercio de Rosario, jul 2024 (composición de las exportaciones a Francia)",
+"BCR (la UE concentra el 39,8% de la inversión extranjera directa, con España, Francia y Alemania como principales)",
+"C5N, Forbes Argentina, Conclusión (reunión Milei–Macron del 1/10/2026; Eramet y Huttopia)",
+"Europe 1 (Le Pen sobre el Mercosur)",
+"Terre-net (Macron: \"no muy firme\" al acuerdo en su estado actual)",
+"Ámbito (aplicación provisional del acuerdo UE-Mercosur, 1/5/2026)"
+],
+"revisado": "25/11/2026"
+}
+},
+"380": {
+"n": "Italia",
+"c": "a",
+"marca": null,
+"prio": true,
+"motivo": "Giorgia Meloni es una de las aliadas más cercanas de Milei en Europa: firmaron el Plan de Acción Italia-Argentina 2025-2030 y en julio de 2026 Meloni visitó la Casa Rosada. En enero de 2026 el voto de Italia destrabó el acuerdo UE-Mercosur en el Consejo de la UE.",
+"sis": "República parlamentaria. Cámara de Diputados (400) y Senado (200 electos más senadores vitalicios); el Gobierno necesita la confianza de ambas. El presidente de la República lo elige el Parlamento. La elección de 2027 se hace con una nueva ley electoral proporcional con premio de mayoría (aprobada en octubre de 2026).",
+"gob": "Primera ministra Giorgia Meloni (Hermanos de Italia), con Forza Italia, Lega y Noi Moderati; presidente de la República Sergio Mattarella",
+"ej": [],
+"leg": [
+{
+"cam": "Cámara de Diputados",
+"anio": 2022,
+"total": 400,
+"p": [
+[
+"Centroderecha (FdI, Lega, FI, NM)",
+237,
+1
+],
+[
+"Centroizquierda (PD, AVS, +Europa)",
+85,
+0
+],
+[
+"Movimiento 5 Estrellas",
+52,
+0
+],
+[
+"Azione–Italia Viva",
+21,
+0
+],
+[
+"Otros",
+5,
+0
+]
+],
+"fuente": "Ministerio del Interior (Eligendo)",
+"res": "Cargado de referencia; falta contrastar con el Ministerio del Interior italiano (Eligendo)"
+},
+{
+"cam": "Senado",
+"anio": 2022,
+"total": 200,
+"p": [
+[
+"Centroderecha",
+115,
+1
+],
+[
+"Centroizquierda",
+44,
+0
+],
+[
+"Movimiento 5 Estrellas",
+28,
+0
+],
+[
+"Azione–Italia Viva",
+9,
+0
+],
+[
+"Otros",
+4,
+0
+]
+],
+"fuente": "Ministerio del Interior (Eligendo)",
+"res": "Cargado de referencia; falta contrastar con el Ministerio del Interior italiano (Eligendo)"
+},
+{
+"cam": "Cámara de Diputados",
+"anio": 2018,
+"total": 630,
+"p": [
+[
+"Centroderecha (Lega, FI, FdI)",
+265,
+0
+],
+[
+"Movimiento 5 Estrellas",
+227,
+1
+],
+[
+"Centroizquierda (PD)",
+122,
+0
+],
+[
+"Libres e Iguales",
+14,
+0
+],
+[
+"Otros",
+2,
+0
+]
+],
+"fuente": "Ministerio del Interior (Eligendo)",
+"res": "Cargado de referencia; falta contrastar con el Ministerio del Interior italiano (Eligendo). El primer gobierno de la legislatura fue M5S con la Lega; luego M5S con el PD y después el gobierno de unidad de Draghi"
+},
+{
+"cam": "Senado",
+"anio": 2018,
+"total": 315,
+"p": [
+[
+"Centroderecha",
+137,
+0
+],
+[
+"Movimiento 5 Estrellas",
+112,
+1
+],
+[
+"Centroizquierda",
+60,
+0
+],
+[
+"Libres e Iguales",
+4,
+0
+],
+[
+"Otros",
+2,
+0
+]
+],
+"fuente": "Ministerio del Interior (Eligendo)",
+"res": "Cargado de referencia; falta contrastar con el Ministerio del Interior italiano (Eligendo)"
+}
+],
+"prox": {
+"fecha": "2027, fecha a definir (mayo o septiembre)",
+"que": "Cámara de Diputados y Senado; de la mayoría sale el próximo gobierno",
+"pron": "Hermanos de Italia quiere votar en mayo, junto con las municipales; Forza Italia y la Lega prefieren septiembre, al fin de la legislatura. Empate técnico entre coaliciones. SWG (16/11): centroizquierda 44,9% y centroderecha 43,6%; Supermedia YouTrend: 44,9% contra 44,8%. Hermanos de Italia sigue primero (entre 28% y 30%), seguido por el PD (20%–22%) y el M5S (12%–13%). El partido de Roberto Vannacci (Futuro Nazionale), escindido de la Lega, queda fuera de las sumas y puede definir el resultado",
+"pc": "m",
+"fuente": "QuiFinanza (SWG para TG La7), Quotidiano (Supermedia YouTrend/AGI), Open (Only Numbers), Avvenire y Euronews (ley electoral y fecha)"
+},
+"impacto": {
+"eleccion": "Elecciones generales de 2027 (fecha a definir). Italia es aliada política de Milei, compradora clave de harina de soja del Gran Rosario y socia en el GNL de Vaca Muerta a través de ENI.",
+"escenarios": [
+{
+"si": "Sigue el centroderecha con Meloni",
+"c": "a",
+"comercio": "Continuidad: Italia apoyó el acuerdo UE-Mercosur en enero de 2026 tras obtener salvaguardias agrícolas y la protección de más de 340 indicaciones geográficas. El intercambio de bienes superó los US$ 2.600 millones en 2025.",
+"aranceles": "Italia no fija aranceles propios; seguiría votando a favor del acuerdo en el Consejo de la UE, con presión de la Lega y de los agricultores por más salvaguardias.",
+"inversiones": "Respaldo político al proyecto Argentina LNG (YPF, ENI y XRG), que pidió entrar al RIGI, y a las cerca de 300 empresas italianas en el país (stock de inversión de US$ 2.245 millones).",
+"politica": "Aliada: coordinación en foros internacionales, Plan de Acción 2025-2030 y afinidad ideológica.",
+"rubros": {
+"industria": [
+"neutro",
+"Italia exporta sobre todo maquinaria, autos y químicos; el acuerdo abarataría esos bienes de capital y aumentaría la competencia para la industria local."
+],
+"agro": [
+"favorable",
+"Cerca de la mitad de lo exportado a Italia es harina de soja del Gran Rosario (más del 60% de lo que Italia importa de ese producto); el acuerdo sigue adelante."
+],
+"mineria": [
+"neutro",
+"Poco peso de inversiones italianas en minería."
+],
+"energia": [
+"favorable",
+"Continuidad del respaldo de Roma al GNL de Vaca Muerta con ENI."
+],
+"construccion": [
+"favorable",
+"Italia promueve infraestructura y construcción en su agenda con la Argentina (ICE, acuerdo con el Banco Nación)."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+},
+{
+"si": "Gana el campo largo (PD, M5S y AVS)",
+"c": "e",
+"comercio": "El PD apoya el acuerdo UE-Mercosur, pero el M5S y AVS lo rechazan; un gobierno de coalición sería menos firme en el Consejo de la UE.",
+"aranceles": "Más presión italiana por salvaguardias agrícolas y exigencias ambientales sobre las importaciones del Mercosur.",
+"inversiones": "ENI es una empresa con participación estatal; el M5S y AVS son críticos de las inversiones en gas, lo que suma incertidumbre política a Argentina LNG.",
+"politica": "Enfrentado ideológicamente con Milei; la relación pasaría a ser institucional.",
+"rubros": {
+"industria": [
+"neutro",
+"Sin cambios relevantes en el comercio de bienes industriales."
+],
+"agro": [
+"incierto",
+"Riesgo de que Italia vuelva a frenar o condicionar el acuerdo si pesan el M5S y AVS."
+],
+"mineria": [
+"neutro",
+"Poco peso de inversiones italianas en minería."
+],
+"energia": [
+"incierto",
+"Menor respaldo político al GNL de Vaca Muerta; las decisiones de ENI dependen igual de la rentabilidad."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+}
+],
+"fuentes": [
+"Cancillería argentina, X Foro PyMES Italia-América Latina (intercambio 2025, 300 empresas, stock de inversión)",
+"Bolsa de Comercio de Rosario, mar 2025 (harina de soja)",
+"Farnesina, infografía Italia-Argentina sep 2026 y nota sobre Argentina LNG y el RIGI",
+"Il Post y Open, ene 2026 (voto de Italia por el acuerdo UE-Mercosur)",
+"Eunews, ene 2026 (PD a favor del acuerdo; Lega y M5S en contra)",
+"Presidencia de la Nación (Plan de Acción 2025-2030); Canal 26 y Diario Panorama (acuerdo YPF-ENI)"
+],
+"revisado": "25/11/2026"
+}
+}
+},
+"calendario": [
+{
+"f": "2026-11-29",
+"id": "724",
+"pais": "España",
+"tipo": "general",
+"cargos": "Congreso (350) y Senado; el Congreso inviste al presidente del Gobierno",
+"estado": "confirmada",
+"fuerzas": [
+{
+"n": "Alberto Núñez Feijóo",
+"p": "PP",
+"enc": 31.0
+},
+{
+"n": "Pedro Sánchez",
+"p": "PSOE",
+"enc": 27.7
+},
+{
+"n": "Santiago Abascal",
+"p": "Vox",
+"enc": 19.1
+},
+{
+"n": "Frente Amplio",
+"p": "",
+"enc": 6.2
+},
+{
+"n": "ERC",
+"p": "",
+"enc": 2.5
+}
+],
+"enc_fuente": "Promedio de 19 encuestadoras (Demócrata)",
+"enc_fecha": "19/11/2026",
+"fuente": "Demócrata, Vozpópuli"
+},
+{
+"f": "2026-11-29",
+"id": "756",
+"pais": "Suiza",
+"tipo": "referendo",
+"cargos": "Votaciones populares federales",
+"estado": "confirmada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "2026-12-05",
+"id": "270",
+"pais": "Gambia",
+"tipo": "presidencial",
+"cargos": "Presidente",
+"estado": "confirmada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "2026-12-06",
+"id": "624",
+"pais": "Guinea-Bisáu",
+"tipo": "general",
+"cargos": "Presidente y Asamblea Nacional",
+"estado": "confirmada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "2026-12-22",
+"id": "728",
+"pais": "Sudán del Sur",
+"tipo": "general",
+"cargos": "Presidente, Asamblea Nacional y Consejo de Estados",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Los calendarios de Wikipedia dan dos fechas distintas (22/12/2026 y 11/2/2027)"
+},
+{
+"f": "2027-01-16",
+"id": "566",
+"pais": "Nigeria",
+"tipo": "general",
+"cargos": "Presidente, Senado y Cámara de Representantes",
+"estado": "confirmada",
+"fuerzas": [
+{
+"n": "Bola Tinubu",
+"p": "APC",
+"enc": null
+},
+{
+"n": "Atiku Abubakar",
+"p": "ADC",
+"enc": null
+},
+{
+"n": "Peter Obi",
+"p": "NDC",
+"enc": null
+}
+],
+"fuente": "INEC, vía Legit.ng y The Nigeria Lawyer (18 candidaturas)"
+},
+{
+"f": "2027-01-27",
+"id": "417",
+"pais": "Kirguistán",
+"tipo": "presidencial",
+"cargos": "Presidente",
+"estado": "confirmada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "2027-01-30",
+"id": "276",
+"pais": "Alemania",
+"tipo": "presidencial",
+"cargos": "Presidente federal, elegido por la Asamblea Federal (indirecta)",
+"estado": "confirmada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "2027-02-28",
+"id": "222",
+"pais": "El Salvador",
+"tipo": "general",
+"cargos": "Presidente (6 años, sin balotaje), Asamblea y municipios",
+"estado": "confirmada",
+"fuerzas": [
+{
+"n": "Nayib Bukele",
+"p": "Nuevas Ideas",
+"enc": null
+}
+],
+"enc_fuente": "Bukele es el favorito (El Imparcial, Bloomberg Línea); sin cifras cargadas",
+"fuente": "TSE"
+},
+{
+"f": "2027-03-02",
+"id": "583",
+"pais": "Micronesia",
+"tipo": "legislativa",
+"cargos": "Congreso",
+"estado": "confirmada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "",
+"fe": "Marzo de 2027",
+"id": "233",
+"pais": "Estonia",
+"tipo": "legislativa",
+"cargos": "Riigikogu (101)",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "2027-04-10",
+"id": "270",
+"pais": "Gambia",
+"tipo": "legislativa",
+"cargos": "Asamblea Nacional",
+"estado": "confirmada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "2027-04-18",
+"id": "250",
+"pais": "Francia",
+"tipo": "presidencial",
+"cargos": "Presidente: 1.ª vuelta 18/4 y 2.ª vuelta 2/5. Macron no puede presentarse",
+"estado": "confirmada",
+"fuerzas": [
+{
+"n": "Marine Le Pen",
+"p": "RN",
+"enc": null
+},
+{
+"n": "Jean-Luc Mélenchon",
+"p": "LFI",
+"enc": null
+},
+{
+"n": "Édouard Philippe",
+"p": "Horizons",
+"enc": null
+}
+],
+"enc_fuente": "Encuestas de principios de noviembre: Le Pen entre 30% y 37% y Mélenchon entre 18% y 21% en primera vuelta (i24news); las encuestas proyectan un balotaje Le Pen–Mélenchon (Toute l'Europe, Ifop)",
+"enc_fecha": "nov 2026",
+"fuente": "Gobierno de Francia (info.gouv.fr)"
+},
+{
+"f": "2027-04-18",
+"id": "246",
+"pais": "Finlandia",
+"tipo": "legislativa",
+"cargos": "Parlamento (200)",
+"estado": "confirmada",
+"fuerzas": [
+{
+"n": "Antti Lindtman",
+"p": "SDP",
+"enc": 22.6
+},
+{
+"n": "Partido de los Finlandeses",
+"p": "",
+"enc": null
+},
+{
+"n": "Petteri Orpo",
+"p": "Coalición Nacional",
+"enc": null
+}
+],
+"enc_fuente": "Yle, citada por Rio Times (Finlandeses y Coalición Nacional empatados en segundo lugar, sin cifra cargada)",
+"enc_fecha": "oct 2026",
+"fuente": "SDP Uusimaa (calendario oficial), Wikipedia"
+},
+{
+"f": "",
+"fe": "Abril de 2027",
+"id": "020",
+"pais": "Andorra",
+"tipo": "legislativa",
+"cargos": "Consejo General",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "2027-05-24",
+"id": "528",
+"pais": "Países Bajos",
+"tipo": "legislativa",
+"cargos": "Senado (elección indirecta por los parlamentos provinciales)",
+"estado": "confirmada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "2027-06-06",
+"id": "484",
+"pais": "México",
+"tipo": "legislativa",
+"cargos": "Intermedias: toda la Cámara de Diputados y 17 gobernaciones",
+"estado": "confirmada",
+"fuerzas": [
+{
+"n": "Morena",
+"p": "",
+"enc": 46
+},
+{
+"n": "PAN",
+"p": "",
+"enc": 8
+},
+{
+"n": "PRI",
+"p": "",
+"enc": 6
+},
+{
+"n": "Movimiento Ciudadano",
+"p": "",
+"enc": 5
+}
+],
+"enc_fuente": "Encuesta publicada por El Imparcial (31% sin preferencia)",
+"enc_fecha": "19/10/2026",
+"fuente": "INE, vía CNN y Grupo Animal"
+},
+{
+"f": "",
+"fe": "Junio de 2027",
+"id": "496",
+"pais": "Mongolia",
+"tipo": "presidencial",
+"cargos": "Presidente",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "2027-06-27",
+"id": "320",
+"pais": "Guatemala",
+"tipo": "general",
+"cargos": "Presidente (balotaje 22/8) y Congreso",
+"estado": "confirmada",
+"fuerzas": [
+{
+"n": "Roberto Arzú",
+"p": "",
+"enc": null
+}
+],
+"enc_fuente": "Arzú encabeza la intención de voto (Voz Media); sin cifras cargadas",
+"fuente": "TSE, vía Prensa Latina"
+},
+{
+"f": "2027-07-18",
+"id": "332",
+"pais": "Haití",
+"tipo": "general",
+"cargos": "Presidente y Parlamento; 2.ª vuelta 4/10",
+"estado": "postergada",
+"fuerzas": [],
+"fuente": "CEP, calendario del 28/10/2026 (Bloomberg Línea)"
+},
+{
+"f": "",
+"fe": "Julio de 2027",
+"id": "356",
+"pais": "India",
+"tipo": "presidencial",
+"cargos": "Presidente, elegido por un colegio electoral (indirecta)",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "2027-08-10",
+"id": "404",
+"pais": "Kenia",
+"tipo": "general",
+"cargos": "Presidente, Asamblea Nacional y Senado",
+"estado": "confirmada",
+"fuerzas": [
+{
+"n": "William Ruto",
+"p": "UDA",
+"enc": 24
+}
+],
+"enc_fuente": "Encuesta citada por Nation (\"ningún candidato domina\"; la oposición no tiene candidato único)",
+"enc_fecha": "ago 2026",
+"fuente": "IEBC, vía The Star"
+},
+{
+"f": "2027-08-24",
+"id": "024",
+"pais": "Angola",
+"tipo": "general",
+"cargos": "Asamblea Nacional; el primero de la lista más votada es presidente",
+"estado": "confirmada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "2027-09-28",
+"id": "703",
+"pais": "Eslovaquia",
+"tipo": "legislativa",
+"cargos": "Consejo Nacional (150)",
+"estado": "confirmada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "2027-10-24",
+"id": "756",
+"pais": "Suiza",
+"tipo": "legislativa",
+"cargos": "Consejo Nacional (200) y Consejo de los Estados",
+"estado": "confirmada",
+"fuerzas": [
+{
+"n": "UDC/SVP",
+"p": "",
+"enc": 29.9
+}
+],
+"enc_fuente": "Barómetro electoral SRG SSR (Sotomo)",
+"enc_fecha": "sep 2026",
+"fuente": "ch.ch (Confederación Suiza)"
+},
+{
+"f": "",
+"fe": "Entre el 17/10 y el 11/11/2027",
+"id": "616",
+"pais": "Polonia",
+"tipo": "legislativa",
+"cargos": "Sejm (460) y Senado (100)",
+"estado": "estimada",
+"fuerzas": [
+{
+"n": "Coalición Cívica (Tusk)",
+"p": "KO",
+"enc": 32.5
+},
+{
+"n": "Ley y Justicia",
+"p": "PiS",
+"enc": 25.4
+},
+{
+"n": "Confederación",
+"p": "",
+"enc": 14.3
+}
+],
+"enc_fuente": "Pollster",
+"enc_fecha": "17/7/2026",
+"fuente": "Wikipedia (plazo constitucional)"
+},
+{
+"f": "",
+"fe": "2027 (mayo–junio u otoño)",
+"id": "380",
+"pais": "Italia",
+"tipo": "legislativa",
+"cargos": "Cámara de Diputados y Senado",
+"estado": "estimada",
+"fuerzas": [
+{
+"n": "Giorgia Meloni",
+"p": "FdI",
+"enc": 28.6
+},
+{
+"n": "Elly Schlein",
+"p": "PD",
+"enc": 20.7
+},
+{
+"n": "Giuseppe Conte",
+"p": "M5S",
+"enc": 12.5
+}
+],
+"enc_fuente": "SWG para TG La7 (coaliciones: centroizquierda 44,9% y centroderecha 43,6%)",
+"enc_fecha": "16/11/2026",
+"fuente": "QuiFinanza, Quotidiano"
+},
+{
+"f": "",
+"fe": "2027",
+"id": "300",
+"pais": "Grecia",
+"tipo": "legislativa",
+"cargos": "Parlamento (300)",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "",
+"fe": "2027",
+"id": "705",
+"pais": "Eslovenia",
+"tipo": "presidencial",
+"cargos": "Presidente",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "",
+"fe": "2027",
+"id": "626",
+"pais": "Timor Oriental",
+"tipo": "presidencial",
+"cargos": "Presidente",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "",
+"fe": "2027",
+"id": "598",
+"pais": "Papúa Nueva Guinea",
+"tipo": "legislativa",
+"cargos": "Parlamento",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "",
+"fe": "2027",
+"id": "499",
+"pais": "Montenegro",
+"tipo": "legislativa",
+"cargos": "Parlamento",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "",
+"fe": "2027",
+"id": "762",
+"pais": "Tayikistán",
+"tipo": "presidencial",
+"cargos": "Presidente",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "",
+"fe": "Noviembre de 2027",
+"id": "584",
+"pais": "Islas Marshall",
+"tipo": "legislativa",
+"cargos": "Parlamento",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "",
+"fe": "2027",
+"id": "212",
+"pais": "Dominica",
+"tipo": "legislativa",
+"cargos": "Cámara de la Asamblea",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "",
+"fe": "Antes de fin de 2027",
+"id": "659",
+"pais": "San Cristóbal y Nieves",
+"tipo": "legislativa",
+"cargos": "Asamblea Nacional",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "Wikipedia",
+"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+},
+{
+"f": "",
+"fe": "Sin fecha",
+"id": "862",
+"pais": "Venezuela",
+"tipo": "presidencial",
+"cargos": "Presidente",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "El Comercio, Emol (29/10/2026)",
+"res": "Delcy Rodríguez promete elecciones sin fijar fecha; la oposición exige que sean en 2027"
+}
+],
+"recientes": [
+{
+"f": "2025-11-30",
+"id": "340",
+"pais": "Honduras",
+"tipo": "general",
+"ganador": "Nasry Asfura",
+"partido": "Partido Nacional",
+"pct": 40.3,
+"parlamento": "Congreso (128): PN 49, PL 41, Libre 35, PINU 2, DC 1",
+"fuente": "CNE, vía Al Jazeera y TuNota"
+},
+{
+"f": "2025-12-01",
+"id": "662",
+"pais": "Santa Lucía",
+"tipo": "legislativa",
+"ganador": "Philip J. Pierre",
+"partido": "SLP",
+"pct": null,
+"parlamento": "Asamblea (17): SLP 14, independientes aliados 2, UWP 1",
+"fuente": "Electoral Department, vía St Lucia Times"
+},
+{
+"f": "2025-12-14",
+"id": "152",
+"pais": "Chile",
+"tipo": "presidencial",
+"ganador": "José Antonio Kast",
+"partido": "Republicanos",
+"pct": 58.17,
+"parlamento": "Diputados (155): Unidad por Chile 61, Cambio por Chile 42, Chile Grande y Unido 34, PDG 14, otros 4",
+"fuente": "Servel; Diputados: Emol",
+"res": "Porcentaje cargado de referencia"
+},
+{
+"f": "2026-02-01",
+"id": "188",
+"pais": "Costa Rica",
+"tipo": "general",
+"ganador": "Laura Fernández",
+"partido": "Pueblo Soberano",
+"pct": 48.3,
+"parlamento": "Asamblea (57): Pueblo Soberano 31, Frente Amplio 7",
+"fuente": "TSE, vía La Nación"
+},
+{
+"f": "2026-02-08",
+"id": "392",
+"pais": "Japón",
+"tipo": "legislativa",
+"ganador": "Sanae Takaichi",
+"partido": "PLD",
+"pct": null,
+"parlamento": "Cámara de Representantes (465): PLD 316 (dos tercios), Ishin 36, Alianza Reformista de Centro 49",
+"fuente": "NHK, vía Al Jazeera e IDEA"
+},
+{
+"f": "2026-02-08",
+"id": "620",
+"pais": "Portugal",
+"tipo": "presidencial",
+"ganador": "António José Seguro",
+"partido": "PS",
+"pct": 66.8,
+"parlamento": "",
+"fuente": "Resultados oficiales, vía Bloomberg",
+"res": "Otra fuente da 66,2%"
+},
+{
+"f": "2026-02-08",
+"id": "764",
+"pais": "Tailandia",
+"tipo": "legislativa",
+"ganador": "Anutin Charnvirakul",
+"partido": "Bhumjaithai",
+"pct": null,
+"parlamento": "Cámara (500): Bhumjaithai 191, Partido del Pueblo 120, Pheu Thai 74",
+"fuente": "Resultados certificados, vía The Star"
+},
+{
+"f": "2026-02-11",
+"id": "052",
+"pais": "Barbados",
+"tipo": "legislativa",
+"ganador": "Mia Mottley",
+"partido": "BLP",
+"pct": null,
+"parlamento": "Asamblea (30): BLP 30",
+"fuente": "CBC Barbados"
+},
+{
+"f": "2026-02-12",
+"id": "050",
+"pais": "Bangladés",
+"tipo": "legislativa",
+"ganador": "Tarique Rahman",
+"partido": "BNP",
+"pct": null,
+"parlamento": "Parlamento (300 bancas electas): BNP 209, Jamaat 68",
+"fuente": "Comisión Electoral, vía bdnews24",
+"res": "Otras cuentas dan 212 bancas a la alianza del BNP"
+},
+{
+"f": "2026-03-08",
+"id": "170",
+"pais": "Colombia",
+"tipo": "legislativa",
+"ganador": "Pacto Histórico (primera fuerza)",
+"partido": "",
+"pct": null,
+"parlamento": "Senado (102): Pacto Histórico 25, Centro Democrático 17, Liberal 13, Alianza por Colombia 11, Conservador 10",
+"fuente": "Noticias RCN, Colombia.com"
+},
+{
+"f": "2026-03-24",
+"id": "208",
+"pais": "Dinamarca",
+"tipo": "legislativa",
+"ganador": "Socialdemócratas (primera fuerza)",
+"partido": "",
+"pct": 21.9,
+"parlamento": "Folketing (179): bloque rojo 84, bloque azul 77, Moderados 14; Socialdemócratas 38",
+"fuente": "Fundación Robert Schuman, Euronews"
+},
+{
+"f": "2026-04-12",
+"id": "348",
+"pais": "Hungría",
+"tipo": "legislativa",
+"ganador": "Péter Magyar",
+"partido": "Tisza",
+"pct": 53.6,
+"parlamento": "Asamblea (199): Tisza 141, Fidesz-KDNP 52, Mi Hazánk 6",
+"fuente": "Oficina Electoral Nacional, vía Daily News Hungary y Al Jazeera"
+},
+{
+"f": "2026-04-19",
+"id": "100",
+"pais": "Bulgaria",
+"tipo": "legislativa",
+"ganador": "Rumen Radev",
+"partido": "Bulgaria Progresista",
+"pct": null,
+"parlamento": "",
+"fuente": "Fundación Robert Schuman"
+},
+{
+"f": "2026-04-30",
+"id": "028",
+"pais": "Antigua y Barbuda",
+"tipo": "legislativa",
+"ganador": "Gaston Browne",
+"partido": "ABLP",
+"pct": null,
+"parlamento": "Cámara (17): ABLP 15, UPP 1, BPM 1",
+"fuente": "ABEC, vía WIC News"
+},
+{
+"f": "2026-05-12",
+"id": "044",
+"pais": "Bahamas",
+"tipo": "legislativa",
+"ganador": "Philip Davis",
+"partido": "PLP",
+"pct": null,
+"parlamento": "Asamblea (41): PLP 33, FNM 8",
+"fuente": "CARICOM, Caribbean360 (no oficial)"
+},
+{
+"f": "2026-06-07",
+"id": "604",
+"pais": "Perú",
+"tipo": "presidencial",
+"ganador": "Keiko Fujimori",
+"partido": "Fuerza Popular",
+"pct": 50.135,
+"parlamento": "Senado (60): FP 22; Diputados (130): FP 41, JP 32",
+"fuente": "JNE"
+},
+{
+"f": "2026-06-21",
+"id": "170",
+"pais": "Colombia",
+"tipo": "presidencial",
+"ganador": "Abelardo de la Espriella",
+"partido": "Defensores de la Patria",
+"pct": 49.2,
+"parlamento": "",
+"fuente": "CNE, escrutinio final"
+},
+{
+"f": "2026-09-13",
+"id": "752",
+"pais": "Suecia",
+"tipo": "legislativa",
+"ganador": "Magdalena Andersson (bloque opositor)",
+"partido": "Socialdemócratas",
+"pct": null,
+"parlamento": "Riksdag (349): oposición 176, bloque de gobierno 173; S 99, M 70, SD 62",
+"fuente": "Riksdag"
+},
+{
+"f": "2026-10-25",
+"id": "076",
+"pais": "Brasil",
+"tipo": "presidencial",
+"ganador": "Lula",
+"partido": "PT",
+"pct": 51.77,
+"parlamento": "Diputados (513): PL 121, Fed. PT 88, União-PP 87",
+"fuente": "TSE, vía Bloomberg Línea; Congresso em Foco"
+},
+{
+"f": "2026-10-25",
+"id": "688",
+"pais": "Serbia",
+"tipo": "legislativa",
+"ganador": "Lista Estudiantil",
+"partido": "",
+"pct": 52.54,
+"parlamento": "",
+"fuente": "RIK (recuento preliminar), vía N1",
+"res": "Porcentaje preliminar; falta el reparto final de bancas"
+},
+{
+"f": "2026-10-27",
+"id": "376",
+"pais": "Israel",
+"tipo": "legislativa",
+"ganador": "Likud (primera fuerza, sin mayoría)",
+"partido": "Likud",
+"pct": null,
+"parlamento": "Knéset (120): bloque de Netanyahu 53, bloque de Eisenkot 48, partidos árabes 19; Likud 27, Yashar 21",
+"fuente": "Comité Central de Elecciones, vía JNS"
+},
+{
+"f": "2026-11-01",
+"id": "100",
+"pais": "Bulgaria",
+"tipo": "presidencial",
+"ganador": "Iliana Iotova",
+"partido": "",
+"pct": null,
+"parlamento": "",
+"fuente": "CEC, vía The Star y Hungarian Conservative (ganó por 18 puntos)"
+},
+{
+"f": "2026-11-03",
+"id": "840",
+"pais": "Estados Unidos",
+"tipo": "legislativa",
+"ganador": "Partido Demócrata",
+"partido": "",
+"pct": null,
+"parlamento": "Senado: 54 D + 2 independientes, 44 R. Cámara: 257 D, 171 R, 7 pendientes (al 19/11)",
+"fuente": "AP, vía el mapa Elecciones EE.UU."
+},
+{
+"f": "2026-11-07",
+"id": "554",
+"pais": "Nueva Zelanda",
+"tipo": "legislativa",
+"ganador": "Christopher Luxon (coalición)",
+"partido": "National",
+"pct": null,
+"parlamento": "Cámara (131): coalición National-ACT-NZ First 67 en el recuento preliminar; National 42",
+"fuente": "Comisión Electoral, vía Al Jazeera",
+"res": "Preliminar; el resultado oficial sale el 27/11"
+}
+]
+}

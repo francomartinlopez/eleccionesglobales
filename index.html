@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Elecciones Globales</title>
+<meta name="description" content="Quién gobierna cada país, cómo votó y qué se espera en la próxima elección, según su relación con el gobierno argentino.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Elecciones Globales">
+<meta property="og:description" content="Quién gobierna cada país, cómo votó y qué se espera en la próxima elección, según su relación con el gobierno argentino.">
+<meta property="og:image" content="preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="preview.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+/* VOICE: atlas electoral sobrio, de mesa de gráficos de un diario.
+   IDEA: una lámina de atlas político: el mapa es la página.
+   PICTURE: el mapa mundial con América Latina coloreada por alineamiento, retícula de meridianos en la portada.
+   COLOUR and TYPE: celeste aliado, amarillo ambiguo, rojo enfrentado sobre papel blanco; Libre Franklin.
+   LAYOUT: portada, controles, mapa ancho, ficha del país debajo a todo el ancho, lista y notas. */
+:root{color-scheme:light dark;
+--bg:light-dark(#fbfaf7,#111418);--ink:light-dark(#16181c,#eceae4);--mut:light-dark(#5d6168,#a3a7ad);
+--line:light-dark(#dcd9d2,#2c3138);--card:light-dark(#ffffff,#181c21);--land:light-dark(#e6e3dc,#262b31);--sea:light-dark(#eef3f6,#0d1115);
+--a:#5aaee3;--m:#f0c22e;--e:#d8433a;--g:#8f959c;--nav:#16314f}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+html{scroll-padding-top:60px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Libre Franklin",system-ui,sans-serif;overflow-x:clip}
+.band{padding:clamp(20px,3.5vw,48px) max(5vw,16px)}
+.wrap{max-width:1240px;margin:0 auto}
+header{background:var(--nav);color:#f4f1ea;position:relative;overflow:hidden}
+header svg.grid{position:absolute;inset:0;width:100%;height:100%;opacity:.22}
+header .wrap{position:relative}
+h1{font-weight:800;font-size:clamp(34px,6vw,56px);line-height:1.02;margin:0 0 10px;letter-spacing:-.01em;text-wrap:balance}
+header p{margin:0;max-width:62ch;color:#d5dbe3}
+.legend{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:18px;font-size:14px}
+.sw{display:inline-block;width:14px;height:14px;border-radius:3px;vertical-align:-2px;margin-right:6px}
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:12px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--card)}
+.seg button{font:600 15px "Libre Franklin",sans-serif;border:0;background:none;color:var(--ink);padding:0 16px;min-height:44px;cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--ink);color:var(--bg)}
+button:focus-visible{outline:3px solid var(--a);outline-offset:2px}
+.mapbox{position:relative;background:var(--sea);border:1px solid var(--line);border-radius:14px;overflow:hidden;height:clamp(380px,62vh,640px)}
+.mapbox svg{position:absolute;inset:0;width:100%;height:100%;touch-action:pan-x pan-y}
+.country{stroke:var(--bg);stroke-width:.6;vector-effect:non-scaling-stroke;cursor:default}
+.country.on{cursor:pointer}
+.country.on:hover,.country.sel{stroke:var(--ink);stroke-width:1.6}
+.isle{stroke:var(--bg);stroke-width:1.2;vector-effect:non-scaling-stroke;cursor:pointer}
+.isle.sel{stroke:var(--ink);stroke-width:2}
+.tip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:14px;box-shadow:0 4px 14px #0002;display:none;max-width:240px}
+.zoomer{position:absolute;right:10px;bottom:10px;display:flex;flex-direction:column;gap:6px}
+.zoomer button{width:44px;height:44px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:800 20px sans-serif;cursor:pointer}
+.note{font-size:13px;color:var(--mut);margin:8px 0 0}
+#ficha{background:var(--card);border-block:1px solid var(--line)}
+.fhead{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:baseline}
+h2{font-size:clamp(28px,4vw,40px);line-height:1.05;margin:0;font-weight:800}
+h3{font-size:20px;margin:28px 0 10px;font-weight:800}
+.chip{display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:14px;padding:4px 10px;border-radius:999px;border:1px solid var(--line)}
+.flag{display:inline-block;font-size:13px;font-weight:600;padding:4px 10px;border-radius:999px;background:light-dark(#f4e3e1,#3a2422);color:light-dark(#7a221c,#f3b7b1)}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:18px 28px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px 24px;margin-top:16px}
+.facts div{border-top:2px solid var(--ink);padding-top:8px}
+.facts b{display:block;font-size:13px;color:var(--mut);font-weight:600}
+.elec{border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.elec h4{margin:0 0 6px;font-size:17px}
+.ronda{font-size:13px;color:var(--mut);margin:10px 0 4px;font-weight:600}
+.row{display:grid;grid-template-columns:minmax(0,1fr) 64px;gap:2px 10px;align-items:center;margin:5px 0}
+.row .nm{font-size:15px}.row .nm small{color:var(--mut)}
+.row .pc{text-align:right;font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
+.bar{grid-column:1/-1;height:8px;background:light-dark(#eceae5,#262a30);border-radius:4px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--ink);opacity:.75}
+.bar i.w{opacity:1}
+.seats{display:flex;height:22px;border-radius:5px;overflow:hidden;margin:8px 0}
+.seats i{display:block;height:100%;border-right:1px solid var(--card)}
+.sl{font-size:14px;display:flex;flex-wrap:wrap;gap:4px 14px}
+.src{font-size:13px;color:var(--mut);margin-top:8px}
+.res{font-size:13px;margin-top:6px;padding:6px 10px;border-radius:8px;background:light-dark(#fbf1cf,#33290e);color:light-dark(#5a4500,#f1d98a)}
+.prox{border:2px solid var(--ink);border-radius:12px;padding:14px 16px}
+.prox .big{font-size:22px;font-weight:800;line-height:1.15}
+.list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:18px}
+.list h4{margin:0 0 8px;font-size:16px}
+.list button{font:15px "Libre Franklin",sans-serif;background:none;border:0;border-bottom:1px solid var(--line);color:var(--ink);width:100%;text-align:left;padding:10px 2px;min-height:44px;cursor:pointer;display:flex;justify-content:space-between;gap:8px}
+.list button span{color:var(--mut);font-size:13px;white-space:nowrap}
+nav.nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding-block:0}
+nav .scroll{display:flex;gap:4px;overflow-x:auto}
+nav a{flex:none;color:var(--ink);text-decoration:none;font-weight:600;font-size:15px;padding:12px 14px;min-height:44px;border-bottom:3px solid transparent}
+nav a:hover{border-bottom-color:var(--ink)}
+@media(min-width:900px){nav.nav{position:sticky}}
+.sec-h{display:flex;flex-wrap:wrap;gap:12px;align-items:end;justify-content:space-between;margin-bottom:14px}
+.sec-h h3{margin:0;font-size:clamp(24px,3vw,32px)}
+.filtros{display:flex;flex-wrap:wrap;gap:8px}
+select{font:15px "Libre Franklin",sans-serif;min-height:44px;padding:0 10px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.mes{font-weight:800;font-size:15px;margin:22px 0 8px;padding-bottom:4px;border-bottom:2px solid var(--ink)}
+.ev{display:grid;grid-template-columns:96px minmax(0,1fr);gap:4px 16px;padding:12px 0;border-bottom:1px solid var(--line)}
+.ev .fd{font-weight:800;font-size:20px;line-height:1.1;white-space:nowrap}
+.ev .fd small{display:block;white-space:normal;font-size:12px;font-weight:600;color:var(--mut)}
+.ev .pais{font:800 17px "Libre Franklin",sans-serif;background:none;border:0;padding:0;color:var(--ink);cursor:pointer;text-align:left;min-height:28px}
+.pill{display:inline-block;font-size:12px;font-weight:600;padding:2px 8px;border-radius:999px;border:1px solid var(--line);margin-left:6px;vertical-align:2px}
+.pill.prio{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.fz{margin-top:6px}
+@media(max-width:600px){.ev{grid-template-columns:1fr}}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:13px;color:var(--mut);font-weight:600}
+td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.analisis{border:2px dashed var(--line);border-radius:14px;padding:16px}
+.analisis .tag{display:inline-block;font-size:12px;font-weight:800;padding:3px 9px;border-radius:6px;background:var(--ink);color:var(--bg);margin-bottom:8px}
+.esc{border-top:1px solid var(--line);padding-top:14px;margin-top:14px}
+.esc h4{margin:0 0 8px;font-size:18px}
+.ejes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:10px 20px;margin:8px 0 12px}
+.ejes b{display:block;font-size:13px;color:var(--mut)}
+.rub{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:8px}
+.rub>div{border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.rub .ef{display:inline-block;font-size:12px;font-weight:800;padding:2px 8px;border-radius:999px;margin-left:6px}
+.ef.favorable{background:light-dark(#dff0e4,#183a24);color:light-dark(#1d5e34,#9fe0b4)}
+.ef.desfavorable{background:light-dark(#f6dedb,#3d1d1a);color:light-dark(#8a2620,#f2aaa3)}
+.ef.neutro{background:light-dark(#ecebe7,#2a2e34);color:var(--mut)}
+.ef.incierto{background:light-dark(#fbf1cf,#33290e);color:light-dark(#5a4500,#f1d98a)}
+footer{font-size:14px;color:var(--mut)}
+footer p{max-width:80ch}
+.empty{color:var(--mut)}
+@media(max-width:600px){table{font-size:14px}.stack thead{display:none}.stack tr{display:grid;padding-block:10px;border-bottom:1px solid var(--line)}.stack td{display:flow-root;border:0;padding:3px 0;padding-inline-start:7.5em;text-align:start}.stack td::before{content:attr(data-l);float:inline-start;width:7em;margin-inline-start:-7.5em;color:var(--mut);font-size:13px}.stack td:empty{display:none}.mapbox{height:440px}.seg button{padding:0 12px;font-size:14px}}
+</style>
+<script>new MutationObserver(()=>{for(const c of document.querySelectorAll('.stack td:not([data-l])')){let i=0,p=c;while(p=p.previousElementSibling)i+=p.colSpan;c.dataset.l=c.closest('table').rows[0].cells[i]?.textContent||''}}).observe(document,{childList:true,subtree:true})</script>
+</head>
+<body>
+<header class="band">
+<svg class="grid" aria-hidden="true" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1200 400" id="portada"></svg>
+<div class="wrap">
+<h1>Elecciones Globales</h1>
+<p>Quién gobierna cada país, cómo votó en sus dos últimas elecciones y qué se espera en la próxima, coloreado según su relación con el gobierno argentino actual. Primera etapa: América Latina y el Caribe.</p>
+<div class="legend" id="leyenda"></div>
+</div>
+</header>
+
+<nav class="band nav" aria-label="Secciones"><div class="wrap scroll"><a href="#mapa">Mapa</a><a href="#ficha">Ficha del país</a><a href="#calendario">Calendario</a><a href="#resultados">Resultados</a><a href="#paises">Países</a></div></nav>
+<main>
+<section class="band" id="mapa"><div class="wrap">
+<div class="controls">
+<div class="seg" role="group" aria-label="Vista"><button id="vHoy" aria-pressed="true">Hoy</button><button id="vProx" aria-pressed="false">Próxima elección</button></div>
+<div class="seg" role="group" aria-label="Región"><button id="rLat" aria-pressed="true">Latinoamérica</button><button id="rMun" aria-pressed="false">Mundo</button></div>
+</div>
+<div class="mapbox" id="mapbox">
+<svg id="map" role="img" aria-label="Mapa de alineamiento de gobiernos"></svg>
+<div class="tip" id="tip"></div>
+<div class="zoomer"><button id="zin" aria-label="Acercar">+</button><button id="zout" aria-label="Alejar">−</button></div>
+</div>
+<p class="note" id="nota">Tocá un país para ver su ficha. Los puntos marcan islas chicas del Caribe. Rayado: elecciones cuestionadas o sin competencia. Gris oscuro: países con elección en el calendario o resultado reciente, sin ficha completa (se pueden tocar). Gris claro: sin datos.</p>
+</div></section>
+
+<section id="ficha" class="band" aria-live="polite"><div class="wrap" id="fichaIn"></div></section>
+
+<section class="band" id="calendario"><div class="wrap">
+<div class="sec-h"><h3>Calendario electoral</h3>
+<div class="filtros">
+<div class="seg" role="group" aria-label="Plazo"><button id="c6" aria-pressed="true">6 meses</button><button id="c12" aria-pressed="false">12 meses</button></div>
+<div class="seg" role="group" aria-label="Países"><button id="cTodos" aria-pressed="true">Todos</button><button id="cPrio" aria-pressed="false">Prioritarios</button></div>
+<select id="cTipo" aria-label="Tipo de elección"><option value="">Todos los tipos</option><option value="presidencial">Presidenciales</option><option value="legislativa">Legislativas</option><option value="general">Generales</option><option value="referendo">Referendos</option><option value="parlamento europeo">Parlamento Europeo</option><option value="otra">Otras</option></select>
+</div></div>
+<div id="calLista"></div>
+</div></section>
+
+<section class="band" id="resultados" style="background:var(--card);border-block:1px solid var(--line)"><div class="wrap">
+<div class="sec-h"><h3>Resultados recientes</h3><p class="note" style="margin:0">Últimos 12 meses, la más reciente primero.</p></div>
+<div class="scroll" id="recLista"></div>
+</div></section>
+
+<section class="band" id="paises"><div class="wrap">
+<h3 style="margin-top:0">Países con ficha</h3>
+<div class="list" id="lista"></div>
+</div></section>
+</main>
+
+<footer class="band"><div class="wrap">
+<p><b>Criterio del color.</b> Celeste: la fuerza que gobierna es aliada del gobierno de Javier Milei (afinidad declarada, acuerdos, visitas). Amarillo: ambigua (ideología distinta pero relación cooperativa, o sin vínculo político). Rojo: enfrentada (conflicto abierto o bloque opuesto). Gris: sin elección que tenga sentido medir. Es un criterio editorial y se revisa cuando cambia la relación. Argentina es la referencia y no se colorea.</p>
+<p><b>Datos.</b> Cada cifra lleva su fuente. Lo que todavía no se contrastó con el organismo electoral aparece como "Dato con reservas". No hay estimaciones propias presentadas como dato.</p>
+<p id="act"></p>
+<p>Elaborado para Franco Martín López.</p>
+</div></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script>
+{
+const COL={a:"var(--a)",m:"var(--m)",e:"var(--e)",g:"var(--g)"};
+const NOM={a:"Aliado",m:"Ambiguo",e:"Enfrentado",g:"Sin elección que medir"};
+const MARCA={"cuestionada":"Elecciones cuestionadas","sin-competencia":"Sin elecciones competitivas","sin-control":"Sin gobierno con control efectivo"};
+const RUB={industria:"Industria",agro:"Agro",mineria:"Minería",energia:"Energía",construccion:"Construcción",comercio:"Comercio y servicios"};
+const EFN={favorable:"Favorable",neutro:"Neutro",desfavorable:"Desfavorable",incierto:"Incierto"};
+const TIPO={presidencial:"Presidencial",legislativa:"Legislativa",general:"General",referendo:"Referendo","parlamento europeo":"Parlamento Europeo",otra:"Otra"};
+const MESES=["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+let cPlazo=6,cPrio=false,cTipo="";
+const ISLAS=["052","308","670","662","212","028","659","780","044","388"];
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const $=id=>document.getElementById(id);
+let D=null,feats=[],vista="hoy",region="lat",sel=null;
+
+/* portada: retícula de meridianos y paralelos */
+{const p=d3.geoOrthographic().scale(330).translate([900,330]).rotate([60,-10]);
+ const g=d3.geoPath(p);$("portada").innerHTML=
+ `<path d="${g(d3.geoGraticule10())}" fill="none" stroke="#fff" stroke-width="1"/><path d="${g({type:"Sphere"})}" fill="none" stroke="#fff" stroke-width="2"/>`;}
+
+$("leyenda").innerHTML=["a","m","e","g"].map(k=>`<span><i class="sw" style="background:${COL[k]}"></i>${NOM[k]}</span>`).join("")+
+ `<span><i class="sw" style="background:#fff;outline:2px solid var(--a)"></i>Argentina (referencia)</span>`;
+
+const svg=d3.select("#map"),root=svg.append("g");
+const defs=svg.append("defs");
+["a","m","e","g"].forEach(k=>{const p=defs.append("pattern").attr("id","h"+k).attr("patternUnits","userSpaceOnUse").attr("width",6).attr("height",6).attr("patternTransform","rotate(45)");
+ p.append("rect").attr("width",6).attr("height",6).style("fill",COL[k]);p.append("line").attr("x1",0).attr("y1",0).attr("x2",0).attr("y2",6).attr("stroke","#fff").attr("stroke-width",2.2).attr("opacity",.8);});
+const proj=d3.geoNaturalEarth1(),path=d3.geoPath(proj);
+const zoom=d3.zoom().filter(e=>e.type==="mousedown"&&!e.button).scaleExtent([1,14]).on("zoom",e=>{root.attr("transform",e.transform);root.selectAll(".isle").attr("r",5/Math.sqrt(e.transform.k));});
+svg.call(zoom);
+
+const opac=id=>vista==="prox"&&D.paises[id]&&!D.paises[id].prox.pc?.25:1;
+function colorDe(id){const c=D.paises[id];if(!c)return id==="032"?"#fff":(conDatos(id)?"light-dark(#c9c2b3,#4c525b)":"var(--land)");
+ let k=c.c;if(vista==="prox"){if(c.prox&&c.prox.pc)k=c.prox.pc;return COL[k];}
+ return c.marca&&vista==="hoy"?`url(#h${k})`:COL[k];}
+
+function draw(){
+ const box=$("mapbox"),W=box.clientWidth,H=box.clientHeight;
+ const target=region==="lat"?{type:"FeatureCollection",features:feats.filter(f=>D.paises[f.id]||f.id==="032")}:{type:"Sphere"};
+ proj.fitExtent([[12,12],[W-12,H-12]],target);
+ root.selectAll("*").remove();
+ root.append("path").attr("d",path({type:"Sphere"})).style("fill","var(--sea)");
+ root.selectAll("path.country").data(feats).join("path")
+  .attr("class",d=>"country"+(conDatos(d.id)?" on":"")+(d.id===sel?" sel":""))
+  .attr("d",path).style("fill",d=>colorDe(d.id)).style("fill-opacity",d=>opac(d.id))
+  .style("stroke",d=>d.id==="032"?"var(--a)":null).attr("stroke-width",d=>d.id==="032"?1.4:null)
+  .on("click",(e,d)=>conDatos(d.id)&&elegir(d.id,true))
+  .on("mousemove",(e,d)=>tip(e,d.id)).on("mouseleave",()=>$("tip").style.display="none");
+ const isl=feats.filter(f=>ISLAS.includes(f.id));
+ root.selectAll("circle.isle").data(isl).join("circle").attr("class",d=>"isle"+(d.id===sel?" sel":""))
+  .attr("cx",d=>proj(d3.geoCentroid(d))[0]).attr("cy",d=>proj(d3.geoCentroid(d))[1]).attr("r",5)
+  .style("fill",d=>colorDe(d.id)).on("click",(e,d)=>elegir(d.id,true))
+  .on("mousemove",(e,d)=>tip(e,d.id)).on("mouseleave",()=>$("tip").style.display="none");
+ svg.call(zoom.transform,d3.zoomIdentity);
+}
+function tip(e,id){const c=D.paises[id],t=$("tip");
+ const n=c?c.n:(id==="032"?"Argentina (referencia)":(conDatos(id)?nombre(id):null));if(!n){t.style.display="none";return;}
+ const b=$("mapbox").getBoundingClientRect();
+ t.textContent="";const s=document.createElement("b");s.textContent=n;t.append(s);
+ if(c){const d=document.createElement("div");d.textContent=vista==="hoy"?`${c.gob} · ${NOM[c.c]}`:`Próxima: ${c.prox.fecha}`;t.append(d);}
+ t.style.display="block";t.style.left=Math.min(e.clientX-b.left+12,b.width-250)+"px";t.style.top=(e.clientY-b.top+12)+"px";}
+
+function elecHTML(x){return `<div class="elec"><h4>${esc(x.titulo)} ${x.anio}</h4>`+x.rondas.map(r=>{
+ const mx=Math.max(...r.c.map(c=>c[2]));
+ return `<div class="ronda">${esc(r.r)}</div>`+r.c.map(c=>`<div class="row"><div class="nm">${esc(c[0])} <small>${esc(c[1])}</small></div><div class="pc">${esc(String(c[2]).replace(".",","))}%</div><div class="bar"><i class="${c[2]===mx?"w":""}" style="width:${Math.min(100,c[2])}%"></i></div></div>`).join("")}).join("")+
+ `<div class="src">Fuente: ${esc(x.fuente)}</div>${x.res?`<div class="res">Dato con reservas: ${esc(x.res)}</div>`:""}</div>`;}
+const TONOS=["#3d4450","#6b7380","#949ba6","#b9bec6","#d5d8dd","#e6e8eb","#c7c2b8","#a8a296","#888273"];
+function legHTML(l,k){let j=0;const cols=l.p.map(p=>p[2]?COL[k]:TONOS[j++%TONOS.length]);
+ return `<div class="elec"><h4>${esc(l.cam)} ${l.anio} · ${l.total} bancas</h4><div class="seats">${l.p.map((p,i)=>p[1]?`<i style="width:${p[1]/l.total*100}%;background:${cols[i]}" title="${esc(p[0])}"></i>`:"").join("")}</div>`+
+ `<div class="sl">${l.p.map((p,i)=>`<span><i class="sw" style="background:${cols[i]}"></i>${esc(p[0])} <b>${p[1]}</b></span>`).join("")}</div>`+
+ `<div class="src">Fuente: ${esc(l.fuente)}${l.p.some(p=>p[2])?" · En color: el partido o la coalición de gobierno":""}</div>${l.res?`<div class="res">Dato con reservas: ${esc(l.res)}</div>`:""}</div>`;}
+
+const cal=()=>D.calendario||[],rec=()=>D.recientes||[];
+function conDatos(id){return !!(D.paises[id]||cal().some(x=>x.id===id)||rec().some(x=>x.id===id));}
+function nombre(id){const c=D.paises[id];if(c)return c.n;const x=cal().find(x=>x.id===id)||rec().find(x=>x.id===id);if(x)return x.pais;const f=feats.find(f=>f.id===id);return f?f.properties.name:id;}
+function fechaTxt(x){if(!x.f)return x.fe||"Sin fecha";const[a,m,d]=x.f.split("-").map(Number);return `${d} de ${MESES[m-1]} de ${a}`;}
+function fuerzasHTML(x){const fz=x.fuerzas||[];if(!fz.length)return "";const mx=Math.max(0,...fz.map(f=>f.enc||0));
+ return `<div class="fz">${fz.map(f=>`<div class="row"><div class="nm">${esc(f.n)}${f.p?` <small>${esc(f.p)}</small>`:""}</div><div class="pc">${f.enc!=null?esc(String(f.enc).replace(".",","))+"%":"—"}</div>${f.enc!=null?`<div class="bar"><i class="${f.enc===mx?"w":""}" style="width:${Math.min(100,f.enc)}%"></i></div>`:""}</div>`).join("")}</div>`+
+ (x.enc_fuente?`<div class="src">Encuesta: ${esc(x.enc_fuente)}${x.enc_fecha?`, ${esc(x.enc_fecha)}`:""}</div>`:(fz.some(f=>f.enc!=null)?"":`<div class="src">Sin encuestas cargadas</div>`));}
+function evHTML(x,conPais){const pr=D.paises[x.id];const d=x.f?Number(x.f.slice(8,10)):"";
+ return `<div class="ev"><div class="fd">${x.f?d:"—"}<small>${esc(x.f?MESES[Number(x.f.slice(5,7))-1]:(x.fe||"sin fecha"))}${x.estado&&x.estado!=="confirmada"?` · ${esc(x.estado)}`:""}</small></div><div>
+ ${conPais?`<button class="pais" data-id="${esc(x.id)}">${pr?`<i class="sw" style="background:${COL[pr.c]}"></i>`:""}${esc(x.pais)}</button>`:""}<span class="pill">${esc(TIPO[x.tipo]||x.tipo)}</span>${pr&&pr.prio?`<span class="pill prio">Prioritario</span>`:""}
+ <div>${esc(x.cargos||"")}</div>${fuerzasHTML(x)}${x.fuente?`<div class="src">Fecha: ${esc(x.fuente)}</div>`:""}${x.res?`<div class="res">Dato con reservas: ${esc(x.res)}</div>`:""}</div></div>`;}
+function impactoHTML(c){const im=c.impacto;
+ if(!im)return c.prio?`<h3>Impacto en Argentina</h3><p class="empty">Pendiente de carga.</p>`:"";
+ return `<h3>Impacto en Argentina</h3><div class="analisis"><span class="tag">Análisis, no dato oficial</span><div><b>${esc(im.eleccion)}</b></div>`+
+ (im.escenarios||[]).map(e=>`<div class="esc"><h4>${esc(e.si)}${e.c?` <span class="chip"><i class="sw" style="background:${COL[e.c]};margin:0"></i>${NOM[e.c]}</span>`:""}</h4>
+ <div class="ejes"><div><b>Comercio</b>${esc(e.comercio)}</div><div><b>Aranceles</b>${esc(e.aranceles)}</div><div><b>Inversiones</b>${esc(e.inversiones)}</div><div><b>Relación política</b>${esc(e.politica)}</div></div>
+ <div class="rub">${Object.keys(RUB).map(k=>{const r=(e.rubros||{})[k];if(!r)return "";const ef=EFN[r[0]]?r[0]:"incierto";return `<div><b>${RUB[k]}</b><span class="ef ${ef}">${EFN[ef]}</span><div>${esc(r[1])}</div></div>`}).join("")}</div></div>`).join("")+
+ `${im.fuentes&&im.fuentes.length?`<div class="src">Fuentes: ${im.fuentes.map(esc).join(" · ")}</div>`:""}${im.revisado?`<div class="src">Revisado el ${esc(im.revisado)}</div>`:""}</div>`;}
+function calPais(id){const xs=cal().filter(x=>x.id===id).sort((a,b)=>(a.f||"9").localeCompare(b.f||"9"));
+ return xs.length?`<h3>En el calendario</h3>${xs.map(x=>evHTML(x,false)).join("")}`:"";}
+function recPais(id){const xs=rec().filter(x=>x.id===id);
+ return xs.length?`<h3>Resultados recientes</h3>${xs.map(x=>`<div class="ev"><div class="fd">${esc(x.f?x.f.slice(8,10)+"/"+x.f.slice(5,7):"")}<small>${esc(x.f?x.f.slice(0,4):"")}</small></div><div><b>${esc(TIPO[x.tipo]||x.tipo)}:</b> ganó ${esc(x.ganador)}${x.partido?` (${esc(x.partido)})`:""}${x.pct!=null?` con ${esc(String(x.pct).replace(".",","))}%`:""}${x.parlamento?`<div>${esc(x.parlamento)}</div>`:""}<div class="src">Fuente: ${esc(x.fuente)}</div>${x.res?`<div class="res">Dato con reservas: ${esc(x.res)}</div>`:""}</div></div>`).join("")}`:"";}
+function fichaBasica(id){$("fichaIn").innerHTML=`<div class="fhead"><h2>${esc(nombre(id))}</h2><span class="chip">Sin ficha completa</span></div><p class="note">Este país lleva solo calendario y último resultado.</p>${calPais(id)}${recPais(id)}`;}
+function zoomA(id){const f=feats.find(f=>f.id===id);if(!f)return;const box=$("mapbox"),W=box.clientWidth,H=box.clientHeight;
+ let [[x0,y0],[x1,y1]]=path.bounds(f);if(ISLAS.includes(id)){const [cx,cy]=proj(d3.geoCentroid(f));x0=cx-20;x1=cx+20;y0=cy-20;y1=cy+20;}
+ const k=Math.max(1,Math.min(6,0.8/Math.max((x1-x0)/W,(y1-y0)/H)));
+ const t=d3.zoomIdentity.translate(W/2,H/2).scale(k).translate(-(x0+x1)/2,-(y0+y1)/2);
+ svg.transition().duration(matchMedia("(prefers-reduced-motion: reduce)").matches?0:600).call(zoom.transform,t);}
+function elegir(id,scroll){sel=id;const c=D.paises[id];if(scroll)zoomA(id);
+ root.selectAll("path.country").classed("sel",d=>d.id===id);root.selectAll("circle.isle").classed("sel",d=>d.id===id);
+ if(!c){fichaBasica(id);if(scroll)$("ficha").scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});return;}
+ const pr=c.prox||{};
+ $("fichaIn").innerHTML=`<div class="fhead"><h2>${esc(c.n)}</h2><span class="chip"><i class="sw" style="background:${COL[c.c]};margin:0"></i>${NOM[c.c]}</span>${c.prio?`<span class="pill prio" style="margin:0">Prioritario</span>`:""}${c.marca?`<span class="flag">${MARCA[c.marca]}</span>`:""}</div>
+ <p style="max-width:70ch;margin:10px 0 0">${esc(c.motivo)}</p>
+ <div class="facts"><div><b>Gobierna</b>${esc(c.gob)}</div><div><b>Sistema</b>${esc(c.sis)}</div></div>
+ <h3>Próxima elección</h3>
+ <div class="prox"><div class="big">${esc(pr.fecha)}</div><div>${esc(pr.que)}</div><p style="margin:8px 0 0"><b>Pronóstico:</b> ${esc(pr.pron)}${pr.pc?` <span class="chip" style="margin-left:6px"><i class="sw" style="background:${COL[pr.pc]};margin:0"></i>${NOM[pr.pc]}</span>`:""}</p>${pr.fuente?`<div class="src">Fuente: ${esc(pr.fuente)}</div>`:""}</div>
+ <h3>Ejecutivo: últimas elecciones</h3>${c.ej.length?`<div class="grid2">${c.ej.map(elecHTML).join("")}</div>`:`<p class="empty">Sistema parlamentario: el jefe de gobierno surge de la mayoría en la cámara (ver abajo).</p>`}
+ <h3>Legislativo</h3>${c.leg.length?`<div class="grid2">${c.leg.map(l=>legHTML(l,c.c)).join("")}</div>`:`<p class="empty">${c.marca?"Sin composición competitiva que medir.":"Pendiente de carga."}</p>`}
+ ${impactoHTML(c)}${calPais(id)}${recPais(id)}`;
+ if(scroll)$("ficha").scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});}
+
+function lista(){const ord=["a","m","e","g"];
+ $("lista").innerHTML=ord.map(k=>{const xs=Object.entries(D.paises).filter(([,c])=>c.c===k).sort((x,y)=>x[1].n.localeCompare(y[1].n,"es"));
+ return `<div><h4><i class="sw" style="background:${COL[k]}"></i>${NOM[k]} · ${xs.length}</h4>${xs.map(([id,c])=>`<button data-id="${esc(id)}">${esc(c.n)}${c.prio?" ★":""}<span>${esc(c.prox.fecha)}</span></button>`).join("")}</div>`}).join("");
+ $("lista").addEventListener("click",e=>{const b=e.target.closest("button");if(b)elegir(b.dataset.id,true);});}
+
+function calendario(){const hoy=new Date().toISOString().slice(0,10);const lim=new Date();lim.setMonth(lim.getMonth()+cPlazo);const limS=lim.toISOString().slice(0,10);
+ const xs=cal().filter(x=>(x.f?(x.f>=hoy&&x.f<=limS):cPlazo===12)&&(!cPrio||(D.paises[x.id]&&D.paises[x.id].prio))&&(!cTipo||x.tipo===cTipo))
+  .sort((a,b)=>(a.f||"9999").localeCompare(b.f||"9999"));
+ if(!xs.length){$("calLista").innerHTML=`<p class="empty">${cal().length?"No hay elecciones con estos filtros.":"Todavía no hay elecciones cargadas en el calendario."}</p>`;return;}
+ let mes="",h="";for(const x of xs){const m=x.f?`${MESES[Number(x.f.slice(5,7))-1]} ${x.f.slice(0,4)}`:"Sin fecha exacta";if(m!==mes){h+=`<div class="mes">${m[0].toUpperCase()+m.slice(1)}</div>`;mes=m;}h+=evHTML(x,true);}
+ $("calLista").innerHTML=h;}
+function recientes(){const xs=rec().slice().sort((a,b)=>(b.f||"").localeCompare(a.f||""));
+ if(!xs.length){$("recLista").innerHTML='<p class="empty">Todavía no hay resultados cargados.</p>';return;}
+ $("recLista").innerHTML=`<table class="stack"><thead><tr><th>Fecha</th><th>País</th><th>Elección</th><th>Ganador</th><th>%</th><th>Parlamento</th><th>Fuente</th></tr></thead><tbody>${xs.map(x=>`<tr><td style="white-space:nowrap">${esc(x.f?x.f.split("-").reverse().join("/"):"")}</td><td><button class="pais" data-id="${esc(x.id)}" style="font:600 15px 'Libre Franklin',sans-serif;background:none;border:0;padding:0;color:var(--ink);cursor:pointer;text-decoration:underline">${esc(x.pais)}</button></td><td>${esc(TIPO[x.tipo]||x.tipo)}</td><td>${esc(x.ganador)}${x.partido?` <small>(${esc(x.partido)})</small>`:""}</td><td class="n">${x.pct!=null?esc(String(x.pct).replace(".",",")):"—"}</td><td>${esc(x.parlamento||"—")}</td><td>${esc(x.fuente)}${x.res?` <small>(con reservas: ${esc(x.res)})</small>`:""}</td></tr>`).join("")}</tbody></table>`;}
+function setV(v){vista=v;$("vHoy").setAttribute("aria-pressed",v==="hoy");$("vProx").setAttribute("aria-pressed",v==="prox");
+ root.selectAll("path.country").style("fill",d=>colorDe(d.id)).style("fill-opacity",d=>opac(d.id));root.selectAll("circle.isle").style("fill",d=>colorDe(d.id)).style("fill-opacity",d=>opac(d.id));
+ $("nota").textContent=v==="hoy"?"Tocá un país para ver su ficha. Los puntos marcan islas chicas del Caribe. Rayado: elecciones cuestionadas o sin competencia. Gris oscuro: países con elección en el calendario o resultado reciente, sin ficha completa (se pueden tocar). Gris claro: sin datos.":"Color según quién lidera las encuestas de la próxima elección. Color tenue: todavía no hay encuestas o no hay fecha; se ve quién gobierna hoy.";}
+function setR(r){region=r;$("rLat").setAttribute("aria-pressed",r==="lat");$("rMun").setAttribute("aria-pressed",r==="mun");draw();}
+const pr2=(a,b,v)=>{$(a).setAttribute("aria-pressed",v);$(b).setAttribute("aria-pressed",!v);};
+$("c6").onclick=()=>{cPlazo=6;pr2("c6","c12",true);calendario();};$("c12").onclick=()=>{cPlazo=12;pr2("c6","c12",false);calendario();};
+$("cTodos").onclick=()=>{cPrio=false;pr2("cTodos","cPrio",true);calendario();};$("cPrio").onclick=()=>{cPrio=true;pr2("cTodos","cPrio",false);calendario();};
+$("cTipo").onchange=e=>{cTipo=e.target.value;calendario();};
+document.addEventListener("click",e=>{const b=e.target.closest("button.pais");if(b&&conDatos(b.dataset.id))elegir(b.dataset.id,true);});
+$("vHoy").onclick=()=>setV("hoy");$("vProx").onclick=()=>setV("prox");
+$("rLat").onclick=()=>setR("lat");$("rMun").onclick=()=>setR("mun");
+$("zin").onclick=()=>svg.transition().call(zoom.scaleBy,1.6);$("zout").onclick=()=>svg.transition().call(zoom.scaleBy,1/1.6);
+
+Promise.all([fetch("data.json").then(r=>r.json()),fetch("world.json").then(r=>r.json())]).then(([d,w])=>{
+ D=d;feats=topojson.feature(w,w.objects.countries).features.filter(f=>f.id!=="010");
+ $("act").textContent="Datos actualizados al "+d.actualizado+".";
+ draw();lista();calendario();recientes();elegir("076",false);
+ let t;new ResizeObserver(()=>{clearTimeout(t);t=setTimeout(draw,120)}).observe($("mapbox"));
+}).catch(()=>{$("fichaIn").innerHTML='<p class="empty">No se pudieron cargar los datos del mapa. Recargá la página.</p>';});
+}
+</script>
+</body>
+</html>
