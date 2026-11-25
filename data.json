@@ -8315,6 +8315,839 @@
 "pron": "—",
 "pc": null
 }
+},
+"566": {
+"n": "Nigeria",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional bicameral.",
+"gob": "Bola Tinubu (APC), presidente desde 2023",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "Enero–febrero de 2027",
+"que": "Presidencial y legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"710": {
+"n": "Sudáfrica",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Parlamentario: la Asamblea Nacional (400) elige al presidente.",
+"gob": "Cyril Ramaphosa (ANC), presidente desde 2018, al frente de un gobierno de unidad nacional desde 2024",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Generales",
+"pron": "—",
+"pc": null
+}
+},
+"404": {
+"n": "Kenia",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional y Senado.",
+"gob": "William Ruto, presidente desde 2022",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "Agosto de 2027",
+"que": "Generales",
+"pron": "—",
+"pc": null
+}
+},
+"231": {
+"n": "Etiopía",
+"c": "m",
+"marca": "cuestionada",
+"motivo": "El partido de Abiy ganó 438 bancas en junio de 2026, sin votación en Tigray y con opositores presos o en el exilio. Sin vínculo político con Milei.",
+"sis": "Parlamentario federal. Cámara de Representantes (547).",
+"gob": "Abiy Ahmed (Partido de la Prosperidad), primer ministro desde 2018",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2031",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"288": {
+"n": "Ghana",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Parlamento (276).",
+"gob": "John Mahama (NDC), presidente desde enero de 2025",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "Diciembre de 2028",
+"que": "Generales",
+"pron": "—",
+"pc": null
+}
+},
+"686": {
+"n": "Senegal",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional (165).",
+"gob": "Bassirou Diomaye Faye, presidente desde 2024; primer ministro Ousmane Sonko",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"384": {
+"n": "Costa de Marfil",
+"c": "m",
+"marca": "cuestionada",
+"motivo": "Los principales rivales quedaron excluidos de la presidencial de 2025. Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional y Senado.",
+"gob": "Alassane Ouattara, presidente desde 2010; cuarto mandato desde 2025",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2030",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"120": {
+"n": "Camerún",
+"c": "m",
+"marca": "cuestionada",
+"motivo": "Reelección de 2025 impugnada por la oposición. Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional y Senado.",
+"gob": "Paul Biya, presidente desde 1982; reelecto en octubre de 2025",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "Febrero de 2027",
+"que": "Elecciones previstas (tipo a confirmar)",
+"pron": "—",
+"pc": null
+}
+},
+"180": {
+"n": "República Democrática del Congo",
+"c": "m",
+"marca": null,
+"motivo": "Conflicto armado en el este con el M23. Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional y Senado.",
+"gob": "Félix Tshisekedi, presidente desde 2019",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2028",
+"que": "Generales",
+"pron": "—",
+"pc": null
+}
+},
+"178": {
+"n": "República del Congo",
+"c": "m",
+"marca": "cuestionada",
+"motivo": "Elección con oposición dividida o ausente y corte de internet. Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional y Senado.",
+"gob": "Denis Sassou Nguesso, presidente; reelecto en marzo de 2026 con 94,8%",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2031",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"024": {
+"n": "Angola",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial: el cabeza de lista del partido más votado es presidente. Asamblea Nacional (220).",
+"gob": "João Lourenço (MPLA), presidente desde 2017",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "Agosto de 2027",
+"que": "Generales",
+"pron": "—",
+"pc": null
+}
+},
+"508": {
+"n": "Mozambique",
+"c": "m",
+"marca": "cuestionada",
+"motivo": "La elección de 2024 fue denunciada como fraudulenta y siguió una ola de protestas. Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea de la República (250).",
+"gob": "Daniel Chapo (Frelimo), presidente desde enero de 2025",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Generales",
+"pron": "—",
+"pc": null
+}
+},
+"834": {
+"n": "Tanzania",
+"c": "m",
+"marca": "cuestionada",
+"motivo": "Principal opositor excluido de la elección de 2025 y protestas reprimidas. Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional.",
+"gob": "Samia Suluhu Hassan (CCM), presidenta desde 2021; reelecta en octubre de 2025",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2030",
+"que": "Generales",
+"pron": "—",
+"pc": null
+}
+},
+"800": {
+"n": "Uganda",
+"c": "m",
+"marca": "cuestionada",
+"motivo": "Reelecto con 71,65% en una elección con corte de internet y denuncias de fraude. Sin vínculo político con Milei.",
+"sis": "Presidencial. Parlamento.",
+"gob": "Yoweri Museveni (NRM), presidente desde 1986; séptimo mandato desde enero de 2026",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2031",
+"que": "Generales",
+"pron": "—",
+"pc": null
+}
+},
+"646": {
+"n": "Ruanda",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "Kagame ganó en 2024 con más del 99%. Sin vínculo político con Milei.",
+"sis": "Presidencial. Cámara de Diputados y Senado.",
+"gob": "Paul Kagame (FPR), presidente desde 2000",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Presidencial y legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"108": {
+"n": "Burundi",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "El partido oficial ganó todas las bancas en 2025. Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional y Senado.",
+"gob": "Évariste Ndayishimiye (CNDD-FDD), presidente desde 2020",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2027",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"894": {
+"n": "Zambia",
+"c": "m",
+"marca": null,
+"motivo": "Elección de 2026 con denuncias de irregularidades, pero con alternancia histórica en el país. Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional.",
+"gob": "Hakainde Hichilema (UPND), presidente desde 2021; reelecto el 13/8/2026 con cerca del 61%",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2031",
+"que": "Generales",
+"pron": "—",
+"pc": null
+}
+},
+"716": {
+"n": "Zimbabue",
+"c": "m",
+"marca": "cuestionada",
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional y Senado.",
+"gob": "Emmerson Mnangagwa (ZANU-PF), presidente desde 2017",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2028",
+"que": "Generales",
+"pron": "—",
+"pc": null
+}
+},
+"454": {
+"n": "Malaui",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional.",
+"gob": "Peter Mutharika (DPP), presidente desde 2025",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2030",
+"que": "Generales",
+"pron": "—",
+"pc": null
+}
+},
+"072": {
+"n": "Botsuana",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Parlamentario: la Asamblea Nacional elige al presidente.",
+"gob": "Duma Boko (UDC), presidente desde 2024",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Generales",
+"pron": "—",
+"pc": null
+}
+},
+"516": {
+"n": "Namibia",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional y Consejo Nacional.",
+"gob": "Netumbo Nandi-Ndaitwah (SWAPO), presidenta desde 2025",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Generales",
+"pron": "—",
+"pc": null
+}
+},
+"426": {
+"n": "Lesoto",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Monarquía parlamentaria. Asamblea Nacional (120).",
+"gob": "Sam Matekane (RFP), primer ministro desde 2022; rey Letsie III",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2027",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"748": {
+"n": "Esuatini",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "Monarquía absoluta. Sin vínculo político con Milei.",
+"sis": "Monarquía absoluta. Los partidos no pueden presentarse a elecciones.",
+"gob": "Rey Mswati III",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones con partidos",
+"pron": "—",
+"pc": null
+}
+},
+"450": {
+"n": "Madagascar",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "Golpe militar en 2025; la Unión Africana suspendió al país. Sin vínculo político con Milei.",
+"sis": "Transición militar.",
+"gob": "Coronel Michael Randrianirina, presidente de la transición desde el golpe de octubre de 2025",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2027",
+"que": "Presidencial (hoja de ruta de 24 meses)",
+"pron": "—",
+"pc": null
+}
+},
+"480": {
+"n": "Mauricio",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Parlamentario. Asamblea Nacional.",
+"gob": "Navin Ramgoolam, primer ministro desde 2024",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"690": {
+"n": "Seychelles",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional.",
+"gob": "Patrick Herminie, presidente desde 2025",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2030",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"174": {
+"n": "Comoras",
+"c": "m",
+"marca": "cuestionada",
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea de la Unión.",
+"gob": "Azali Assoumani, presidente",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"132": {
+"n": "Cabo Verde",
+"c": "m",
+"marca": null,
+"motivo": "Democracia estable con alternancia: el PAICV ganó las legislativas de mayo de 2026. Sin vínculo político con Milei.",
+"sis": "Semipresidencial. Asamblea Nacional (72).",
+"gob": "Francisco Carvalho (PAICV), primer ministro desde 2026; presidente José Maria Neves, reelecto el 15/11/2026 con 63,8%",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2031",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"678": {
+"n": "Santo Tomé y Príncipe",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Semipresidencial. Asamblea Nacional (55).",
+"gob": "Carlos Vila Nova, presidente, reelecto el 19/7/2026 con 55,9%; el gobierno surge de las legislativas del 27/9/2026",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2030",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"226": {
+"n": "Guinea Ecuatorial",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Cámara de Diputados y Senado.",
+"gob": "Teodoro Obiang Nguema, presidente desde 1979",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"266": {
+"n": "Gabón",
+"c": "m",
+"marca": "cuestionada",
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional y Senado.",
+"gob": "Brice Oligui Nguema, presidente; llegó con el golpe de 2023 y fue electo en 2025",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2032",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"148": {
+"n": "Chad",
+"c": "m",
+"marca": "cuestionada",
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional y Senado.",
+"gob": "Mahamat Idriss Déby, presidente; tomó el poder en 2021 y fue electo en 2024",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "—",
+"que": "—",
+"pron": "—",
+"pc": null
+}
+},
+"140": {
+"n": "República Centroafricana",
+"c": "m",
+"marca": "cuestionada",
+"motivo": "Buena parte del territorio sigue en manos de grupos armados. Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional.",
+"gob": "Faustin-Archange Touadéra, presidente desde 2016",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "—",
+"que": "—",
+"pron": "—",
+"pc": null
+}
+},
+"729": {
+"n": "Sudán",
+"c": "g",
+"marca": "sin-control",
+"motivo": "Guerra civil entre el ejército y las Fuerzas de Apoyo Rápido.",
+"sis": "Guerra civil desde 2023; sin instituciones electas.",
+"gob": "General Abdel Fattah al-Burhan (ejército) frente a las Fuerzas de Apoyo Rápido",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones previstas",
+"pron": "—",
+"pc": null
+}
+},
+"728": {
+"n": "Sudán del Sur",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Gobierno de transición; nunca hubo elecciones nacionales.",
+"gob": "Salva Kiir, presidente desde 2011",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "Diciembre de 2026",
+"que": "Primeras elecciones generales (en duda)",
+"pron": "—",
+"pc": null
+}
+},
+"232": {
+"n": "Eritrea",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Partido único; nunca hubo elecciones nacionales.",
+"gob": "Isaías Afewerki, presidente desde 1993",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones",
+"pron": "—",
+"pc": null
+}
+},
+"262": {
+"n": "Yibuti",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "La oposición principal boicotea las elecciones desde 2016. Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional.",
+"gob": "Ismaïl Omar Guelleh, presidente desde 1999; sexto mandato desde abril de 2026 con 97%",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2031",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"706": {
+"n": "Somalia",
+"c": "g",
+"marca": "sin-control",
+"motivo": "Al Shabaab controla parte del territorio y Somalilandia funciona como Estado aparte.",
+"sis": "Federal; el presidente lo elige el Parlamento.",
+"gob": "Hassan Sheikh Mohamud, presidente; su mandato se extendió un año en 2026 y la Corte Suprema lo declaró ilegal",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "15/5/2027",
+"que": "Presidencial (legislativas el 15/4/2027)",
+"pron": "—",
+"pc": null
+}
+},
+"466": {
+"n": "Malí",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "Junta militar desde 2020–2021. Sin vínculo político con Milei.",
+"sis": "Junta militar; partidos disueltos.",
+"gob": "General Assimi Goïta, presidente de la transición",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones previstas",
+"pron": "—",
+"pc": null
+}
+},
+"854": {
+"n": "Burkina Faso",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "Junta militar desde 2022. Sin vínculo político con Milei.",
+"sis": "Junta militar.",
+"gob": "Capitán Ibrahim Traoré, presidente de la transición",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones previstas",
+"pron": "—",
+"pc": null
+}
+},
+"562": {
+"n": "Níger",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "Junta militar desde 2023. Sin vínculo político con Milei.",
+"sis": "Junta militar.",
+"gob": "General Abdourahamane Tiani, presidente de la transición",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones previstas",
+"pron": "—",
+"pc": null
+}
+},
+"478": {
+"n": "Mauritania",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional.",
+"gob": "Mohamed Ould Ghazouani, presidente desde 2019",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"324": {
+"n": "Guinea",
+"c": "m",
+"marca": "cuestionada",
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional.",
+"gob": "Mamady Doumbouya, presidente; llegó con el golpe de 2021 y fue electo en diciembre de 2025",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "—",
+"que": "—",
+"pron": "—",
+"pc": null
+}
+},
+"624": {
+"n": "Guinea-Bisáu",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "Golpe en 2025; la CEDEAO y la Unión Africana suspendieron al país. Sin vínculo político con Milei.",
+"sis": "Transición militar.",
+"gob": "General Horta Inta-A, presidente de la transición desde el golpe de noviembre de 2025",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "6/12/2026",
+"que": "Presidencial y legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"694": {
+"n": "Sierra Leona",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Parlamento.",
+"gob": "Julius Maada Bio, presidente desde 2018",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2028",
+"que": "Generales",
+"pron": "—",
+"pc": null
+}
+},
+"430": {
+"n": "Liberia",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Cámara de Representantes y Senado.",
+"gob": "Joseph Boakai, presidente desde 2024",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Generales",
+"pron": "—",
+"pc": null
+}
+},
+"768": {
+"n": "Togo",
+"c": "m",
+"marca": "cuestionada",
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Parlamentario desde la reforma de 2024.",
+"gob": "Faure Gnassingbé, presidente del Consejo de Ministros desde 2025 (la familia gobierna desde 1967)",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "—",
+"que": "—",
+"pron": "—",
+"pc": null
+}
+},
+"204": {
+"n": "Benín",
+"c": "m",
+"marca": "cuestionada",
+"motivo": "El principal partido opositor no pudo presentar candidato. Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional.",
+"gob": "Romuald Wadagni, presidente desde 2026; ganó con 94% en abril",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2033",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"270": {
+"n": "Gambia",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Asamblea Nacional.",
+"gob": "Adama Barrow, presidente desde 2017",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "5/12/2026",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
 }
 },
 "calendario": [
@@ -8990,6 +9823,18 @@
 "res": "Porcentaje cargado de referencia"
 },
 {
+"f": "2026-01-15",
+"id": "800",
+"pais": "Uganda",
+"tipo": "presidencial",
+"ganador": "Yoweri Museveni",
+"partido": "NRM",
+"pct": 71.65,
+"parlamento": "",
+"fuente": "Comisión Electoral, vía AP y NPR",
+"res": "Bobi Wine (24,7%) rechazó los resultados"
+},
+{
 "f": "2026-02-01",
 "id": "188",
 "pais": "Costa Rica",
@@ -9069,6 +9914,17 @@
 "fuente": "Noticias RCN, Colombia.com"
 },
 {
+"f": "2026-03-15",
+"id": "178",
+"pais": "República del Congo",
+"tipo": "presidencial",
+"ganador": "Denis Sassou Nguesso",
+"partido": "PCT",
+"pct": 94.8,
+"parlamento": "",
+"fuente": "Ministerio del Interior y Corte Constitucional, vía AP y Africanews"
+},
+{
 "f": "2026-03-22",
 "id": "705",
 "pais": "Eslovenia",
@@ -9091,6 +9947,17 @@
 "fuente": "Fundación Robert Schuman, Euronews"
 },
 {
+"f": "2026-04-10",
+"id": "262",
+"pais": "Yibuti",
+"tipo": "presidencial",
+"ganador": "Ismaïl Omar Guelleh",
+"partido": "",
+"pct": 97.01,
+"parlamento": "",
+"fuente": "Consejo Constitucional, vía AFP"
+},
+{
 "f": "2026-04-12",
 "id": "348",
 "pais": "Hungría",
@@ -9100,6 +9967,17 @@
 "pct": 53.6,
 "parlamento": "Asamblea (199): Tisza 141, Fidesz-KDNP 52, Mi Hazánk 6",
 "fuente": "Oficina Electoral Nacional, vía Daily News Hungary y Al Jazeera"
+},
+{
+"f": "2026-04-12",
+"id": "204",
+"pais": "Benín",
+"tipo": "presidencial",
+"ganador": "Romuald Wadagni",
+"partido": "",
+"pct": 94.27,
+"parlamento": "",
+"fuente": "Corte Constitucional, vía AP e ISS"
 },
 {
 "f": "2026-04-19",
@@ -9135,6 +10013,17 @@
 "fuente": "CARICOM, Caribbean360 (no oficial)"
 },
 {
+"f": "2026-05-17",
+"id": "132",
+"pais": "Cabo Verde",
+"tipo": "legislativa",
+"ganador": "Francisco Carvalho",
+"partido": "PAICV",
+"pct": 48.0,
+"parlamento": "Asamblea Nacional (72): PAICV 37, MpD 33, UCID 2",
+"fuente": "Comisión Nacional de Elecciones, vía Inforpress y Africanews"
+},
+{
 "f": "2026-05-24",
 "id": "196",
 "pais": "Chipre",
@@ -9155,6 +10044,18 @@
 "pct": 51.8,
 "parlamento": "",
 "fuente": "MaltaToday, Reuters"
+},
+{
+"f": "2026-06-01",
+"id": "231",
+"pais": "Etiopía",
+"tipo": "legislativa",
+"ganador": "Partido de la Prosperidad (Abiy Ahmed)",
+"partido": "",
+"pct": null,
+"parlamento": "Cámara de Representantes: PP 438 bancas",
+"fuente": "Junta Electoral Nacional, vía AP y AFP",
+"res": "Sin votación en Tigray y partes de Amhara"
 },
 {
 "f": "2026-06-07",
@@ -9199,6 +10100,29 @@
 "pct": null,
 "parlamento": "Asamblea Popular Nacional (407): FLN 91; participación 21,2%",
 "fuente": "Tribunal Constitucional, vía APS y AP"
+},
+{
+"f": "2026-07-19",
+"id": "678",
+"pais": "Santo Tomé y Príncipe",
+"tipo": "presidencial",
+"ganador": "Carlos Vila Nova",
+"partido": "Independiente",
+"pct": 55.94,
+"parlamento": "",
+"fuente": "Comisión Electoral Nacional, vía misión de la UE y Lusa"
+},
+{
+"f": "2026-08-13",
+"id": "894",
+"pais": "Zambia",
+"tipo": "general",
+"ganador": "Hakainde Hichilema",
+"partido": "UPND",
+"pct": 61.4,
+"parlamento": "",
+"fuente": "Comisión Electoral de Zambia, vía NewsDay y Al Jazeera",
+"res": "Otras fuentes redondean en 60%"
 },
 {
 "f": "2026-09-13",
@@ -9323,6 +10247,18 @@
 "parlamento": "Cámara (131): coalición National-ACT-NZ First 67 en el recuento preliminar; National 42",
 "fuente": "Comisión Electoral, vía Al Jazeera",
 "res": "Preliminar; el resultado oficial sale el 27/11"
+},
+{
+"f": "2026-11-15",
+"id": "132",
+"pais": "Cabo Verde",
+"tipo": "presidencial",
+"ganador": "José Maria Neves",
+"partido": "PAICV (apoyo)",
+"pct": 63.8,
+"parlamento": "",
+"fuente": "Resultados provisorios, vía Reuters",
+"res": "Resultado provisorio"
 }
 ]
 }
