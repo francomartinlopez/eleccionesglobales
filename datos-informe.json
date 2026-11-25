@@ -1,0 +1,307 @@
+{
+ "web": "Elecciones del Mundo",
+ "version": "1.0",
+ "generado": "2026-11-25T11:26:18-03:00",
+ "indicadores": [],
+ "novedades": [
+  {
+   "id": "2026-11-15-eleccion-cabo-verde-presidencial",
+   "fecha_dato": "2026-11-15",
+   "titulo": "Cabo Verde: elección presidencial, ganó José Maria Neves",
+   "resumen": "Elección presidencial en Cabo Verde. Ganó José Maria Neves (PAICV (apoyo)) con 63,8 %. Relación del gobierno actual con la Argentina: ambigua. Dato con reservas.",
+   "tipo": "elección",
+   "eje": "Política internacional",
+   "alcance": {
+    "nivel": "país",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Cabo Verde"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/eleccionesglobales/",
+   "fuente_original": "Resultados provisorios, vía Reuters"
+  },
+  {
+   "id": "2026-11-07-eleccion-nueva-zelanda-legislativa",
+   "fecha_dato": "2026-11-07",
+   "titulo": "Nueva Zelanda: elección legislativa, ganó Christopher Luxon (coalición)",
+   "resumen": "Elección legislativa en Nueva Zelanda. Ganó Christopher Luxon (coalición) (National). Cámara (131): coalición National-ACT-NZ First 67 en el recuento preliminar; National 42. Relación del gobierno actual con la Argentina: ambigua. Dato con reservas.",
+   "tipo": "elección",
+   "eje": "Política internacional",
+   "alcance": {
+    "nivel": "país",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Nueva Zelanda"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/eleccionesglobales/",
+   "fuente_original": "Comisión Electoral, vía Al Jazeera"
+  },
+  {
+   "id": "2026-11-01-eleccion-bulgaria-presidencial",
+   "fecha_dato": "2026-11-01",
+   "titulo": "Bulgaria: elección presidencial, ganó Iliana Iotova",
+   "resumen": "Elección presidencial en Bulgaria. Ganó Iliana Iotova. Relación del gobierno actual con la Argentina: ambigua.",
+   "tipo": "elección",
+   "eje": "Política internacional",
+   "alcance": {
+    "nivel": "país",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Bulgaria"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/eleccionesglobales/",
+   "fuente_original": "CEC, vía The Star y Hungarian Conservative (ganó por 18 puntos)"
+  },
+  {
+   "id": "2026-10-27-eleccion-israel-legislativa",
+   "fecha_dato": "2026-10-27",
+   "titulo": "Israel: elección legislativa, ganó Likud (primera fuerza, sin mayoría)",
+   "resumen": "Elección legislativa en Israel. Ganó Likud (primera fuerza, sin mayoría). Knéset (120): bloque de Netanyahu 53, bloque de Eisenkot 48, partidos árabes 19; Likud 27, Yashar 21. Relación del gobierno actual con la Argentina: aliada.",
+   "tipo": "elección",
+   "eje": "Política internacional",
+   "alcance": {
+    "nivel": "país",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Israel"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/eleccionesglobales/",
+   "fuente_original": "Comité Central de Elecciones, vía JNS"
+  },
+  {
+   "id": "2026-10-25-eleccion-brasil-presidencial",
+   "fecha_dato": "2026-10-25",
+   "titulo": "Brasil: elección presidencial, ganó Lula",
+   "resumen": "Elección presidencial en Brasil. Ganó Lula (PT) con 51,77 %. Diputados (513): PL 121, Fed. PT 88, União-PP 87. Relación del gobierno actual con la Argentina: confrontada.",
+   "tipo": "elección",
+   "eje": "Política internacional",
+   "alcance": {
+    "nivel": "país",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Brasil"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/eleccionesglobales/",
+   "fuente_original": "TSE, vía Bloomberg Línea; Congresso em Foco"
+  },
+  {
+   "id": "2026-10-25-eleccion-serbia-legislativa",
+   "fecha_dato": "2026-10-25",
+   "titulo": "Serbia: elección legislativa, ganó Lista Estudiantil",
+   "resumen": "Elección legislativa en Serbia. Ganó Lista Estudiantil con 52,54 %. Relación del gobierno actual con la Argentina: ambigua. Dato con reservas.",
+   "tipo": "elección",
+   "eje": "Política internacional",
+   "alcance": {
+    "nivel": "país",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Serbia"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/eleccionesglobales/",
+   "fuente_original": "RIK (recuento preliminar), vía N1"
+  },
+  {
+   "id": "2026-10-04-eleccion-bosnia-y-herzegovina-general",
+   "fecha_dato": "2026-10-04",
+   "titulo": "Bosnia y Herzegovina: elecciones generales, ganó Bećirović, Filipović y Cvijanović (presidencia tripartita)",
+   "resumen": "Elecciones generales en Bosnia y Herzegovina. Ganó Bećirović, Filipović y Cvijanović (presidencia tripartita). SDA primera en el voto parlamentario; SNSD retiene la República Srpska. Relación del gobierno actual con la Argentina: ambigua.",
+   "tipo": "elección",
+   "eje": "Política internacional",
+   "alcance": {
+    "nivel": "país",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Bosnia y Herzegovina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/eleccionesglobales/",
+   "fuente_original": "Comisión Electoral Central, vía AP, Reuters y Daily Sabah"
+  },
+  {
+   "id": "2026-10-03-eleccion-letonia-legislativa",
+   "fecha_dato": "2026-10-03",
+   "titulo": "Letonia: elección legislativa, ganó Andris Kulbergs",
+   "resumen": "Elección legislativa en Letonia. Ganó Andris Kulbergs (Lista Unida) con 35,3 %. Saeima (100): Lista Unida 41, Letonia Primero 17. Relación del gobierno actual con la Argentina: ambigua.",
+   "tipo": "elección",
+   "eje": "Política internacional",
+   "alcance": {
+    "nivel": "país",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Letonia"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/eleccionesglobales/",
+   "fuente_original": "Comisión Electoral Central, vía LSM y OSW"
+  },
+  {
+   "id": "2026-09-23-eleccion-marruecos-legislativa",
+   "fecha_dato": "2026-09-23",
+   "titulo": "Marruecos: elección legislativa, ganó PAM (primera fuerza); jefa de gobierno Fatima Ezzahra El Mansouri",
+   "resumen": "Elección legislativa en Marruecos. Ganó PAM (primera fuerza); jefa de gobierno Fatima Ezzahra El Mansouri. Cámara de Representantes (395): PAM 97, RNI 66. Relación del gobierno actual con la Argentina: ambigua.",
+   "tipo": "elección",
+   "eje": "Política internacional",
+   "alcance": {
+    "nivel": "país",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Marruecos"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/eleccionesglobales/",
+   "fuente_original": "Ministerio del Interior, vía Morocco World News y Reuters"
+  },
+  {
+   "id": "2026-09-20-eleccion-rusia-legislativa",
+   "fecha_dato": "2026-09-20",
+   "titulo": "Rusia: elección legislativa, ganó Rusia Unida",
+   "resumen": "Elección legislativa en Rusia. Ganó Rusia Unida con 58 %. Duma (450): Rusia Unida 349, PCFR 37, LDPR 23, Nueva Gente 19, Rusia Justa 17. Relación del gobierno actual con la Argentina: confrontada. Dato con reservas.",
+   "tipo": "elección",
+   "eje": "Política internacional",
+   "alcance": {
+    "nivel": "país",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Rusia"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/eleccionesglobales/",
+   "fuente_original": "Comisión Electoral Central, vía Meduza y AP"
+  },
+  {
+   "id": "2026-09-13-eleccion-suecia-legislativa",
+   "fecha_dato": "2026-09-13",
+   "titulo": "Suecia: elección legislativa, ganó Magdalena Andersson (bloque opositor)",
+   "resumen": "Elección legislativa en Suecia. Ganó Magdalena Andersson (bloque opositor) (Socialdemócratas). Riksdag (349): oposición 176, bloque de gobierno 173; S 99, M 70, SD 62. Relación del gobierno actual con la Argentina: ambigua.",
+   "tipo": "elección",
+   "eje": "Política internacional",
+   "alcance": {
+    "nivel": "país",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Suecia"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/eleccionesglobales/",
+   "fuente_original": "Riksdag"
+  }
+ ],
+ "agenda": [
+  {
+   "fecha": "2026-11-29",
+   "evento": "España: elecciones generales (Congreso (350) y Senado; el Congreso inviste al presidente del Gobierno)",
+   "eje": "Política internacional",
+   "alcance": {
+    "nivel": "país",
+    "provincia": "",
+    "localidad": "",
+    "pais": "España"
+   },
+   "rubros": [],
+   "url": "https://francomartinlopez.github.io/eleccionesglobales/",
+   "fuente_original": "Demócrata, Vozpópuli"
+  },
+  {
+   "fecha": "2026-11-29",
+   "evento": "Suiza: referendo (Votaciones populares federales)",
+   "eje": "Política internacional",
+   "alcance": {
+    "nivel": "país",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Suiza"
+   },
+   "rubros": [],
+   "url": "https://francomartinlopez.github.io/eleccionesglobales/",
+   "fuente_original": "Parlamento suizo (días de votación federal 2026)"
+  },
+  {
+   "fecha": "2026-12-05",
+   "evento": "Gambia: elección presidencial (Presidente)",
+   "eje": "Política internacional",
+   "alcance": {
+    "nivel": "país",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Gambia"
+   },
+   "rubros": [],
+   "url": "https://francomartinlopez.github.io/eleccionesglobales/",
+   "fuente_original": "Wikipedia",
+   "reservas": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+  },
+  {
+   "fecha": "2026-12-06",
+   "evento": "Guinea-Bisáu: elecciones generales (Presidente y Asamblea Nacional)",
+   "eje": "Política internacional",
+   "alcance": {
+    "nivel": "país",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Guinea-Bisáu"
+   },
+   "rubros": [],
+   "url": "https://francomartinlopez.github.io/eleccionesglobales/",
+   "fuente_original": "Wikipedia",
+   "reservas": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+  },
+  {
+   "fecha": "2026-12-22",
+   "evento": "Sudán del Sur: elecciones generales (Presidente, Asamblea Nacional y Consejo de Estados) — fecha estimada",
+   "eje": "Política internacional",
+   "alcance": {
+    "nivel": "país",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Sudán del Sur"
+   },
+   "rubros": [],
+   "url": "https://francomartinlopez.github.io/eleccionesglobales/",
+   "fuente_original": "Wikipedia",
+   "reservas": "Los calendarios de Wikipedia dan dos fechas distintas (22/12/2026 y 11/2/2027)"
+  },
+  {
+   "fecha": "2027-01-16",
+   "evento": "Nigeria: elecciones generales (Presidente, Senado y Cámara de Representantes)",
+   "eje": "Política internacional",
+   "alcance": {
+    "nivel": "país",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Nigeria"
+   },
+   "rubros": [],
+   "url": "https://francomartinlopez.github.io/eleccionesglobales/",
+   "fuente_original": "INEC, vía Legit.ng y The Nigeria Lawyer (18 candidaturas)"
+  }
+ ],
+ "faltantes": []
+}
