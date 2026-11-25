@@ -782,7 +782,88 @@
 "pron": "Sin encuestas todavía",
 "pc": null
 },
-"prio": true
+"prio": true,
+"impacto": {
+"eleccion": "Abelardo de la Espriella gobierna desde el 7/8/2026 hasta 2030; la próxima elección es entre marzo (Congreso) y mayo de 2030 (Presidente). Colombia es uno de los principales destinos latinoamericanos de los autos argentinos.",
+"escenarios": [
+{
+"si": "Sigue De la Espriella o gana la derecha en 2030",
+"c": "a",
+"comercio": "La Argentina exportó a Colombia US$ 917 millones en 2025 (ONU COMTRADE), con los vehículos como principal rubro (US$ 389 millones), seguidos por aceites y cereales.",
+"aranceles": "Sin cambios previstos en las preferencias del acuerdo Mercosur–Colombia.",
+"inversiones": "Nuevos acuerdos firmados en agosto de 2026: servicios aéreos, ciberdefensa y pesca ilegal.",
+"politica": "Alineamiento pleno: Milei apoyó a De la Espriella en la campaña y fue a su asunción. Bullrich propuso ampliar la cooperación contra el narcotráfico.",
+"rubros": {
+"industria": [
+"favorable",
+"Colombia es mercado clave para las terminales automotrices argentinas."
+],
+"agro": [
+"favorable",
+"Venta de aceites y cereales."
+],
+"mineria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"energia": [
+"neutro",
+"Sin cambios relevantes."
+],
+"construccion": [
+"neutro",
+"Sin obras conjuntas."
+],
+"comercio": [
+"favorable",
+"Acuerdo de servicios aéreos: más rutas y turismo."
+]
+}
+},
+{
+"si": "Vuelve la izquierda (Pacto Histórico) en 2030",
+"c": "r",
+"comercio": "Los flujos de autos y alimentos siguen; dependen del acuerdo comercial vigente.",
+"aranceles": "Sin cambios de fondo.",
+"inversiones": "Los acuerdos de 2026 podrían quedar sin impulso.",
+"politica": "Relación enfrentada, como con Petro: en junio de 2026 la Cancillería colombiana mandó una nota de protesta por el apoyo de Milei a De la Espriella.",
+"rubros": {
+"industria": [
+"favorable",
+"El mercado automotor sigue abierto."
+],
+"agro": [
+"favorable",
+"Igual que con la derecha."
+],
+"mineria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"energia": [
+"neutro",
+"Sin cambios relevantes."
+],
+"construccion": [
+"neutro",
+"Sin obras conjuntas."
+],
+"comercio": [
+"incierto",
+"Menos impulso a la conectividad aérea."
+]
+}
+}
+],
+"fuentes": [
+"ONU COMTRADE vía Trading Economics (exportaciones argentinas a Colombia, 2025)",
+"Perfil y Análisis Digital (acuerdos firmados en Cali, ago 2026)",
+"BAE Negocios (Bullrich y cooperación en seguridad; deterioro durante Petro)",
+"El Tiempo (nota de protesta de la Cancillería colombiana, jun 2026)",
+"Infobae y Ámbito (apoyo de Milei, jun 2026)"
+],
+"revisado": "25/11/2026"
+}
 },
 "604": {
 "n": "Perú",
