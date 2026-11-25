@@ -3809,6 +3809,245 @@
 ],
 "revisado": "25/11/2026"
 }
+},
+"EU": {
+"n": "Unión Europea",
+"c": "m",
+"marca": null,
+"prio": true,
+"motivo": "No es un país ni tiene un solo gobierno: la Comisión de Ursula von der Leyen impulsó el acuerdo con el Mercosur, que se aplica de forma provisional desde el 1/5/2026, y la Argentina fue el primer país en habilitar esa aplicación. Pero el Parlamento Europeo lo mandó al Tribunal de Justicia y los 27 están divididos. En el mapa se resaltan los países miembros. Color propuesto, a validar.",
+"sis": "Unión de 27 Estados. Comisión Europea (poder ejecutivo, propuesta por los gobiernos y confirmada por el Parlamento); Consejo de la UE (ministros de cada país) y Consejo Europeo (jefes de Estado y de Gobierno); Parlamento Europeo de 720 bancas elegido cada cinco años. La política comercial es competencia de la UE, no de cada país.",
+"gob": "Presidenta de la Comisión Ursula von der Leyen (PPE), segundo mandato desde diciembre de 2024; presidente del Consejo Europeo António Costa; presidenta del Parlamento Roberta Metsola (PPE) hasta comienzos de 2027",
+"ej": [],
+"leg": [
+{
+"cam": "Parlamento Europeo",
+"anio": 2024,
+"total": 720,
+"p": [
+[
+"PPE",
+188,
+1
+],
+[
+"S&D",
+136,
+1
+],
+[
+"Patriotas por Europa",
+84,
+0
+],
+[
+"ECR",
+78,
+0
+],
+[
+"Renew",
+77,
+1
+],
+[
+"Verdes/ALE",
+53,
+0
+],
+[
+"La Izquierda",
+46,
+0
+],
+[
+"Europa de las Naciones Soberanas",
+25,
+0
+],
+[
+"No inscritos",
+33,
+0
+]
+],
+"fuente": "Parlamento Europeo (constitución de los grupos, julio de 2024)",
+"res": "Cargado de referencia; falta contrastar con el Parlamento Europeo (resultados oficiales). En color, los grupos que votaron la Comisión von der Leyen II; en algunas votaciones el PPE suma a ECR y a los Patriotas"
+},
+{
+"cam": "Parlamento Europeo",
+"anio": 2019,
+"total": 751,
+"p": [
+[
+"PPE",
+182,
+1
+],
+[
+"S&D",
+154,
+1
+],
+[
+"Renew",
+108,
+1
+],
+[
+"Verdes/ALE",
+74,
+0
+],
+[
+"Identidad y Democracia",
+73,
+0
+],
+[
+"ECR",
+62,
+0
+],
+[
+"Izquierda (GUE/NGL)",
+41,
+0
+],
+[
+"No inscritos",
+57,
+0
+]
+],
+"fuente": "Parlamento Europeo",
+"res": "Cargado de referencia; falta contrastar con el Parlamento Europeo (resultados oficiales). Bancas al constituirse; con el Brexit pasó a 705"
+}
+],
+"prox": {
+"fecha": "Parlamento Europeo: mayo–junio de 2029. Antes, a comienzos de 2027, el Parlamento renueva su presidencia a mitad de mandato",
+"que": "720 bancas del Parlamento Europeo; de la mayoría depende la próxima Comisión",
+"pron": "Sin elección general hasta 2029. Lo que se define antes: el dictamen del Tribunal de Justicia sobre el acuerdo con el Mercosur, que puede demorar la ratificación entre uno y dos años, y la renovación de la presidencia del Parlamento, donde Metsola busca un tercer mandato con el PPE, S&D y Renew",
+"pc": "m",
+"fuente": "Euronews, White & Case y Cancillería (aplicación provisional), Tribunal de Justicia (recurso de Polonia rechazado, 29/9/2026), Politico vía Digi24 y EU Matrix (presidencia del Parlamento)"
+},
+"impacto": {
+"eleccion": "No hay elección europea hasta 2029, pero el acuerdo Mercosur-UE ya se aplica de forma provisional y su futuro depende del Tribunal de Justicia, del Parlamento y de los gobiernos que voten en el Consejo. La UE es el segundo destino de las exportaciones argentinas y el principal inversor extranjero.",
+"escenarios": [
+{
+"si": "Sigue la mayoría proeuropea (PPE, S&D y Renew) y el Tribunal avala el acuerdo",
+"c": "m",
+"comercio": "El acuerdo pasa de provisional a definitivo. En 2025 la Argentina exportó a la UE US$ 8.486 millones e importó US$ 10.478 millones (INDEC, vía BCR); la harina de soja es el principal producto exportado.",
+"aranceles": "El acuerdo elimina aranceles en más del 90% del comercio entre los dos bloques, con cupos para carne, azúcar y etanol y salvaguardias agrícolas.",
+"inversiones": "Más previsibilidad para el principal inversor extranjero en la Argentina, con un stock de inversión directa superior a US$ 76.000 millones.",
+"politica": "Relación institucional y pragmática; la Comisión defendió el acuerdo frente a los agricultores y al Parlamento.",
+"rubros": {
+"industria": [
+"incierto",
+"Bienes de capital e insumos europeos más baratos, pero más competencia para autos, autopartes, químicos y maquinaria hechos en el país."
+],
+"agro": [
+"favorable",
+"Más acceso para carne, harina de soja, biodiésel, vinos y otros productos agroindustriales; Santa Fe genera uno de cada tres dólares exportados a la UE."
+],
+"mineria": [
+"favorable",
+"El acuerdo incluye materias primas críticas y facilita inversiones europeas en litio y cobre."
+],
+"energia": [
+"favorable",
+"Reglas estables para vender energía y combustibles a la UE, con interés europeo en el GNL."
+],
+"construccion": [
+"neutro",
+"Las compras públicas se abren de forma gradual a empresas europeas."
+],
+"comercio": [
+"favorable",
+"Apertura de servicios y compras públicas en ambos sentidos."
+]
+}
+},
+{
+"si": "El Tribunal objeta el acuerdo o la mayoría se inclina contra el Mercosur",
+"c": "e",
+"comercio": "Si el Tribunal de Justicia da un dictamen negativo, el acuerdo no puede entrar en vigor sin cambios; la aplicación provisional quedaría en discusión.",
+"aranceles": "Riesgo de volver a los aranceles anteriores o de más salvaguardias sobre la carne y los productos agrícolas.",
+"inversiones": "Más incertidumbre para las inversiones europeas que contaban con el acuerdo.",
+"politica": "Francia, Polonia y los grupos agrarios ganan peso en el bloque; la relación con la Argentina se enfría.",
+"rubros": {
+"industria": [
+"neutro",
+"Se mantiene la protección arancelaria actual para la industria local."
+],
+"agro": [
+"desfavorable",
+"Se pierden los cupos y rebajas para carne, granos y biodiésel."
+],
+"mineria": [
+"incierto",
+"Las inversiones en minerales críticos dependen menos del acuerdo, pero pierden previsibilidad."
+],
+"energia": [
+"incierto",
+"Menos previsibilidad para el GNL y los combustibles."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"desfavorable",
+"Se pierde la apertura de servicios y compras públicas."
+]
+}
+},
+{
+"si": "En 2029 crece una mayoría de derecha (PPE con ECR y Patriotas)",
+"c": "a",
+"comercio": "Más afinidad política con el gobierno de Milei, pero buena parte de esos grupos, como el Rassemblement National y la AfD, rechaza la parte agrícola del acuerdo.",
+"aranceles": "Riesgo de más salvaguardias sobre carne, azúcar y aves.",
+"inversiones": "Menos exigencias ambientales para las inversiones en energía y minería.",
+"politica": "Afinidad ideológica con varios de esos partidos, entre ellos los de Meloni y Le Pen.",
+"rubros": {
+"industria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"agro": [
+"incierto",
+"Afinidad política, pero rechazo de varios de esos partidos a los cupos agrícolas."
+],
+"mineria": [
+"favorable",
+"Menos exigencias ambientales para la cadena de minerales."
+],
+"energia": [
+"favorable",
+"Menos trabas a los combustibles fósiles y al GNL."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+}
+],
+"fuentes": [
+"Bolsa de Comercio de Rosario (exportaciones e importaciones con la UE en 2025, INDEC; Santa Fe y la UE)",
+"Memo, con datos de Eurostat (stock de inversión europea en la Argentina)",
+"El Observador (eliminación de aranceles en más del 90% del comercio)",
+"Cancillería argentina (la Argentina, primer país en habilitar la aplicación provisional, 27/2/2026)",
+"Euronews (aplicación provisional desde el 1/5/2026)",
+"Tribunal de Justicia de la UE (comunicado 135/26 sobre el recurso de Polonia); Abgeordnetenwatch (efecto de un dictamen negativo)"
+],
+"revisado": "25/11/2026"
+},
+"ejnota": "La presidencia de la Comisión no se vota en forma directa: la propone el Consejo Europeo y la confirma el Parlamento. Von der Leyen fue confirmada en julio de 2024."
 }
 },
 "calendario": [

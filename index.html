@@ -145,6 +145,7 @@ footer p{max-width:80ch}
 <div class="controls">
 <div class="seg" role="group" aria-label="Vista"><button id="vHoy" aria-pressed="true">Hoy</button><button id="vProx" aria-pressed="false">Próxima elección</button></div>
 <div class="seg" role="group" aria-label="Región"><button id="rLat" aria-pressed="true">Latinoamérica</button><button id="rMun" aria-pressed="false">Mundo</button></div>
+<div class="seg"><button id="bUE">Unión Europea ★</button></div>
 </div>
 <div class="mapbox" id="mapbox">
 <svg id="map" role="img" aria-label="Mapa de alineamiento de gobiernos"></svg>
@@ -224,12 +225,12 @@ function colorDe(id){const c=D.paises[id];if(!c)return id==="032"?"#fff":(conDat
 
 function draw(){
  const box=$("mapbox"),W=box.clientWidth,H=box.clientHeight;
- const target=region==="lat"?{type:"FeatureCollection",features:feats.filter(f=>D.paises[f.id]||f.id==="032")}:{type:"Sphere"};
+ const target=region==="lat"?{type:"FeatureCollection",features:feats.filter(f=>(D.paises[f.id]&&esLat(f.id))||f.id==="032")}:{type:"Sphere"};
  proj.fitExtent([[12,12],[W-12,H-12]],target);
  root.selectAll("*").remove();
  root.append("path").attr("d",path({type:"Sphere"})).style("fill","var(--sea)");
  root.selectAll("path.country").data(feats).join("path")
-  .attr("class",d=>"country"+(conDatos(d.id)?" on":"")+(d.id===sel?" sel":""))
+  .attr("class",d=>"country"+(conDatos(d.id)?" on":"")+(d.id===sel||(sel==="EU"&&UE.includes(d.id))?" sel":""))
   .attr("d",path).style("fill",d=>colorDe(d.id)).style("fill-opacity",d=>opac(d.id))
   .style("stroke",d=>d.id==="032"?"var(--a)":null).attr("stroke-width",d=>d.id==="032"?1.4:null)
   .on("click",(e,d)=>conDatos(d.id)&&elegir(d.id,true))
@@ -281,13 +282,16 @@ function calPais(id){const xs=cal().filter(x=>x.id===id).sort((a,b)=>(a.f||"9").
 function recPais(id){const xs=rec().filter(x=>x.id===id);
  return xs.length?`<h3>Resultados recientes</h3>${xs.map(x=>`<div class="ev"><div class="fd">${esc(x.f?x.f.slice(8,10)+"/"+x.f.slice(5,7):"")}<small>${esc(x.f?x.f.slice(0,4):"")}</small></div><div><b>${esc(TIPO[x.tipo]||x.tipo)}:</b> ganó ${esc(x.ganador)}${x.partido?` (${esc(x.partido)})`:""}${x.pct!=null?` con ${esc(String(x.pct).replace(".",","))}%`:""}${x.parlamento?`<div>${esc(x.parlamento)}</div>`:""}<div class="src">Fuente: ${esc(x.fuente)}</div>${x.res?`<div class="res">Dato con reservas: ${esc(x.res)}</div>`:""}</div></div>`).join("")}`:"";}
 function fichaBasica(id){$("fichaIn").innerHTML=`<div class="fhead"><h2>${esc(nombre(id))}</h2><span class="chip">Sin ficha completa</span></div><p class="note">Este país lleva solo calendario y último resultado.</p>${calPais(id)}${recPais(id)}`;}
-function zoomA(id){const f=feats.find(f=>f.id===id);if(!f)return;const box=$("mapbox"),W=box.clientWidth,H=box.clientHeight;
- let [[x0,y0],[x1,y1]]=path.bounds(f);if(ISLAS.includes(id)){const [cx,cy]=proj(d3.geoCentroid(f));x0=cx-20;x1=cx+20;y0=cy-20;y1=cy+20;}
+const UE=["040","056","100","191","196","203","208","233","246","250","276","300","348","372","380","428","440","442","470","528","616","620","642","703","705","724","752"];
+function esLat(id){if(id==="EU")return false;const f=feats.find(f=>f.id===id);return !!f&&d3.geoCentroid(f)[0]<-25;}
+function zoomA(id){const box=$("mapbox"),W=box.clientWidth,H=box.clientHeight;let x0,y0,x1,y1;
+ if(id==="EU"){const ps=[[-11,34],[10,34],[32,34],[-11,70],[10,71],[32,70]].map(proj);x0=d3.min(ps,p=>p[0]);x1=d3.max(ps,p=>p[0]);y0=d3.min(ps,p=>p[1]);y1=d3.max(ps,p=>p[1]);}
+ else{const f=feats.find(f=>f.id===id);if(!f)return;[[x0,y0],[x1,y1]]=path.bounds(f);if(ISLAS.includes(id)){const [cx,cy]=proj(d3.geoCentroid(f));x0=cx-20;x1=cx+20;y0=cy-20;y1=cy+20;}}
  const k=Math.max(1,Math.min(6,0.8/Math.max((x1-x0)/W,(y1-y0)/H)));
  const t=d3.zoomIdentity.translate(W/2,H/2).scale(k).translate(-(x0+x1)/2,-(y0+y1)/2);
  svg.transition().duration(matchMedia("(prefers-reduced-motion: reduce)").matches?0:600).call(zoom.transform,t);}
-function elegir(id,scroll){sel=id;const c=D.paises[id];if(scroll)zoomA(id);
- root.selectAll("path.country").classed("sel",d=>d.id===id);root.selectAll("circle.isle").classed("sel",d=>d.id===id);
+function elegir(id,scroll){sel=id;const c=D.paises[id];if(scroll){if(region==="lat"&&!esLat(id))setR("mun");zoomA(id);}
+ root.selectAll("path.country").classed("sel",d=>d.id===id||(id==="EU"&&UE.includes(d.id)));root.selectAll("circle.isle").classed("sel",d=>d.id===id);
  if(!c){fichaBasica(id);if(scroll)$("ficha").scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});return;}
  const pr=c.prox||{};
  $("fichaIn").innerHTML=`<div class="fhead"><h2>${esc(c.n)}</h2><span class="chip"><i class="sw" style="background:${COL[c.c]};margin:0"></i>${NOM[c.c]}</span>${c.prio?`<span class="pill prio" style="margin:0">Prioritario</span>`:""}${c.marca?`<span class="flag">${MARCA[c.marca]}</span>`:""}</div>
@@ -295,7 +299,7 @@ function elegir(id,scroll){sel=id;const c=D.paises[id];if(scroll)zoomA(id);
  <div class="facts"><div><b>Gobierna</b>${esc(c.gob)}</div><div><b>Sistema</b>${esc(c.sis)}</div></div>
  <h3>Próxima elección</h3>
  <div class="prox"><div class="big">${esc(pr.fecha)}</div><div>${esc(pr.que)}</div><p style="margin:8px 0 0"><b>Pronóstico:</b> ${esc(pr.pron)}${pr.pc?` <span class="chip" style="margin-left:6px"><i class="sw" style="background:${COL[pr.pc]};margin:0"></i>${NOM[pr.pc]}</span>`:""}</p>${pr.fuente?`<div class="src">Fuente: ${esc(pr.fuente)}</div>`:""}</div>
- <h3>Ejecutivo: últimas elecciones</h3>${c.ej.length?`<div class="grid2">${c.ej.map(elecHTML).join("")}</div>`:`<p class="empty">Sistema parlamentario: el jefe de gobierno surge de la mayoría en la cámara (ver abajo).</p>`}
+ <h3>Ejecutivo: últimas elecciones</h3>${c.ej.length?`<div class="grid2">${c.ej.map(elecHTML).join("")}</div>`:`<p class="empty">${esc(c.ejnota||"Sistema parlamentario: el jefe de gobierno surge de la mayoría en la cámara (ver abajo).")}</p>`}
  <h3>Legislativo</h3>${c.leg.length?`<div class="grid2">${c.leg.map(l=>legHTML(l,c.c)).join("")}</div>`:`<p class="empty">${c.marca?"Sin composición competitiva que medir.":"Pendiente de carga."}</p>`}
  ${impactoHTML(c)}${calPais(id)}${recPais(id)}`;
  if(scroll)$("ficha").scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});}
@@ -324,7 +328,7 @@ $("cTodos").onclick=()=>{cPrio=false;pr2("cTodos","cPrio",true);calendario();};$
 $("cTipo").onchange=e=>{cTipo=e.target.value;calendario();};
 document.addEventListener("click",e=>{const b=e.target.closest("button.pais");if(b&&conDatos(b.dataset.id))elegir(b.dataset.id,true);});
 $("vHoy").onclick=()=>setV("hoy");$("vProx").onclick=()=>setV("prox");
-$("rLat").onclick=()=>setR("lat");$("rMun").onclick=()=>setR("mun");
+$("rLat").onclick=()=>setR("lat");$("bUE").onclick=()=>elegir("EU",true);$("rMun").onclick=()=>setR("mun");
 $("zin").onclick=()=>svg.transition().call(zoom.scaleBy,1.6);$("zout").onclick=()=>svg.transition().call(zoom.scaleBy,1/1.6);
 
 Promise.all([fetch("data.json").then(r=>r.json()),fetch("world.json").then(r=>r.json())]).then(([d,w])=>{
