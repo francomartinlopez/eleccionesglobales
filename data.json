@@ -184,7 +184,89 @@
 "pron": "Sin encuestas todavía",
 "pc": null
 },
-"prio": true
+"prio": true,
+"impacto": {
+"eleccion": "Lula fue reelecto en octubre de 2026 y gobierna hasta 2030; la próxima elección es en octubre de 2030. Brasil es el primer socio comercial de la Argentina, el principal destino de sus exportaciones industriales y el socio clave del Mercosur. La relación política está en su peor momento en décadas: desde agosto de 2026 los dos países tienen las embajadas sin titular.",
+"escenarios": [
+{
+"si": "Lula en su cuarto mandato (2027–2030)",
+"c": "e",
+"comercio": "El comercio sigue pese a la pelea política. El déficit con Brasil fue de US$ 5.201 millones en 2025 y se proyecta en unos US$ 2.200–2.500 millones para 2026, por la caída de las compras de autos brasileños y el avance de los autos chinos.",
+"aranceles": "Siguen el arancel externo común y la Política Automotriz Común del Mercosur; en el bloque se discute si la Argentina sigue jugando con las mismas reglas.",
+"inversiones": "Brasil es uno de los principales inversores en la Argentina; la tensión política suma incertidumbre, sin cambios de reglas por ahora.",
+"politica": "Enfrentamiento abierto: Milei apoyó a Flávio Bolsonaro, insultó a Lula y no lo felicitó por su reelección; Brasil bajó el nivel de la relación.",
+"rubros": {
+"industria": [
+"desfavorable",
+"Brasil es el destino principal de la industria argentina, sobre todo la automotriz; la complementación automotriz se debilita y la tensión agrega riesgo."
+],
+"agro": [
+"neutro",
+"Trigo y alimentos siguen yendo a Brasil por complementariedad, sin cambios de reglas."
+],
+"mineria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"energia": [
+"favorable",
+"La energía y la petroquímica ganan peso en las ventas a Brasil, que necesita gas y combustibles."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"incierto",
+"Más competencia de productos brasileños y chinos en el mercado interno."
+]
+}
+},
+{
+"si": "Gana la derecha en 2030 (bolsonarismo u otro candidato afín a Milei)",
+"c": "a",
+"comercio": "Mejor relación política y más coordinación para flexibilizar el Mercosur y bajar el arancel externo común.",
+"aranceles": "Posible baja del arancel externo común y más libertad para acuerdos con terceros, como busca Milei.",
+"inversiones": "Más previsibilidad política para las inversiones cruzadas.",
+"politica": "Alineamiento ideológico y con EE.UU.",
+"rubros": {
+"industria": [
+"incierto",
+"Un Mercosur más abierto suma competencia externa para la industria de los dos países."
+],
+"agro": [
+"favorable",
+"Más acuerdos comerciales del bloque con terceros mercados."
+],
+"mineria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"energia": [
+"favorable",
+"Más integración energética."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"incierto",
+"Más apertura y más competencia."
+]
+}
+}
+],
+"fuentes": [
+"BioBioChile (Brasil, primer socio comercial; comercio de más de US$ 31.000 millones en 2025)",
+"Abeceb vía Dólar Hoy y Mercado (déficit 2025 y proyección 2026)",
+"iProfesional (Brasil, mayor destino de las exportaciones industriales; embajadas sin titular; sin felicitación a Lula)",
+"DW vía O Povo (peor momento de la relación en décadas)",
+"Perfil (autos chinos y comercio bilateral)",
+"El Economista (debate sobre las reglas del Mercosur)"
+],
+"revisado": "25/11/2026"
+}
 },
 "484": {
 "n": "México",
