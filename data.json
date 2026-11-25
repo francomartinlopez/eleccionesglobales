@@ -1500,7 +1500,88 @@
 "pron": "Sin encuestas todavía",
 "pc": null
 },
-"prio": true
+"prio": true,
+"impacto": {
+"eleccion": "Yamandú Orsi gobierna hasta 2030; la próxima elección presidencial y legislativa es en octubre de 2029. Uruguay es socio del Mercosur, comparte el Río de la Plata y es un destino clave de energía y bienes argentinos.",
+"escenarios": [
+{
+"si": "Sigue el Frente Amplio (Orsi hasta 2030 o un sucesor en 2029)",
+"c": "m",
+"comercio": "Comercio fluido y con saldo a favor de la Argentina en casi todos los meses de 2025 (INDEC). Según la Universidad Católica del Uruguay, cerca del 26% de lo que Uruguay importa viene de la Argentina.",
+"aranceles": "Orsi apoya flexibilizar el Mercosur para que el bloque negocie con Asia y el EFTA, como pide Milei.",
+"inversiones": "Inversiones cruzadas en energía, turismo y servicios; Orsi busca inversiones argentinas en Uruguay.",
+"politica": "Pese a la distancia ideológica, Orsi califica la relación con el gobierno de Milei de «excelente»; Uruguay mantiene su apoyo histórico al reclamo por Malvinas.",
+"rubros": {
+"industria": [
+"favorable",
+"Mercado cercano y sin arancel para manufacturas argentinas."
+],
+"agro": [
+"neutro",
+"Los dos países compiten en carne y granos en terceros mercados."
+],
+"mineria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"energia": [
+"favorable",
+"Mercado vecino para combustibles y energía argentinos (dato con reservas: falta cuantificar)."
+],
+"construccion": [
+"incierto",
+"Obras en el Río de la Plata (canales de navegación) con intereses portuarios encontrados entre Montevideo y Buenos Aires."
+],
+"comercio": [
+"favorable",
+"Turismo y servicios entre las dos orillas."
+]
+}
+},
+{
+"si": "Gana la Coalición Republicana en 2029",
+"c": "a",
+"comercio": "Más afinidad ideológica y misma agenda de apertura del Mercosur.",
+"aranceles": "Más impulso a acuerdos del bloque con terceros, como el que buscaba Lacalle Pou con China.",
+"inversiones": "Sin cambios de fondo.",
+"politica": "Alineamiento ideológico con el gobierno argentino.",
+"rubros": {
+"industria": [
+"favorable",
+"Igual que con el Frente Amplio."
+],
+"agro": [
+"neutro",
+"Competencia en terceros mercados."
+],
+"mineria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"energia": [
+"favorable",
+"Igual que con el Frente Amplio."
+],
+"construccion": [
+"incierto",
+"Mismas diferencias portuarias."
+],
+"comercio": [
+"favorable",
+"Turismo y servicios."
+]
+}
+}
+],
+"fuentes": [
+"Universidad Católica del Uruguay, informe de comercio exterior dic 2025 (participación argentina en las importaciones uruguayas)",
+"INDEC, Intercambio comercial argentino (saldo con Uruguay por mes)",
+"El Economista (Orsi apoya flexibilizar el Mercosur, mar 2026)",
+"MercoPress y Demócrata (Orsi: relación «excelente», nov 2026)",
+"El Economista (Uruguay y Malvinas, sep 2026)"
+],
+"revisado": "25/11/2026"
+}
 },
 "862": {
 "n": "Venezuela",
