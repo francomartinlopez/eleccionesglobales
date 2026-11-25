@@ -4292,6 +4292,144 @@
 ],
 "revisado": "25/11/2026"
 }
+},
+"156": {
+"n": "China",
+"c": "m",
+"marca": "sin-competencia",
+"prio": true,
+"motivo": "Relación pragmática pese a la distancia ideológica: Milei pasó de no querer tratos con «ningún comunista» a renovar el swap de monedas y reunirse con Xi en el G20 de 2024. En 2026 redujo la parte activada del swap tras presiones de EE.UU., pero en agosto renovó la línea por cinco años; en julio Pekín respaldó a Lula frente a dichos de Milei. Color propuesto, a validar.",
+"sis": "Estado de partido único. El Partido Comunista elige a su secretario general en el Congreso Nacional, cada cinco años; la Asamblea Popular Nacional (unos 3.000 diputados elegidos de forma indirecta) designa al presidente sin candidatos alternativos.",
+"gob": "Presidente y secretario general del Partido Comunista Xi Jinping, en el poder desde 2012 (tercer mandato desde 2022–2023); primer ministro Li Qiang",
+"ej": [
+{
+"anio": 2023,
+"titulo": "Presidente (elegido por la Asamblea Popular Nacional)",
+"rondas": [
+{
+"r": "Voto de la Asamblea",
+"c": [
+[
+"Xi Jinping",
+"PCCh",
+100
+]
+]
+}
+],
+"fuente": "Asamblea Popular Nacional",
+"res": "Candidato único: 2.952 votos a favor y ninguno en contra. Cargado de referencia; falta contrastar"
+},
+{
+"anio": 2018,
+"titulo": "Presidente (elegido por la Asamblea Popular Nacional)",
+"rondas": [
+{
+"r": "Voto de la Asamblea",
+"c": [
+[
+"Xi Jinping",
+"PCCh",
+100
+]
+]
+}
+],
+"fuente": "Asamblea Popular Nacional",
+"res": "Candidato único y votación unánime. Ese año la Asamblea eliminó el límite de dos mandatos. Cargado de referencia; falta contrastar"
+}
+],
+"leg": [],
+"prox": {
+"fecha": "XXI Congreso del Partido Comunista a fines de 2027; la Asamblea designa presidente en marzo de 2028",
+"que": "Secretario general del Partido y nuevo Comité Permanente del Politburó",
+"pron": "Sin elecciones competitivas. El Partido fijó el XXI Congreso para fines de 2027 y todo indica un cuarto mandato de Xi Jinping, con recambio de casi toda la cúpula debajo de él",
+"pc": "m",
+"fuente": "bdnews24 (fecha del Congreso), East Asia Forum y CARI (cuarto mandato)"
+},
+"impacto": {
+"eleccion": "No hay elección competitiva: lo que se define es la cúpula del Partido en el Congreso de fines de 2027. China es el segundo socio comercial de la Argentina, el principal comprador de soja, carne bovina y litio, y la Argentina tiene con ella su mayor déficit bilateral. El swap de monedas pesa sobre las reservas del Banco Central.",
+"escenarios": [
+{
+"si": "Xi Jinping sigue con un cuarto mandato",
+"c": "m",
+"comercio": "Continuidad. Los complejos soja, carne y cueros bovinos y el litio explican el 85% de lo exportado a China. El déficit de 2025 fue récord: US$ 6.572 millones según el INDEC (otras estimaciones lo ubican por encima de US$ 8.000 millones).",
+"aranceles": "China sigue abriendo mercados agrícolas (carne aviar, más cortes de carne, trigo y maíz), en competencia con los productos de EE.UU. según cómo evolucione su guerra comercial.",
+"inversiones": "Continúan los proyectos chinos ya en marcha: en noviembre de 2026 se reactivaron las represas de Santa Cruz con Gezhouba. En el RIGI, el único proyecto chino presentado fue rechazado.",
+"politica": "Relación pragmática y tensionada por el alineamiento de Milei con EE.UU.: el swap queda sujeto a las presiones de Washington.",
+"rubros": {
+"industria": [
+"desfavorable",
+"Más competencia de importaciones chinas: China es el primer origen de las compras argentinas."
+],
+"agro": [
+"favorable",
+"Principal destino de soja, carne bovina y sorgo; más del 80% de esos embarques van a China."
+],
+"mineria": [
+"favorable",
+"Demanda sostenida de carbonato de litio."
+],
+"energia": [
+"incierto",
+"Represas de Santa Cruz reactivadas; poco peso en petróleo y gas."
+],
+"construccion": [
+"favorable",
+"Obras públicas con financiamiento chino, como las represas de Santa Cruz."
+],
+"comercio": [
+"incierto",
+"Más importaciones baratas para el consumo y más competencia para el comercio minorista local."
+]
+}
+},
+{
+"si": "Hay una transición hacia un sucesor de Xi",
+"c": "m",
+"comercio": "Sin cambios inmediatos: la demanda china de alimentos y minerales no depende del cambio de liderazgo.",
+"aranceles": "Sin cambios previsibles.",
+"inversiones": "Más incertidumbre en las decisiones de inversión externa durante la transición.",
+"politica": "Depende de la línea del sucesor frente a EE.UU. y a América Latina; sin señales públicas.",
+"rubros": {
+"industria": [
+"neutro",
+"Sin cambios previsibles."
+],
+"agro": [
+"neutro",
+"La demanda de alimentos sigue."
+],
+"mineria": [
+"neutro",
+"La demanda de litio sigue."
+],
+"energia": [
+"incierto",
+"Posible demora en proyectos con financiamiento chino."
+],
+"construccion": [
+"incierto",
+"Posible demora en obras con financiamiento chino."
+],
+"comercio": [
+"neutro",
+"Sin cambios previsibles."
+]
+}
+}
+],
+"fuentes": [
+"El Litoral, informe de la Bolsa de Comercio de Rosario (composición de las exportaciones a China 2025)",
+"Chequeado (déficit 2025 según el INDEC; proyecto chino rechazado en el RIGI)",
+"El Cronista (déficit de más de US$ 8.000 millones)",
+"Economis (participación de China en soja, carne y litio)",
+"Intellinews (renovación del swap por cinco años, ago 2026); The Star (reducción del tramo activado, may 2026)",
+"Perfil (represas de Santa Cruz, nov 2026); Ámbito (respaldo chino a Lula, jul 2026)",
+"bdnews24 y East Asia Forum (XXI Congreso del Partido)"
+],
+"revisado": "25/11/2026"
+}
 }
 },
 "calendario": [
@@ -4881,6 +5019,25 @@
 "fuerzas": [],
 "fuente": "El Comercio, Emol (29/10/2026)",
 "res": "Delcy Rodríguez promete elecciones sin fijar fecha; la oposición exige que sean en 2027"
+},
+{
+"f": "",
+"fe": "Fines de 2027",
+"id": "156",
+"pais": "China",
+"tipo": "otra",
+"cargos": "XXI Congreso del Partido Comunista: secretario general y Comité Permanente del Politburó (sin elecciones competitivas)",
+"estado": "estimada",
+"fuerzas": [
+{
+"n": "Xi Jinping",
+"p": "PCCh",
+"enc": null
+}
+],
+"enc_fuente": "Se espera un cuarto mandato de Xi",
+"enc_fecha": "nov 2026",
+"fuente": "bdnews24, East Asia Forum"
 }
 ],
 "recientes": [
