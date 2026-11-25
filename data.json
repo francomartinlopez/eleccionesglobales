@@ -548,7 +548,87 @@
 "pron": "Sin encuestas todavía",
 "pc": null
 },
-"prio": true
+"prio": true,
+"impacto": {
+"eleccion": "José Antonio Kast gobierna desde el 11/3/2026 hasta 2030; la próxima elección presidencial y legislativa es en noviembre de 2029. Chile es el país con el que la Argentina tiene su mayor superávit comercial, con un Tratado de Libre Comercio vigente desde hace casi diez años.",
+"escenarios": [
+{
+"si": "Sigue Kast (2026–2030)",
+"c": "a",
+"comercio": "Superávit récord: en 2025 la Argentina tuvo con Chile su mayor saldo positivo (US$ 5.412 millones) y en 2026 sigue primero (US$ 4.351 millones entre enero y septiembre). Chile compra petróleo, gas, alimentos y manufacturas.",
+"aranceles": "El Tratado de Libre Comercio bilateral ya elimina casi todos los aranceles; la agenda pasa por integración física y logística fronteriza.",
+"inversiones": "Integración minera como eje de la relación: proyectos binacionales como Vicuña en la cordillera y cooperación en litio y cobre.",
+"politica": "Alineamiento pleno: Chile respaldó el reclamo argentino por Malvinas y los dos gobiernos destacan el «excelente estado» de la relación. Hubo roces menores por el Estrecho de Magallanes, resueltos con un comunicado conjunto.",
+"rubros": {
+"industria": [
+"favorable",
+"Chile es un mercado abierto para las manufacturas argentinas, sin arancel."
+],
+"agro": [
+"favorable",
+"Alimentos y carne con acceso libre."
+],
+"mineria": [
+"favorable",
+"Proyectos binacionales en la cordillera, como Vicuña."
+],
+"energia": [
+"favorable",
+"Chile compra petróleo y gas argentinos; integración energética en marcha."
+],
+"construccion": [
+"favorable",
+"Pasos fronterizos y obras de integración física."
+],
+"comercio": [
+"favorable",
+"Turismo y servicios con menos trabas."
+]
+}
+},
+{
+"si": "Gana la izquierda en 2029",
+"c": "m",
+"comercio": "El comercio y el Tratado de Libre Comercio siguen; la complementariedad energética no depende del gobierno.",
+"aranceles": "Sin cambios previsibles.",
+"inversiones": "Más exigencias ambientales para la minería binacional.",
+"politica": "Relación institucional con roces, como durante el gobierno de Boric.",
+"rubros": {
+"industria": [
+"neutro",
+"Sin cambios previsibles."
+],
+"agro": [
+"neutro",
+"Sin cambios previsibles."
+],
+"mineria": [
+"incierto",
+"Más exigencias ambientales a los proyectos binacionales."
+],
+"energia": [
+"favorable",
+"La demanda chilena de gas argentino sigue."
+],
+"construccion": [
+"neutro",
+"Sin cambios previsibles."
+],
+"comercio": [
+"neutro",
+"Sin cambios previsibles."
+]
+}
+}
+],
+"fuentes": [
+"Cancillería argentina, Intercambio Comercial Argentino 2025 y enero-septiembre de 2026 (superávit con Chile)",
+"Cancillería argentina, Análisis del comercio de Chile con el mundo y la Argentina (sep 2026)",
+"CNN Chile y Emol (respaldo chileno por Malvinas; comunicado sobre el Estrecho de Magallanes)",
+"Reporte Minero (integración minera, abr 2026)"
+],
+"revisado": "25/11/2026"
+}
 },
 "170": {
 "n": "Colombia",
