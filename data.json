@@ -7756,6 +7756,230 @@
 "pron": "—",
 "pc": null
 }
+},
+"008": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Albania",
+"c": "m",
+"motivo": "Rama (socialista), sin vínculo con Milei.",
+"sis": "Parlamentario. Asamblea (140).",
+"gob": "Edi Rama (Partido Socialista), primer ministro desde 2013; cuarto mandato tras la elección de 2025",
+"prox": {
+"fecha": "2029",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"070": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Bosnia y Herzegovina",
+"c": "m",
+"motivo": "Presidencia tripartita dominada por partidos nacionalistas; sin vínculo con Milei.",
+"sis": "Presidencia colegiada de tres miembros (bosníaco, croata y serbio) y Asamblea Parlamentaria; dos entidades con gobiernos propios.",
+"gob": "Presidencia electa el 4/10/2026: Denis Bećirović (SDP, bosníaco), Darijana Filipović (HDZ BiH, croata) y Željka Cvijanović (SNSD, serbia). La formación de gobierno sigue abierta",
+"ejnota": "La presidencia es colegiada. En la elección del 4/10/2026, con participación récord baja (cerca del 42%), Bećirović fue reelecto con cerca del 38%; ganaron Filipović y Cvijanović las bancas croata y serbia.",
+"prox": {
+"fecha": "2030",
+"que": "Generales",
+"pron": "—",
+"pc": null
+}
+},
+"XK": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Kosovo",
+"c": "m",
+"motivo": "La Argentina no reconoce la independencia de Kosovo; sin vínculo político con Milei.",
+"sis": "Parlamentario. Asamblea (120); el presidente lo elige la Asamblea.",
+"gob": "Albin Kurti (Vetëvendosje), primer ministro; su cuarto gobierno se aprobó el 13/9/2026. Presidenta Justina Shiroka Pula, electa el 7/10/2026",
+"ejnota": "Kosovo votó tres veces desde febrero de 2025 (la última, anticipada, en junio de 2026). Vetëvendosje ganó las tres, pero necesitó meses para formar gobierno y elegir presidente.",
+"prox": {
+"fecha": "2030",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"807": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Macedonia del Norte",
+"c": "m",
+"motivo": "Mickoski (centroderecha nacionalista), sin vínculo con Milei.",
+"sis": "Parlamentario con presidente electo. Asamblea (120).",
+"gob": "Hristijan Mickoski (VMRO-DPMNE), primer ministro desde 2024; presidenta Gordana Siljanovska-Davkova",
+"prox": {
+"fecha": "2028",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"499": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Montenegro",
+"c": "m",
+"motivo": "Spajić (centrista proeuropeo), sin vínculo con Milei.",
+"sis": "Parlamentario con presidente electo. Asamblea (81).",
+"gob": "Milojko Spajić (Europa Ahora), primer ministro desde 2023; presidente Jakov Milatović",
+"prox": {
+"fecha": "2027",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"498": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Moldavia",
+"c": "m",
+"motivo": "Gobierno proeuropeo de PAS, sin vínculo con Milei (el ex primer ministro Munteanu había elogiado el modelo económico argentino antes de asumir).",
+"sis": "Parlamentario con presidenta electa. Parlamento (101).",
+"gob": "Vasile Tofan (independiente, con PAS), primer ministro desde el 21/7/2026; presidenta Maia Sandu",
+"prox": {
+"fecha": "2028",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"268": {
+"marca": "cuestionada",
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Georgia",
+"c": "m",
+"motivo": "Sueño Georgiano, cada vez más autoritario y enfrentado con la UE; sin vínculo con Milei. Elecciones de 2024 y 2025 cuestionadas por la oposición.",
+"sis": "Parlamentario. Parlamento (150).",
+"gob": "Irakli Kobakhidze (Sueño Georgiano), primer ministro; el partido tiene 89 de 150 bancas",
+"prox": {
+"fecha": "28/10/2028",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"031": {
+"marca": "sin-competencia",
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Azerbaiyán",
+"c": "m",
+"motivo": "Régimen de Aliyev; sin vínculo político con Milei.",
+"sis": "Presidencial. Elecciones sin competencia real.",
+"gob": "Ilham Aliyev, presidente desde 2003",
+"prox": {
+"fecha": "2031",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"020": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Andorra",
+"c": "m",
+"motivo": "Gobierno de centroderecha; sin vínculo con Milei.",
+"sis": "Coprincipado parlamentario. Consejo General (28).",
+"gob": "Xavier Espot (Demócratas por Andorra), jefe de gobierno desde 2019",
+"prox": {
+"fecha": "Abril de 2027",
+"que": "Consejo General",
+"pron": "—",
+"pc": null
+}
+},
+"438": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Liechtenstein",
+"c": "m",
+"motivo": "Monarquía constitucional; sin vínculo con Milei.",
+"sis": "Monarquía constitucional. Landtag (25).",
+"gob": "Brigitte Haas (Unión Patriótica), jefa de gobierno desde 2025; príncipe Hans-Adam II",
+"prox": {
+"fecha": "2029",
+"que": "Landtag",
+"pron": "—",
+"pc": null
+}
+},
+"492": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Mónaco",
+"c": "m",
+"motivo": "Principado; el Consejo Nacional tiene poderes limitados. Sin vínculo con Milei.",
+"sis": "Monarquía constitucional. Consejo Nacional (24).",
+"gob": "Príncipe Alberto II",
+"prox": {
+"fecha": "2028",
+"que": "Consejo Nacional",
+"pron": "—",
+"pc": null
+}
+},
+"674": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "San Marino",
+"c": "m",
+"motivo": "República parlamentaria; sin vínculo con Milei.",
+"sis": "Parlamentario. Consejo Grande y General (60); dos capitanes regentes rotan cada seis meses.",
+"gob": "Gobierno de coalición encabezado por la Democracia Cristiana Sanmarinense",
+"prox": {
+"fecha": "2029",
+"que": "Consejo Grande y General",
+"pron": "—",
+"pc": null
+}
+},
+"336": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Vaticano",
+"c": "g",
+"motivo": "Monarquía electiva absoluta: no hay elecciones populares que medir.",
+"sis": "El papa es elegido por el cónclave de cardenales.",
+"gob": "Papa León XIV, desde 2025",
+"ejnota": "No hay elecciones populares.",
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones populares",
+"pron": "—",
+"pc": null
+}
 }
 },
 "calendario": [
@@ -8663,6 +8887,17 @@
 "pct": 35.3,
 "parlamento": "Saeima (100): Lista Unida 41, Letonia Primero 17",
 "fuente": "Comisión Electoral Central, vía LSM y OSW"
+},
+{
+"f": "2026-10-04",
+"id": "070",
+"pais": "Bosnia y Herzegovina",
+"tipo": "general",
+"ganador": "Bećirović, Filipović y Cvijanović (presidencia tripartita)",
+"partido": "",
+"pct": null,
+"parlamento": "SDA primera en el voto parlamentario; SNSD retiene la República Srpska",
+"fuente": "Comisión Electoral Central, vía AP, Reuters y Daily Sabah"
 },
 {
 "f": "2026-10-25",

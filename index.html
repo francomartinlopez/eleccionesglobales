@@ -332,7 +332,7 @@ $("rLat").onclick=()=>setR("lat");$("bUE").onclick=()=>elegir("EU",true);$("rMun
 $("zin").onclick=()=>svg.transition().call(zoom.scaleBy,1.6);$("zout").onclick=()=>svg.transition().call(zoom.scaleBy,1/1.6);
 
 Promise.all([fetch("data.json").then(r=>r.json()),fetch("world.json").then(r=>r.json())]).then(([d,w])=>{
- D=d;feats=topojson.feature(w,w.objects.countries).features.filter(f=>f.id!=="010");
+ D=d;feats=topojson.feature(w,w.objects.countries).features.filter(f=>f.id!=="010");feats.forEach(f=>{if(f.id==null&&f.properties&&f.properties.name==="Kosovo")f.id="XK";});
  $("act").textContent="Datos actualizados al "+d.actualizado+".";
  draw();lista();calendario();recientes();elegir("076",false);
  let t;new ResizeObserver(()=>{clearTimeout(t);t=setTimeout(draw,120)}).observe($("mapbox"));
