@@ -1234,7 +1234,90 @@
 "pron": "Sin encuestas todavía",
 "pc": null
 },
-"prio": true
+"prio": true,
+"impacto": {
+"eleccion": "Rodrigo Paz gobierna hasta noviembre de 2030; la próxima elección general es en 2030. Bolivia comparte con la Argentina el Triángulo del Litio y los gasoductos que hoy llevan gas argentino a Brasil.",
+"escenarios": [
+{
+"si": "Sigue Paz o un sucesor de centroderecha en 2030",
+"c": "a",
+"comercio": "Saldo a favor de la Argentina: entre enero y julio de 2026 Bolivia le vendió US$ 182 millones y le compró US$ 615 millones (IBCE). La Argentina dejó de comprarle gas a Bolivia al alcanzar el autoabastecimiento.",
+"aranceles": "Bolivia es miembro pleno del Mercosur desde 2024 y todavía adapta su normativa; sin conflictos arancelarios con la Argentina.",
+"inversiones": "Paz prometió una nueva ley del litio con «reglas claras» para atraer inversión privada; compite con la Argentina por los mismos capitales.",
+"politica": "Relación cercana pero no automática: Milei asistió a la asunción de Paz, y en mayo de 2026 la Argentina envió aviones Hércules con alimentos durante los bloqueos. El entorno de Paz habla de un vínculo pragmático, con buena relación también con Lula.",
+"rubros": {
+"industria": [
+"favorable",
+"Mercado vecino para manufacturas y alimentos argentinos."
+],
+"agro": [
+"neutro",
+"Bolivia compite en derivados de soja."
+],
+"mineria": [
+"incierto",
+"Si Bolivia abre su litio a la inversión privada, compite con los proyectos argentinos."
+],
+"energia": [
+"favorable",
+"El gas de Vaca Muerta llega a Brasil por los gasoductos bolivianos, y Bolivia podría tener que importar gas argentino."
+],
+"construccion": [
+"neutro",
+"Sin obras binacionales relevantes anunciadas."
+],
+"comercio": [
+"favorable",
+"Abastecimiento argentino de alimentos e insumos."
+]
+}
+},
+{
+"si": "Vuelve la izquierda (MAS o sus herederos) en 2030",
+"c": "r",
+"comercio": "Los flujos dependen de la geografía: siguen el tránsito del gas y las ventas argentinas.",
+"aranceles": "Sin cambios de fondo.",
+"inversiones": "El litio volvería al control estatal, lo que resta competencia a la Argentina por inversiones.",
+"politica": "Relación enfrentada, como con Luis Arce: Evo Morales acusó a Milei de pedirle a Paz que «se deshiciera» de él.",
+"rubros": {
+"industria": [
+"favorable",
+"Igual que con Paz."
+],
+"agro": [
+"neutro",
+"Competencia en derivados de soja."
+],
+"mineria": [
+"favorable",
+"Menos competencia por inversiones en litio."
+],
+"energia": [
+"incierto",
+"El tránsito del gas a Brasil depende de acuerdos con el Estado boliviano."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"incierto",
+"Más riesgo político en la frontera."
+]
+}
+}
+],
+"fuentes": [
+"IBCE vía Correo del Sur (comercio Bolivia–Argentina, enero a julio de 2026)",
+"eju.tv (la Argentina dejó de comprar gas boliviano)",
+"La Nación (primera exportación de gas argentino a Brasil vía Bolivia, abr 2025)",
+"EFE vía Ecosistema Startup (ley del litio de Paz, ene 2026)",
+"Canal 26 y Diario Panorama (ayuda argentina durante los bloqueos, may 2026)",
+"La Política Online (vínculo pragmático de Paz)",
+"El Desconcierto (acusación de Evo Morales, nov 2025)"
+],
+"revisado": "25/11/2026"
+}
 },
 "600": {
 "n": "Paraguay",
