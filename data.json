@@ -822,7 +822,7 @@
 },
 {
 "si": "Vuelve la izquierda (Pacto Histórico) en 2030",
-"c": "r",
+"c": "e",
 "comercio": "Los flujos de autos y alimentos siguen; dependen del acuerdo comercial vigente.",
 "aranceles": "Sin cambios de fondo.",
 "inversiones": "Los acuerdos de 2026 podrían quedar sin impulso.",
@@ -1355,7 +1355,7 @@
 },
 {
 "si": "Vuelve la izquierda (MAS o sus herederos) en 2030",
-"c": "r",
+"c": "e",
 "comercio": "Los flujos dependen de la geografía: siguen el tránsito del gas y las ventas argentinas.",
 "aranceles": "Sin cambios de fondo.",
 "inversiones": "El litio volvería al control estatal, lo que resta competencia a la Argentina por inversiones.",
@@ -7068,6 +7068,694 @@
 "pron": "Sin encuestas cargadas",
 "pc": null
 }
+},
+"804": {
+"marca": null,
+"ej": [
+{
+"anio": 2019,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "2.ª vuelta",
+"c": [
+[
+"Volodímir Zelensky",
+"Servidor del Pueblo",
+73.22
+],
+[
+"Petró Poroshenko",
+"Solidaridad Europea",
+24.45
+]
+]
+}
+],
+"fuente": "Comisión Electoral Central",
+"res": "Cargado de referencia; falta contrastar con el organismo electoral"
+}
+],
+"leg": [],
+"prio": false,
+"n": "Ucrania",
+"c": "a",
+"motivo": "Milei respalda a Ucrania frente a la invasión rusa; Zelensky fue a su asunción.",
+"sis": "Semipresidencial. Rada Suprema (450). Elecciones suspendidas por la ley marcial desde 2022.",
+"gob": "Volodímir Zelensky, presidente desde 2019 (mandato prorrogado por la ley marcial)",
+"prox": {
+"fecha": "Sin fecha",
+"que": "Presidencial y Rada",
+"pron": "Zelensky dice que puede haber elecciones con un alto el fuego de 60 días; la ley exige esperar seis meses después del fin de las hostilidades",
+"pc": null
+}
+},
+"643": {
+"marca": "cuestionada",
+"ej": [
+{
+"anio": 2024,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Vuelta única",
+"c": [
+[
+"Vladímir Putin",
+"Independiente",
+87.28
+],
+[
+"Nikolái Jaritónov",
+"PCFR",
+4.31
+],
+[
+"Vladislav Davánkov",
+"Nueva Gente",
+3.85
+]
+]
+}
+],
+"fuente": "Comisión Electoral Central",
+"res": "Cargado de referencia; falta contrastar con el organismo electoral. Elección sin competencia real"
+}
+],
+"leg": [
+{
+"cam": "Duma Estatal",
+"anio": 2026,
+"total": 450,
+"p": [
+[
+"Rusia Unida",
+349,
+1
+],
+[
+"PCFR",
+37,
+0
+],
+[
+"LDPR",
+23,
+0
+],
+[
+"Nueva Gente",
+19,
+0
+],
+[
+"Rusia Justa",
+17,
+0
+],
+[
+"Ródina",
+1,
+0
+],
+[
+"Independientes",
+4,
+0
+]
+],
+"fuente": "Comisión Electoral Central, vía Meduza",
+"res": "Elección muy controlada, sin partidos opositores a la guerra"
+}
+],
+"prio": false,
+"n": "Rusia",
+"c": "e",
+"motivo": "Milei condena la invasión de Ucrania y se alinea con Occidente; elecciones sin oposición real.",
+"sis": "Presidencial. Duma Estatal (450) y Consejo de la Federación.",
+"gob": "Vladímir Putin, presidente desde 2000 (salvo 2008–2012)",
+"prox": {
+"fecha": "2030",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"112": {
+"marca": "sin-competencia",
+"ej": [
+{
+"anio": 2025,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Vuelta única",
+"c": [
+[
+"Aleksandr Lukashenko",
+"Independiente",
+86.82
+]
+]
+}
+],
+"fuente": "Comisión Electoral Central",
+"res": "Cargado de referencia; falta contrastar con el organismo electoral. Elección sin competencia real"
+}
+],
+"leg": [],
+"prio": false,
+"n": "Bielorrusia",
+"c": "m",
+"motivo": "Régimen de Lukashenko, aliado de Rusia; sin vínculo con la Argentina.",
+"sis": "Presidencial. Elecciones sin competencia real.",
+"gob": "Aleksandr Lukashenko, presidente desde 1994",
+"prox": {
+"fecha": "2030",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"792": {
+"marca": null,
+"ej": [
+{
+"anio": 2023,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "1.ª vuelta",
+"c": [
+[
+"Recep Tayyip Erdoğan",
+"AKP",
+49.52
+],
+[
+"Kemal Kılıçdaroğlu",
+"CHP",
+44.88
+],
+[
+"Sinan Oğan",
+"Ata",
+5.17
+]
+]
+},
+{
+"r": "2.ª vuelta",
+"c": [
+[
+"Recep Tayyip Erdoğan",
+"AKP",
+52.18
+],
+[
+"Kemal Kılıçdaroğlu",
+"CHP",
+47.82
+]
+]
+}
+],
+"fuente": "YSK",
+"res": "Cargado de referencia; falta contrastar con el organismo electoral"
+}
+],
+"leg": [],
+"prio": false,
+"n": "Turquía",
+"c": "m",
+"motivo": "Erdoğan, sin vínculo político con Milei; relación comercial normal.",
+"sis": "Presidencial. Gran Asamblea Nacional (600).",
+"gob": "Recep Tayyip Erdoğan (AKP), presidente desde 2014",
+"prox": {
+"fecha": "2028",
+"que": "Presidencial y legislativas",
+"pron": "Sin encuestas cargadas",
+"pc": null
+}
+},
+"246": {
+"marca": null,
+"ej": [
+{
+"anio": 2024,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "2.ª vuelta",
+"c": [
+[
+"Alexander Stubb",
+"Coalición Nacional",
+51.6
+],
+[
+"Pekka Haavisto",
+"Verdes (independiente)",
+48.4
+]
+]
+}
+],
+"fuente": "Ministerio de Justicia",
+"res": "Cargado de referencia; falta contrastar con el organismo electoral"
+}
+],
+"leg": [],
+"prio": false,
+"n": "Finlandia",
+"c": "m",
+"motivo": "Gobierno de centroderecha de Orpo, sin vínculo político con Milei.",
+"sis": "Parlamentario con presidente electo. Eduskunta (200).",
+"gob": "Petteri Orpo (Coalición Nacional), primer ministro desde 2023; presidente Alexander Stubb",
+"prox": {
+"fecha": "18/4/2027",
+"que": "Legislativas",
+"pron": "SDP 22,6%; Finlandeses y Coalición Nacional empatados (Yle)",
+"pc": null
+}
+},
+"203": {
+"marca": null,
+"ej": [],
+"leg": [
+{
+"cam": "Cámara de Diputados",
+"anio": 2025,
+"total": 200,
+"p": [
+[
+"ANO",
+80,
+1
+],
+[
+"SPOLU",
+52,
+0
+],
+[
+"STAN",
+22,
+0
+],
+[
+"Piratas",
+18,
+0
+],
+[
+"SPD",
+15,
+1
+],
+[
+"Motoristas",
+13,
+1
+]
+],
+"fuente": "Oficina Checa de Estadística",
+"res": "Cargado de referencia; falta contrastar con el organismo electoral. La coalición suma 108"
+}
+],
+"prio": false,
+"n": "República Checa",
+"c": "a",
+"motivo": "Babiš (ANO, fundador de Patriotas por Europa junto a Orbán y admirador de Trump): afinidad ideológica con la derecha alternativa. Se distancia del apoyo a Ucrania.",
+"sis": "Parlamentario con presidente electo. Cámara de Diputados (200) y Senado.",
+"gob": "Andrej Babiš (ANO), desde el 9/12/2025, con SPD y Motoristas; presidente Petr Pavel",
+"prox": {
+"fecha": "Enero de 2028",
+"que": "Presidencial",
+"pron": "Sin encuestas cargadas",
+"pc": null
+}
+},
+"703": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Eslovaquia",
+"c": "m",
+"motivo": "Fico (izquierda nacionalista, cercano a Moscú), sin vínculo con Milei.",
+"sis": "Parlamentario con presidente electo. Consejo Nacional (150).",
+"gob": "Robert Fico (Smer), primer ministro desde 2023; presidente Peter Pellegrini",
+"prox": {
+"fecha": "28/9/2027",
+"que": "Legislativas",
+"pron": "Sin encuestas cargadas",
+"pc": null
+}
+},
+"642": {
+"marca": null,
+"ej": [
+{
+"anio": 2025,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "1.ª vuelta",
+"c": [
+[
+"George Simion",
+"AUR",
+40.96
+],
+[
+"Nicușor Dan",
+"Independiente",
+20.99
+],
+[
+"Crin Antonescu",
+"PSD-PNL-UDMR",
+20.07
+]
+]
+},
+{
+"r": "2.ª vuelta",
+"c": [
+[
+"Nicușor Dan",
+"Independiente",
+53.6
+],
+[
+"George Simion",
+"AUR",
+46.4
+]
+]
+}
+],
+"fuente": "BEC",
+"res": "Cargado de referencia; falta contrastar con el organismo electoral"
+}
+],
+"leg": [],
+"prio": false,
+"n": "Rumania",
+"c": "m",
+"motivo": "Gobierno de minoría proeuropeo tras seis meses de crisis; sin vínculo con Milei. AUR, nacionalista y afín a Trump, es la principal oposición.",
+"sis": "Semipresidencial. Cámara de Diputados y Senado; presidente electo por voto directo.",
+"gob": "Luca Niculescu (independiente), primer ministro desde el 20/10/2026; presidente Nicușor Dan",
+"prox": {
+"fecha": "2028",
+"que": "Legislativas",
+"pron": "Sin encuestas cargadas",
+"pc": null
+}
+},
+"191": {
+"marca": null,
+"ej": [
+{
+"anio": 2025,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "2.ª vuelta",
+"c": [
+[
+"Zoran Milanović",
+"Independiente (apoyo SDP)",
+74.68
+],
+[
+"Dragan Primorac",
+"HDZ (apoyo)",
+25.32
+]
+]
+}
+],
+"fuente": "DIP",
+"res": "Cargado de referencia; falta contrastar con el organismo electoral"
+}
+],
+"leg": [],
+"prio": false,
+"n": "Croacia",
+"c": "m",
+"motivo": "Plenković (centroderecha), sin vínculo con Milei.",
+"sis": "Parlamentario con presidente electo. Sabor (151).",
+"gob": "Andrej Plenković (HDZ), primer ministro desde 2016; presidente Zoran Milanović",
+"prox": {
+"fecha": "2028",
+"que": "Legislativas",
+"pron": "Sin encuestas cargadas",
+"pc": null
+}
+},
+"705": {
+"marca": null,
+"ej": [],
+"leg": [
+{
+"cam": "Asamblea Nacional",
+"anio": 2026,
+"total": 90,
+"p": [
+[
+"Movimiento Libertad",
+29,
+0
+],
+[
+"SDS",
+28,
+1
+],
+[
+"Nueva Eslovenia",
+9,
+1
+],
+[
+"Demócratas",
+6,
+1
+],
+[
+"Resto",
+18,
+0
+]
+],
+"fuente": "Comisión Electoral, vía dpa y Reuters",
+"res": "El resto incluye a SLS y Fokus, socios del gobierno, y a Resni.ca"
+}
+],
+"prio": false,
+"n": "Eslovenia",
+"c": "a",
+"motivo": "Janša (derecha populista, admirador de Trump y aliado de Orbán) volvió al gobierno: afinidad ideológica con la línea de Milei.",
+"sis": "Parlamentario con presidente electo. Asamblea Nacional (90).",
+"gob": "Janez Janša (SDS), desde el 22/5/2026, con NSi, Demócratas, SLS y Fokus",
+"prox": {
+"fecha": "2027",
+"que": "Presidencial",
+"pron": "Sin encuestas cargadas",
+"pc": null
+}
+},
+"233": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Estonia",
+"c": "m",
+"motivo": "Gobierno liberal de Michal, sin vínculo con Milei.",
+"sis": "Parlamentario. Riigikogu (101).",
+"gob": "Kristen Michal (Partido Reformista), desde 2024",
+"prox": {
+"fecha": "Marzo de 2027",
+"que": "Legislativas",
+"pron": "Sin encuestas cargadas",
+"pc": null
+}
+},
+"428": {
+"marca": null,
+"ej": [],
+"leg": [
+{
+"cam": "Saeima",
+"anio": 2026,
+"total": 100,
+"p": [
+[
+"Lista Unida",
+41,
+1
+],
+[
+"Letonia Primero",
+17,
+0
+],
+[
+"Nueva Unidad",
+7,
+0
+],
+[
+"Resto",
+35,
+0
+]
+],
+"fuente": "Comisión Electoral Central, vía OSW y LSM",
+"res": "El resto incluye a Poder Soberano, Alianza Nacional y Progresistas; falta el reparto exacto y la coalición final"
+}
+],
+"prio": false,
+"n": "Letonia",
+"c": "m",
+"motivo": "Kulbergs (centroderecha proucraniana), sin vínculo con Milei.",
+"sis": "Parlamentario. Saeima (100).",
+"gob": "Andris Kulbergs (Lista Unida), primer ministro desde mayo de 2026; ganó la elección del 3/10/2026",
+"prox": {
+"fecha": "2030",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"440": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Lituania",
+"c": "m",
+"motivo": "Gobierno socialdemócrata, sin vínculo con Milei.",
+"sis": "Semipresidencial. Seimas (141); presidente electo por voto directo.",
+"gob": "Mindaugas Sinkevičius (Socialdemócratas), primer ministro desde julio de 2026; presidente Gitanas Nausėda",
+"prox": {
+"fecha": "2028",
+"que": "Legislativas",
+"pron": "Sin encuestas cargadas",
+"pc": null
+}
+},
+"196": {
+"marca": null,
+"ej": [
+{
+"anio": 2023,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "2.ª vuelta",
+"c": [
+[
+"Nikos Christodoulides",
+"Independiente",
+51.97
+],
+[
+"Andreas Mavroyiannis",
+"Independiente (apoyo AKEL)",
+48.03
+]
+]
+}
+],
+"fuente": "Servicio Electoral",
+"res": "Cargado de referencia; falta contrastar con el organismo electoral"
+}
+],
+"leg": [],
+"prio": false,
+"n": "Chipre",
+"c": "m",
+"motivo": "Christodoulides (centro), sin vínculo con Milei.",
+"sis": "Presidencial. Cámara de Representantes (56 bancas ocupadas).",
+"gob": "Nikos Christodoulides, presidente desde 2023",
+"prox": {
+"fecha": "2028",
+"que": "Presidencial",
+"pron": "Sin encuestas cargadas",
+"pc": null
+}
+},
+"470": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Malta",
+"c": "m",
+"motivo": "Abela (laborista), sin vínculo con Milei.",
+"sis": "Parlamentario. Cámara de Representantes.",
+"gob": "Robert Abela (Partido Laborista), primer ministro desde 2020; ganó la elección anticipada del 30/5/2026 con 51,8%",
+"prox": {
+"fecha": "2031",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"442": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Luxemburgo",
+"c": "m",
+"motivo": "Frieden (centroderecha), sin vínculo con Milei.",
+"sis": "Parlamentario. Cámara de Diputados (60).",
+"gob": "Luc Frieden (CSV), desde 2023",
+"prox": {
+"fecha": "2028",
+"que": "Legislativas",
+"pron": "Sin encuestas cargadas",
+"pc": null
+}
+},
+"352": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Islandia",
+"c": "m",
+"motivo": "Frostadóttir (socialdemócrata), sin vínculo con Milei.",
+"sis": "Parlamentario. Althing (63).",
+"gob": "Kristrún Frostadóttir (Alianza Socialdemócrata), desde diciembre de 2024",
+"prox": {
+"fecha": "2028",
+"que": "Legislativas",
+"pron": "Sin encuestas cargadas",
+"pc": null
+}
+},
+"051": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Armenia",
+"c": "m",
+"motivo": "Pashinián, con giro hacia Occidente y respaldo de Trump; sin vínculo con Milei.",
+"sis": "Parlamentario. Asamblea Nacional (101 o más).",
+"gob": "Nikol Pashinián (Contrato Civil), primer ministro desde 2018; ganó la elección del 7/6/2026 con 49,8%",
+"prox": {
+"fecha": "2031",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
 }
 },
 "calendario": [
@@ -7822,6 +8510,17 @@
 "fuente": "Noticias RCN, Colombia.com"
 },
 {
+"f": "2026-03-22",
+"id": "705",
+"pais": "Eslovenia",
+"tipo": "legislativa",
+"ganador": "Movimiento Libertad (primera fuerza); gobierna Janša",
+"partido": "",
+"pct": null,
+"parlamento": "Asamblea (90): Movimiento Libertad 29, SDS 28, NSi 9, Demócratas 6",
+"fuente": "Comisión Electoral, vía dpa"
+},
+{
 "f": "2026-03-24",
 "id": "208",
 "pais": "Dinamarca",
@@ -7877,6 +8576,28 @@
 "fuente": "CARICOM, Caribbean360 (no oficial)"
 },
 {
+"f": "2026-05-24",
+"id": "196",
+"pais": "Chipre",
+"tipo": "legislativa",
+"ganador": "DISY (primera fuerza)",
+"partido": "DISY",
+"pct": null,
+"parlamento": "Cámara (56): ELAM sube a 8; entran ALMA y Democracia Directa",
+"fuente": "Fundación Robert Schuman, Reuters"
+},
+{
+"f": "2026-05-30",
+"id": "470",
+"pais": "Malta",
+"tipo": "legislativa",
+"ganador": "Robert Abela",
+"partido": "Partido Laborista",
+"pct": 51.8,
+"parlamento": "",
+"fuente": "MaltaToday, Reuters"
+},
+{
 "f": "2026-06-07",
 "id": "604",
 "pais": "Perú",
@@ -7886,6 +8607,17 @@
 "pct": 50.135,
 "parlamento": "Senado (60): FP 22; Diputados (130): FP 41, JP 32",
 "fuente": "JNE"
+},
+{
+"f": "2026-06-07",
+"id": "051",
+"pais": "Armenia",
+"tipo": "legislativa",
+"ganador": "Nikol Pashinián",
+"partido": "Contrato Civil",
+"pct": 49.8,
+"parlamento": "Entran tres fuerzas: Contrato Civil (mayoría), Armenia Fuerte y otra prorrusa",
+"fuente": "Comisión Electoral Central, vía Reuters y BTA"
 },
 {
 "f": "2026-06-21",
@@ -7908,6 +8640,29 @@
 "pct": null,
 "parlamento": "Riksdag (349): oposición 176, bloque de gobierno 173; S 99, M 70, SD 62",
 "fuente": "Riksdag"
+},
+{
+"f": "2026-09-20",
+"id": "643",
+"pais": "Rusia",
+"tipo": "legislativa",
+"ganador": "Rusia Unida",
+"partido": "",
+"pct": 58,
+"parlamento": "Duma (450): Rusia Unida 349, PCFR 37, LDPR 23, Nueva Gente 19, Rusia Justa 17",
+"fuente": "Comisión Electoral Central, vía Meduza y AP",
+"res": "Elección sin oposición real"
+},
+{
+"f": "2026-10-03",
+"id": "428",
+"pais": "Letonia",
+"tipo": "legislativa",
+"ganador": "Andris Kulbergs",
+"partido": "Lista Unida",
+"pct": 35.3,
+"parlamento": "Saeima (100): Lista Unida 41, Letonia Primero 17",
+"fuente": "Comisión Electoral Central, vía LSM y OSW"
 },
 {
 "f": "2026-10-25",
