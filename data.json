@@ -9148,6 +9148,702 @@
 "pron": "—",
 "pc": null
 }
+},
+"586": {
+"n": "Pakistán",
+"c": "m",
+"marca": "cuestionada",
+"motivo": "Elección de 2024 con el partido de Imran Khan proscripto y su líder preso. Sin vínculo político con Milei.",
+"sis": "Parlamentario. Asamblea Nacional (336).",
+"gob": "Shehbaz Sharif (PML-N), primer ministro desde 2024; presidente Asif Ali Zardari",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"050": {
+"n": "Bangladés",
+"c": "m",
+"marca": null,
+"motivo": "El BNP ganó la elección de febrero de 2026, la primera tras la caída de Sheikh Hasina. Sin vínculo político con Milei.",
+"sis": "Parlamentario. Jatiya Sangsad (350).",
+"gob": "Tarique Rahman (BNP), primer ministro desde 2026",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2031",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"144": {
+"n": "Sri Lanka",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Semipresidencial. Parlamento (225).",
+"gob": "Anura Kumara Dissanayake (NPP), presidente desde 2024",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"524": {
+"n": "Nepal",
+"c": "m",
+"marca": null,
+"motivo": "Elección de marzo de 2026 tras la revuelta juvenil de 2025: arrasó un partido nuevo. Sin vínculo político con Milei.",
+"sis": "Parlamentario. Cámara de Representantes (275).",
+"gob": "Balendra Shah (RSP), primer ministro desde el 27/3/2026",
+"ej": [],
+"leg": [
+{
+"cam": "Cámara de Representantes",
+"anio": 2026,
+"total": 275,
+"p": [
+[
+"RSP",
+182,
+1
+],
+[
+"Resto",
+93,
+0
+]
+],
+"fuente": "Comisión Electoral, vía AFP y Channels TV",
+"res": "Falta el desglose del resto: Congreso Nepalí, CPN-UML y otros"
+}
+],
+"prio": false,
+"prox": {
+"fecha": "2031",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"064": {
+"n": "Bután",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Monarquía constitucional. Asamblea Nacional (47).",
+"gob": "Rey Jigme Khesar Namgyel Wangchuck; primer ministro Tshering Tobgay desde 2024",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"462": {
+"n": "Maldivas",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Majlis del Pueblo.",
+"gob": "Mohamed Muizzu, presidente desde 2023",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2028",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"004": {
+"n": "Afganistán",
+"c": "g",
+"marca": "sin-competencia",
+"motivo": "Régimen talibán no reconocido por la mayoría de los países; no hay elecciones.",
+"sis": "Emirato sin Constitución ni elecciones.",
+"gob": "Talibanes; líder supremo Hibatullah Akhundzada",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones",
+"pron": "—",
+"pc": null
+}
+},
+"398": {
+"n": "Kazajistán",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "El nuevo Parlamento elegido el 23/8/2026 no tiene oposición. Sin vínculo político con Milei.",
+"sis": "Presidencial. Kurultai unicameral (145) desde la Constitución de 2026.",
+"gob": "Kassym-Jomart Tokayev, presidente desde 2019",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"860": {
+"n": "Uzbekistán",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial.",
+"gob": "Shavkat Mirziyoyev, presidente desde 2016",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2030",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"417": {
+"n": "Kirguistán",
+"c": "m",
+"marca": "cuestionada",
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Jogorku Kenesh (90).",
+"gob": "Sadyr Japarov, presidente desde 2021",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "27/1/2027",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"762": {
+"n": "Tayikistán",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial.",
+"gob": "Emomali Rahmon, presidente desde 1992",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2027",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"795": {
+"n": "Turkmenistán",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial; partido dominante.",
+"gob": "Serdar Berdimuhamedow, presidente desde 2022",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"496": {
+"n": "Mongolia",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Semipresidencial. Gran Jural (126).",
+"gob": "Presidente Ukhnaagiin Khürelsükh; gobierno del Partido del Pueblo de Mongolia",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "Junio de 2027",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"408": {
+"n": "Corea del Norte",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "Dictadura de partido único. Sin vínculo político con Milei.",
+"sis": "Partido único.",
+"gob": "Kim Jong-un",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones competitivas",
+"pron": "—",
+"pc": null
+}
+},
+"158": {
+"n": "Taiwán",
+"c": "m",
+"marca": null,
+"motivo": "La Argentina no reconoce a Taiwán; hubo gestos de acercamiento al inicio del gobierno de Milei, pero sin relación oficial.",
+"sis": "Presidencial. Yuan Legislativo (113).",
+"gob": "Lai Ching-te (PDP), presidente desde 2024",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "Enero de 2028",
+"que": "Presidencial y legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"704": {
+"n": "Vietnam",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "Partido único; To Lam concentra la jefatura del partido y del Estado. Sin vínculo político con Milei.",
+"sis": "Partido único. Asamblea Nacional.",
+"gob": "To Lam, secretario general del Partido Comunista y presidente desde el 7/4/2026",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2031",
+"que": "Asamblea Nacional",
+"pron": "—",
+"pc": null
+}
+},
+"418": {
+"n": "Laos",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Partido único. Asamblea Nacional.",
+"gob": "Partido Popular Revolucionario Lao (partido único)",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2031",
+"que": "Asamblea Nacional",
+"pron": "—",
+"pc": null
+}
+},
+"116": {
+"n": "Camboya",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "El partido oficial ganó 120 de 125 bancas en 2023 con la principal oposición proscripta. Sin vínculo político con Milei.",
+"sis": "Monarquía constitucional con partido dominante. Asamblea Nacional (125).",
+"gob": "Hun Manet (PPC), primer ministro desde 2023",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2028",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"764": {
+"n": "Tailandia",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Monarquía constitucional. Cámara de Representantes (500).",
+"gob": "Anutin Charnvirakul (Bhumjaithai), primer ministro; ganó la elección de febrero de 2026",
+"ej": [],
+"leg": [
+{
+"cam": "Cámara de Representantes",
+"anio": 2026,
+"total": 500,
+"p": [
+[
+"Bhumjaithai",
+191,
+1
+],
+[
+"Partido del Pueblo",
+120,
+0
+],
+[
+"Pheu Thai",
+74,
+0
+],
+[
+"Resto",
+115,
+0
+]
+],
+"fuente": "Resultados certificados, vía The Star",
+"res": "Falta la composición completa de la coalición de gobierno"
+}
+],
+"prio": false,
+"prox": {
+"fecha": "2030",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"104": {
+"n": "Myanmar",
+"c": "m",
+"marca": "cuestionada",
+"motivo": "Elección organizada por la junta en 2025–2026, en plena guerra civil y con la oposición disuelta. Sin vínculo político con Milei.",
+"sis": "Régimen militar con fachada parlamentaria.",
+"gob": "Min Aung Hlaing, presidente desde el 10/4/2026 (jefe del golpe de 2021)",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "—",
+"que": "—",
+"pron": "—",
+"pc": null
+}
+},
+"458": {
+"n": "Malasia",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Monarquía constitucional federal. Dewan Rakyat (222).",
+"gob": "Anwar Ibrahim (Pakatan Harapan), primer ministro desde 2022",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "Hasta comienzos de 2028",
+"que": "Generales (se habla de adelantarlas)",
+"pron": "—",
+"pc": null
+}
+},
+"702": {
+"n": "Singapur",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Parlamentario con partido dominante.",
+"gob": "Lawrence Wong (PAP), primer ministro desde 2024",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2030",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"360": {
+"n": "Indonesia",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Cámara de Representantes (580).",
+"gob": "Prabowo Subianto, presidente desde 2024",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Generales",
+"pron": "—",
+"pc": null
+}
+},
+"608": {
+"n": "Filipinas",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Cámara de Representantes y Senado.",
+"gob": "Ferdinand Marcos Jr., presidente desde 2022; la vicepresidenta Sara Duterte enfrenta un juicio político",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "Mayo de 2028",
+"que": "Presidencial y legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"096": {
+"n": "Brunéi",
+"c": "m",
+"marca": "sin-competencia",
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Monarquía absoluta.",
+"gob": "Sultán Hassanal Bolkiah",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones",
+"pron": "—",
+"pc": null
+}
+},
+"626": {
+"n": "Timor Oriental",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Semipresidencial. Parlamento Nacional (65).",
+"gob": "Presidente José Ramos-Horta; primer ministro Xanana Gusmão",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2027",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"554": {
+"n": "Nueva Zelanda",
+"c": "m",
+"marca": null,
+"motivo": "Gobierno de centroderecha, sin vínculo político explícito con Milei.",
+"sis": "Parlamentario. Cámara de Representantes (unos 120 a 123 miembros).",
+"gob": "Christopher Luxon (National), primer ministro desde 2023; la coalición National–ACT–NZ First retuvo la mayoría el 7/11/2026",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"598": {
+"n": "Papúa Nueva Guinea",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Parlamentario. Parlamento Nacional (118).",
+"gob": "James Marape (Pangu), primer ministro desde 2019",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2027",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"242": {
+"n": "Fiyi",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Parlamentario. Parlamento (55).",
+"gob": "Sitiveni Rabuka (Alianza Popular), primer ministro desde 2022",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "Hasta el 6/2/2027",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"090": {
+"n": "Islas Salomón",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Parlamentario. Parlamento Nacional (50).",
+"gob": "Jeremiah Manele, primer ministro desde 2024",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2028",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"548": {
+"n": "Vanuatu",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Parlamentario. Parlamento (52).",
+"gob": "Jotham Napat, primer ministro desde 2025",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"882": {
+"n": "Samoa",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Parlamentario. Fono Legislativo.",
+"gob": "La'auli Leuatea Schmidt (FAST), primer ministro desde septiembre de 2025",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2030",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"776": {
+"n": "Tonga",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Monarquía constitucional. Asamblea Legislativa (26 electos).",
+"gob": "Lord Fakafanua, primer ministro desde diciembre de 2025; rey Tupou VI",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2029",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"296": {
+"n": "Kiribati",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Maneaba ni Maungatabu.",
+"gob": "Taneti Maamau, presidente desde 2016",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2028",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"583": {
+"n": "Micronesia",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "El Congreso elige al presidente.",
+"gob": "Wesley Simina, presidente desde 2023",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2/3/2027",
+"que": "Congreso",
+"pron": "—",
+"pc": null
+}
+},
+"584": {
+"n": "Islas Marshall",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "El Parlamento elige al presidente.",
+"gob": "Hilda Heine, presidenta desde 2024",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "Noviembre de 2027",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"585": {
+"n": "Palaos",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "Presidencial. Congreso Nacional.",
+"gob": "Surangel Whipps Jr., presidente desde 2021",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2028",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"520": {
+"n": "Nauru",
+"c": "m",
+"marca": null,
+"motivo": "Sin vínculo político con Milei.",
+"sis": "El Parlamento elige al presidente.",
+"gob": "David Adeang, presidente desde 2023",
+"ej": [],
+"leg": [],
+"prio": false,
+"prox": {
+"fecha": "2028",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
 }
 },
 "calendario": [
@@ -9903,6 +10599,17 @@
 "res": "Otras cuentas dan 212 bancas a la alianza del BNP"
 },
 {
+"f": "2026-03-05",
+"id": "524",
+"pais": "Nepal",
+"tipo": "legislativa",
+"ganador": "Balendra Shah",
+"partido": "RSP",
+"pct": null,
+"parlamento": "Cámara de Representantes (275): RSP 182",
+"fuente": "Comisión Electoral, vía AFP y BBC"
+},
+{
 "f": "2026-03-08",
 "id": "170",
 "pais": "Colombia",
@@ -10123,6 +10830,18 @@
 "parlamento": "",
 "fuente": "Comisión Electoral de Zambia, vía NewsDay y Al Jazeera",
 "res": "Otras fuentes redondean en 60%"
+},
+{
+"f": "2026-08-23",
+"id": "398",
+"pais": "Kazajistán",
+"tipo": "legislativa",
+"ganador": "Partido oficialista",
+"partido": "",
+"pct": null,
+"parlamento": "Kurultai (145): los cinco partidos que entraron apoyan a Tokayev",
+"fuente": "Comisión Electoral Central, vía AP y Al Jazeera",
+"res": "Sin oposición en el Parlamento"
 },
 {
 "f": "2026-09-13",
