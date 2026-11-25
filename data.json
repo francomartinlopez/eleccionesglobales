@@ -5292,6 +5292,221 @@
 ],
 "revisado": "25/11/2026"
 }
+},
+"410": {
+"n": "Corea del Sur",
+"c": "m",
+"marca": null,
+"prio": true,
+"motivo": "Gobierno de centroizquierda de Lee Jae-myung, sin afinidad ideológica con Milei pero con una relación en alza: Lee visitó Buenos Aires el 31/7/2026 (la primera visita de un presidente surcoreano en 22 años), firmaron un memorando sobre minerales críticos y la Argentina aprobó el ingreso de Posco al RIGI. Color propuesto, a validar.",
+"sis": "República presidencialista. Presidente elegido por voto directo a una vuelta por cinco años, sin reelección; Asamblea Nacional unicameral de 300 bancas (mixta), renovada cada cuatro años.",
+"gob": "Presidente Lee Jae-myung (Partido Democrático), desde junio de 2025, tras la destitución de Yoon Suk-yeol",
+"ej": [
+{
+"anio": 2025,
+"titulo": "Presidente (elección anticipada)",
+"rondas": [
+{
+"r": "Vuelta única",
+"c": [
+[
+"Lee Jae-myung",
+"Partido Democrático",
+49.42
+],
+[
+"Kim Moon-soo",
+"Partido del Poder Popular",
+41.15
+],
+[
+"Lee Jun-seok",
+"Partido Reformista",
+8.34
+]
+]
+}
+],
+"fuente": "Comisión Nacional Electoral",
+"res": "Cargado de referencia; falta contrastar con la Comisión Nacional Electoral de Corea"
+},
+{
+"anio": 2022,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Vuelta única",
+"c": [
+[
+"Yoon Suk-yeol",
+"Partido del Poder Popular",
+48.56
+],
+[
+"Lee Jae-myung",
+"Partido Democrático",
+47.83
+]
+]
+}
+],
+"fuente": "Comisión Nacional Electoral",
+"res": "Cargado de referencia; falta contrastar con la Comisión Nacional Electoral de Corea"
+}
+],
+"leg": [
+{
+"cam": "Asamblea Nacional",
+"anio": 2024,
+"total": 300,
+"p": [
+[
+"Partido Democrático y aliados",
+175,
+1
+],
+[
+"Partido del Poder Popular y aliados",
+108,
+0
+],
+[
+"Partido de la Reconstrucción de Corea",
+12,
+0
+],
+[
+"Partido Reformista",
+3,
+0
+],
+[
+"Otros",
+2,
+0
+]
+],
+"fuente": "Comisión Nacional Electoral",
+"res": "Cargado de referencia; falta contrastar con la Comisión Nacional Electoral de Corea. Incluye a los partidos satélite de las listas proporcionales"
+},
+{
+"cam": "Asamblea Nacional",
+"anio": 2020,
+"total": 300,
+"p": [
+[
+"Partido Democrático y aliados",
+180,
+1
+],
+[
+"Partido Futuro Unido y aliados",
+103,
+0
+],
+[
+"Partido de la Justicia",
+6,
+0
+],
+[
+"Otros",
+11,
+0
+]
+],
+"fuente": "Comisión Nacional Electoral",
+"res": "Cargado de referencia; falta contrastar con la Comisión Nacional Electoral de Corea"
+}
+],
+"prox": {
+"fecha": "Asamblea Nacional: abril de 2028. Presidente: 2030",
+"que": "Asamblea Nacional y, después, la presidencia",
+"pron": "Sin elección nacional cercana. La aprobación de Lee ronda el 40% (Gallup Korea, 3-5/11: 41%) y las encuestas muestran a los dos grandes partidos cerca: Gallup da Partido Democrático 36% y Poder Popular 28%, mientras Realmeter (12-13/11) pone adelante al Poder Popular",
+"pc": "m",
+"fuente": "Gallup Korea vía SBS; Realmeter vía Kyunghyang"
+},
+"impacto": {
+"eleccion": "No hay elección nacional hasta 2028. Corea pesa por el litio (Posco en Salta) y busca un acuerdo comercial con el Mercosur y abastecimiento de alimentos y energía.",
+"escenarios": [
+{
+"si": "Sigue el Partido Democrático de Lee",
+"c": "m",
+"comercio": "Reinicio de la negociación del acuerdo Corea–Mercosur, frenada desde 2018; interés coreano en alimentos y en el GNL y el petróleo de Vaca Muerta.",
+"aranceles": "Un acuerdo bajaría aranceles para alimentos argentinos y para autos, electrónica y maquinaria coreanos.",
+"inversiones": "Posco amplía su proyecto de litio Sal de Oro con US$ 207,9 millones bajo el RIGI; memorando para toda la cadena de minerales críticos, de la exploración al refinado.",
+"politica": "Relación pragmática y en alza, sin afinidad ideológica.",
+"rubros": {
+"industria": [
+"incierto",
+"Un acuerdo sumaría competencia de autos y electrónica coreanos (Samsung y LG ya están en el país)."
+],
+"agro": [
+"favorable",
+"Corea busca diversificar su abastecimiento de alimentos."
+],
+"mineria": [
+"favorable",
+"Litio con Posco en Salta y memorando sobre minerales críticos."
+],
+"energia": [
+"favorable",
+"Interés coreano en el petróleo y el GNL de Vaca Muerta."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+},
+{
+"si": "Gana el Partido del Poder Popular (conservador)",
+"c": "a",
+"comercio": "Continuidad: la política hacia los minerales críticos y el Mercosur no depende del partido de gobierno.",
+"aranceles": "Sin cambios de fondo.",
+"inversiones": "Mismo interés en litio y energía.",
+"politica": "Más afinidad ideológica con el gobierno argentino y más cercanía con EE.UU.",
+"rubros": {
+"industria": [
+"incierto",
+"Igual que con Lee."
+],
+"agro": [
+"favorable",
+"Igual que con Lee."
+],
+"mineria": [
+"favorable",
+"Igual que con Lee."
+],
+"energia": [
+"favorable",
+"Igual que con Lee."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+}
+],
+"fuentes": [
+"Perfil y EFE vía ABC Paraguay (visita de Lee, memorando y Posco en el RIGI)",
+"Diario Libre/EFE (Lee: Corea, «socio óptimo» en minerales)",
+"Herald Corp (interés en Vaca Muerta)",
+"Gulf News/AFP (memorando de exploración a refinado)",
+"Asia Business Daily (empresas coreanas en la Argentina)"
+],
+"revisado": "25/11/2026"
+}
 }
 },
 "calendario": [
