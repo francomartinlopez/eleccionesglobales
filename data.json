@@ -6453,6 +6453,621 @@
 ],
 "revisado": "25/11/2026"
 }
+},
+"376": {
+"marca": null,
+"ej": [],
+"leg": [
+{
+"cam": "Knéset",
+"anio": 2026,
+"total": 120,
+"p": [
+[
+"Bloque de Netanyahu",
+53,
+1
+],
+[
+"Bloque de Eisenkot",
+48,
+0
+],
+[
+"Partidos árabes",
+19,
+0
+]
+],
+"fuente": "Comité Central de Elecciones, vía JNS",
+"res": "Agrupado por bloques; Likud 27 y Yashar 21. Otra fuente da 54 al bloque de Netanyahu y 18 a los árabes"
+}
+],
+"prio": false,
+"n": "Israel",
+"c": "a",
+"motivo": "Netanyahu, aliado estrecho de Milei (traslado de la embajada argentina a Jerusalén). Gobierna en funciones mientras Eisenkot intenta formar coalición.",
+"sis": "Parlamentario. Knéset (120).",
+"gob": "Benjamin Netanyahu (Likud), primer ministro en funciones. Gadi Eisenkot (Yashar) tiene el encargo de formar gobierno desde noviembre de 2026",
+"ejnota": "Sistema parlamentario: la Knéset elige al primer ministro. Tras la elección del 27/10/2026, el presidente Herzog encargó formar gobierno a Eisenkot; si fracasa él y fracasa Netanyahu, habría nuevas elecciones.",
+"prox": {
+"fecha": "Sin fecha",
+"que": "Nuevas elecciones solo si nadie forma gobierno; si no, en 2030",
+"pron": "Eisenkot tiene 28 días (prorrogables) para reunir mayoría",
+"pc": null
+}
+},
+"348": {
+"marca": null,
+"ej": [],
+"leg": [
+{
+"cam": "Asamblea Nacional",
+"anio": 2026,
+"total": 199,
+"p": [
+[
+"Tisza",
+141,
+1
+],
+[
+"Fidesz-KDNP",
+52,
+0
+],
+[
+"Mi Hazánk",
+6,
+0
+]
+],
+"fuente": "Oficina Electoral Nacional, vía Daily News Hungary y Al Jazeera",
+"res": "Otras fuentes dan entre 136 y 138 bancas a Tisza"
+}
+],
+"prio": false,
+"n": "Hungría",
+"c": "m",
+"motivo": "Magyar (Tisza, conservador proeuropeo) desplazó a Orbán, aliado de Milei. La Cancillería argentina lo felicitó y quiere sostener el vínculo, pero Magyar se desmarca del movimiento MAGA. Hungría votó contra el acuerdo UE–Mercosur (con Orbán).",
+"sis": "Parlamentario. Asamblea Nacional (199).",
+"gob": "Péter Magyar (Tisza), desde 2026",
+"prox": {
+"fecha": "2030",
+"que": "Legislativas",
+"pron": "Sin encuestas todavía",
+"pc": null
+}
+},
+"616": {
+"marca": null,
+"ej": [
+{
+"anio": 2025,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "1.ª vuelta",
+"c": [
+[
+"Rafał Trzaskowski",
+"KO",
+31.36
+],
+[
+"Karol Nawrocki",
+"PiS (apoyo)",
+29.54
+],
+[
+"Sławomir Mentzen",
+"Confederación",
+14.81
+]
+]
+},
+{
+"r": "2.ª vuelta",
+"c": [
+[
+"Karol Nawrocki",
+"PiS (apoyo)",
+50.89
+],
+[
+"Rafał Trzaskowski",
+"KO",
+49.11
+]
+]
+}
+],
+"fuente": "PKW",
+"res": "Cargado de referencia; falta contrastar con el organismo electoral"
+}
+],
+"leg": [
+{
+"cam": "Sejm",
+"anio": 2023,
+"total": 460,
+"p": [
+[
+"PiS",
+194,
+0
+],
+[
+"Coalición Cívica",
+157,
+1
+],
+[
+"Tercera Vía",
+65,
+1
+],
+[
+"Izquierda",
+26,
+1
+],
+[
+"Confederación",
+18,
+0
+]
+],
+"fuente": "PKW",
+"res": "Cargado de referencia; falta contrastar con el organismo electoral"
+}
+],
+"prio": false,
+"n": "Polonia",
+"c": "m",
+"motivo": "Gobierno de Tusk (centro proeuropeo), sin vínculo político con Milei; Polonia votó contra el acuerdo UE–Mercosur. El presidente Nawrocki es cercano a Trump.",
+"sis": "Semipresidencial. Sejm (460) y Senado (100); presidente electo por voto directo.",
+"gob": "Donald Tusk (Coalición Cívica), primer ministro desde 2023; presidente Karol Nawrocki (apoyado por PiS), desde agosto de 2025",
+"prox": {
+"fecha": "Oct–nov 2027",
+"que": "Sejm y Senado",
+"pron": "Coalición Cívica 32,5%, PiS 25,4%, Confederación 14,3% (Pollster, jul 2026)",
+"pc": null
+}
+},
+"528": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Países Bajos",
+"c": "m",
+"motivo": "Gobierno de centro de Jetten (D66), sin vínculo político con Milei.",
+"sis": "Parlamentario. Segunda Cámara (150) y Senado (75, indirecto).",
+"gob": "Rob Jetten (D66), desde el 23/2/2026, al frente de un gobierno de minoría D66–VVD–CDA",
+"prox": {
+"fecha": "24/5/2027",
+"que": "Senado (indirecta, por los parlamentos provinciales)",
+"pron": "Sin encuestas cargadas",
+"pc": null
+}
+},
+"620": {
+"marca": null,
+"ej": [],
+"leg": [
+{
+"cam": "Asamblea de la República",
+"anio": 2025,
+"total": 230,
+"p": [
+[
+"Alianza Democrática",
+91,
+1
+],
+[
+"Chega",
+60,
+0
+],
+[
+"PS",
+58,
+0
+],
+[
+"Iniciativa Liberal",
+9,
+0
+],
+[
+"Livre",
+6,
+0
+],
+[
+"PCP",
+3,
+0
+],
+[
+"Otros",
+3,
+0
+]
+],
+"fuente": "CNE Portugal",
+"res": "Cargado de referencia; falta contrastar con el organismo electoral"
+}
+],
+"prio": false,
+"n": "Portugal",
+"c": "m",
+"motivo": "Montenegro (centroderecha), sin vínculo político con Milei. Chega, segunda fuerza, es afín a la derecha alternativa.",
+"sis": "Semipresidencial. Asamblea de la República (230); presidente electo por voto directo.",
+"gob": "Luís Montenegro (PSD, Alianza Democrática), primer ministro desde 2024; presidente António José Seguro (PS), electo en febrero de 2026",
+"ejnota": "Presidente: António José Seguro (PS), electo en la segunda vuelta de febrero de 2026 con cerca del 66,8%. El primer ministro surge del Parlamento.",
+"prox": {
+"fecha": "2029",
+"que": "Legislativas",
+"pron": "Sin encuestas cargadas",
+"pc": null
+}
+},
+"300": {
+"marca": null,
+"ej": [],
+"leg": [
+{
+"cam": "Parlamento",
+"anio": 2023,
+"total": 300,
+"p": [
+[
+"Nueva Democracia",
+158,
+1
+],
+[
+"SYRIZA",
+47,
+0
+],
+[
+"PASOK",
+32,
+0
+],
+[
+"KKE",
+21,
+0
+],
+[
+"Espartanos",
+12,
+0
+],
+[
+"Solución Griega",
+12,
+0
+],
+[
+"Niki",
+10,
+0
+],
+[
+"Rumbo a la Libertad",
+8,
+0
+]
+],
+"fuente": "Ministerio del Interior",
+"res": "Cargado de referencia; falta contrastar con el organismo electoral. Elección de junio de 2023"
+}
+],
+"prio": false,
+"n": "Grecia",
+"c": "m",
+"motivo": "Mitsotakis (centroderecha), sin vínculo político con Milei.",
+"sis": "Parlamentario. Parlamento (300).",
+"gob": "Kyriakos Mitsotakis (Nueva Democracia), desde 2019",
+"prox": {
+"fecha": "Primavera de 2027",
+"que": "Legislativas",
+"pron": "ND primera pero lejos de la mayoría propia, según las encuestas citadas por la prensa griega",
+"pc": null
+}
+},
+"208": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Dinamarca",
+"c": "m",
+"motivo": "Frederiksen (centroizquierda), sin vínculo político con Milei.",
+"sis": "Parlamentario. Folketing (179).",
+"gob": "Mette Frederiksen (Socialdemócratas), tercer mandato desde el 1/6/2026, gobierno de minoría de cuatro partidos",
+"prox": {
+"fecha": "2030",
+"que": "Legislativas",
+"pron": "Sin encuestas cargadas",
+"pc": null
+}
+},
+"752": {
+"marca": null,
+"ej": [],
+"leg": [
+{
+"cam": "Riksdag",
+"anio": 2026,
+"total": 349,
+"p": [
+[
+"Socialdemócratas",
+99,
+0
+],
+[
+"Moderados",
+70,
+1
+],
+[
+"Demócratas de Suecia",
+62,
+0
+],
+[
+"Democristianos",
+22,
+1
+],
+[
+"Liberales",
+19,
+1
+],
+[
+"Resto del bloque de centroizquierda",
+77,
+0
+]
+],
+"fuente": "Autoridad Electoral, vía SVT y AP",
+"res": "En color, el gobierno en funciones. El bloque de centroizquierda suma 176"
+}
+],
+"prio": false,
+"n": "Suecia",
+"c": "m",
+"motivo": "Bloqueo institucional: ganó el bloque de centroizquierda pero nadie logró aún formar gobierno. Sin vínculo político con Milei.",
+"sis": "Parlamentario. Riksdag (349).",
+"gob": "Ulf Kristersson (Moderados), primer ministro en funciones. El Riksdag rechazó a Magdalena Andersson (15/10) y a Elisabeth Thand Ringqvist (3/11)",
+"ejnota": "Sistema parlamentario: si el Riksdag rechaza a cuatro candidatos a primer ministro, hay que repetir las elecciones.",
+"prox": {
+"fecha": "Sin fecha",
+"que": "Elección anticipada si se rechaza a un cuarto candidato; si no, septiembre de 2030",
+"pron": "—",
+"pc": null
+}
+},
+"100": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Bulgaria",
+"c": "m",
+"motivo": "Radev, crítico de la UE y cercano a Rusia; sin vínculo con Milei.",
+"sis": "Parlamentario. Asamblea Nacional (240); presidente electo por voto directo.",
+"gob": "Rumen Radev (Bulgaria Progresista), primer ministro desde el 8/5/2026; presidenta Iliana Iotova, electa en noviembre de 2026",
+"ejnota": "Presidenta: Iliana Iotova, ganó la elección del 1/11/2026 por unos 18 puntos. El primer ministro surge del Parlamento.",
+"prox": {
+"fecha": "2030",
+"que": "Legislativas",
+"pron": "Sin encuestas cargadas",
+"pc": null
+}
+},
+"688": {
+"marca": null,
+"ej": [],
+"leg": [
+{
+"cam": "Asamblea Nacional",
+"anio": 2026,
+"total": 250,
+"p": [
+[
+"Lista Estudiantil",
+141,
+1
+],
+[
+"Resto",
+109,
+0
+]
+],
+"fuente": "CIDOB",
+"res": "Euronews habla de 140 bancas; falta el reparto oficial completo"
+}
+],
+"prio": false,
+"n": "Serbia",
+"c": "m",
+"motivo": "La Lista Estudiantil terminó con 14 años de Vučić; todavía no nombró primer ministro y su política exterior es difusa. Sin vínculo con Milei.",
+"sis": "Parlamentario con presidente electo por voto directo. Asamblea Nacional (250).",
+"gob": "Ana Brnabić, presidenta interina (presidenta de la Asamblea saliente). La Lista Estudiantil tiene 90 días desde el 17/11/2026 para formar gobierno",
+"ejnota": "Vučić renunció a la presidencia en septiembre de 2026 para ser candidato a primer ministro y perdió. La elección presidencial debe hacerse a más tardar el 27/12/2026.",
+"prox": {
+"fecha": "Hasta el 27/12/2026",
+"que": "Presidencial",
+"pron": "Sin encuestas cargadas",
+"pc": null
+}
+},
+"040": {
+"marca": null,
+"ej": [],
+"leg": [
+{
+"cam": "Consejo Nacional",
+"anio": 2024,
+"total": 183,
+"p": [
+[
+"FPÖ",
+57,
+0
+],
+[
+"ÖVP",
+51,
+1
+],
+[
+"SPÖ",
+41,
+1
+],
+[
+"NEOS",
+18,
+1
+],
+[
+"Verdes",
+16,
+0
+]
+],
+"fuente": "Ministerio del Interior",
+"res": "Cargado de referencia; falta contrastar con el organismo electoral"
+}
+],
+"prio": false,
+"n": "Austria",
+"c": "m",
+"motivo": "Gobierno de centro (ÖVP–SPÖ–NEOS) sin vínculo con Milei; votó contra el acuerdo UE–Mercosur. El FPÖ, primera fuerza en 2024, quedó en la oposición.",
+"sis": "Parlamentario. Consejo Nacional (183); presidente electo por voto directo.",
+"gob": "Christian Stocker (ÖVP), canciller desde el 3/3/2025, con SPÖ y NEOS",
+"prox": {
+"fecha": "2029",
+"que": "Legislativas",
+"pron": "Sin encuestas cargadas",
+"pc": null
+}
+},
+"056": {
+"marca": null,
+"ej": [],
+"leg": [
+{
+"cam": "Cámara de Representantes",
+"anio": 2024,
+"total": 150,
+"p": [
+[
+"N-VA",
+24,
+1
+],
+[
+"Vlaams Belang",
+20,
+0
+],
+[
+"MR",
+20,
+1
+],
+[
+"PS",
+16,
+0
+],
+[
+"PTB-PVDA",
+15,
+0
+],
+[
+"Les Engagés",
+14,
+1
+],
+[
+"Vooruit",
+13,
+1
+],
+[
+"CD&V",
+11,
+1
+],
+[
+"Open VLD",
+7,
+0
+],
+[
+"Groen",
+6,
+0
+],
+[
+"Ecolo",
+3,
+0
+],
+[
+"DéFI",
+1,
+0
+]
+],
+"fuente": "Ministerio del Interior",
+"res": "Cargado de referencia; falta contrastar con el organismo electoral"
+}
+],
+"prio": false,
+"n": "Bélgica",
+"c": "m",
+"motivo": "De Wever (nacionalista flamenco de centroderecha), sin vínculo con Milei; Bélgica se abstuvo en la votación del acuerdo UE–Mercosur. Gobierno en crisis por el presupuesto.",
+"sis": "Parlamentario. Cámara de Representantes (150).",
+"gob": "Bart De Wever (N-VA), desde el 3/2/2025. El rey rechazó su renuncia en noviembre de 2026; plazo para el presupuesto hasta Navidad",
+"prox": {
+"fecha": "2029",
+"que": "Legislativas (antes si cae el gobierno)",
+"pron": "Sin encuestas cargadas",
+"pc": null
+}
+},
+"372": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Irlanda",
+"c": "m",
+"motivo": "Gobierno de centro (Fianna Fáil–Fine Gael), sin vínculo con Milei; Irlanda votó contra el acuerdo UE–Mercosur.",
+"sis": "Parlamentario. Dáil (174) y Senado; presidente electo por voto directo.",
+"gob": "Micheál Martin (Fianna Fáil), primer ministro desde enero de 2025, en coalición con Fine Gael",
+"prox": {
+"fecha": "Hasta 2030",
+"que": "Legislativas",
+"pron": "Sin encuestas cargadas",
+"pc": null
+}
 }
 },
 "calendario": [
@@ -6929,15 +7544,15 @@
 },
 {
 "f": "",
-"fe": "2027",
+"fe": "Primavera de 2027 (Mitsotakis apunta a mayo)",
 "id": "300",
 "pais": "Grecia",
 "tipo": "legislativa",
 "cargos": "Parlamento (300)",
 "estado": "estimada",
 "fuerzas": [],
-"fuente": "Wikipedia",
-"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+"fuente": "Greek Reporter, iefimerida",
+"res": "Fecha anunciada por el primer ministro; falta la convocatoria oficial"
 },
 {
 "f": "",
@@ -7078,6 +7693,18 @@
 "enc_fuente": "Lo impulsa una alianza ambientalista; el Parlamento aprobó el acuerdo en octubre de 2026",
 "enc_fecha": "nov 2026",
 "fuente": "blue News, cash.ch"
+},
+{
+"f": "",
+"fe": "A más tardar el 27/12/2026",
+"id": "688",
+"pais": "Serbia",
+"tipo": "presidencial",
+"cargos": "Presidente",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "N1 y Telegraf (plazo constitucional tras la renuncia de Vučić)",
+"res": "Falta la convocatoria oficial"
 }
 ],
 "recientes": [
