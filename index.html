@@ -324,7 +324,8 @@ function setV(v){vista=v;$("vHoy").setAttribute("aria-pressed",v==="hoy");$("vPr
  root.selectAll("path.country").style("fill",d=>colorDe(d.id)).style("fill-opacity",d=>opac(d.id));root.selectAll("circle.isle").style("fill",d=>colorDe(d.id)).style("fill-opacity",d=>opac(d.id));
  $("nota").textContent=v==="hoy"?"Tocá un país para ver su ficha. Los puntos marcan islas chicas del Caribe. Rayado: elecciones cuestionadas o sin competencia. Gris oscuro: países con elección en el calendario o resultado reciente, sin ficha completa (se pueden tocar). Gris claro: sin datos.":"Color según quién lidera las encuestas de la próxima elección. Color tenue: todavía no hay encuestas o no hay fecha; se ve quién gobierna hoy.";}
 function setR(r){region=r;$("rLat").setAttribute("aria-pressed",r==="lat");$("rMun").setAttribute("aria-pressed",r==="mun");$("bUE").setAttribute("aria-pressed",r==="ue");draw();lista();calendario();recientes();document.querySelectorAll(".reg").forEach(e=>e.textContent=REGN[r]);
- if(r==="ue")elegir("EU",false);else if(sel&&!enRegion(sel))elegir(r==="lat"?"076":"076",false);}
+ if(r==="ue")elegir("EU",false);else if(!sel||!enRegion(sel))elegir(porDefecto(),false);}
+function porDefecto(){const hoy=new Date().toISOString().slice(0,10);const x=cal().filter(x=>x.f&&x.f>=hoy&&D.paises[x.id]&&x.id!=="EU"&&enRegion(x.id)).sort((a,b)=>a.f.localeCompare(b.f))[0];return x?x.id:"076";}
 const REGN={mun:"Todo el mundo",lat:"América Latina y el Caribe",ue:"Unión Europea"};
 function enRegion(id){if(region==="mun")return true;if(region==="ue")return id==="EU"||UE.includes(id);return id!=="EU"&&esLat(id);}
 const pr2=(a,b,v)=>{$(a).setAttribute("aria-pressed",v);$(b).setAttribute("aria-pressed",!v);};
@@ -339,7 +340,7 @@ $("zin").onclick=()=>svg.transition().call(zoom.scaleBy,1.6);$("zout").onclick=(
 Promise.all([fetch("data.json").then(r=>r.json()),fetch("world.json").then(r=>r.json())]).then(([d,w])=>{
  D=d;feats=topojson.feature(w,w.objects.countries).features.filter(f=>f.id!=="010");feats.forEach(f=>{if(f.id==null&&f.properties&&f.properties.name==="Kosovo")f.id="XK";});
  $("act").textContent="Datos actualizados al "+d.actualizado+".";
- draw();lista();calendario();recientes();elegir("076",false);
+ draw();lista();calendario();recientes();elegir(porDefecto(),false);
  let t;new ResizeObserver(()=>{clearTimeout(t);t=setTimeout(draw,120)}).observe($("mapbox"));
 }).catch(()=>{$("fichaIn").innerHTML='<p class="empty">No se pudieron cargar los datos del mapa. Recargá la página.</p>';});
 }
