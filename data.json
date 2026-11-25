@@ -7980,6 +7980,341 @@
 "pron": "—",
 "pc": null
 }
+},
+"682": {
+"marca": "sin-competencia",
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Arabia Saudita",
+"c": "m",
+"motivo": "Monarquía absoluta. Relación pragmática: la Argentina busca inversiones sauditas, sin alineamiento político.",
+"sis": "Monarquía absoluta. Consejo Consultivo designado.",
+"gob": "Rey Salmán; príncipe heredero y primer ministro Mohammed bin Salmán",
+"ejnota": "Monarquía sin elecciones para el jefe de Estado ni de gobierno.",
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones nacionales previstas",
+"pron": "—",
+"pc": null
+}
+},
+"784": {
+"marca": "sin-competencia",
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Emiratos Árabes Unidos",
+"c": "m",
+"motivo": "Federación de monarquías. Agenda activa de inversiones con la Argentina y negociación de un acuerdo Mercosur–EAU, sin alineamiento político.",
+"sis": "Federación de monarquías. Consejo Nacional Federal, la mitad elegido por un colegio restringido.",
+"gob": "Presidente Mohamed bin Zayed",
+"ejnota": "Monarquía sin elecciones para el jefe de Estado ni de gobierno.",
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones nacionales previstas",
+"pron": "—",
+"pc": null
+}
+},
+"634": {
+"marca": "sin-competencia",
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Qatar",
+"c": "m",
+"motivo": "Monarquía; sin vínculo político con Milei.",
+"sis": "Emirato. Consejo de la Shura.",
+"gob": "Emir Tamim bin Hamad Al Thani",
+"ejnota": "Monarquía sin elecciones para el jefe de Estado ni de gobierno.",
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones nacionales previstas",
+"pron": "—",
+"pc": null
+}
+},
+"414": {
+"marca": "sin-competencia",
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Kuwait",
+"c": "m",
+"motivo": "El emir suspendió el Parlamento en 2024; sin vínculo político con Milei.",
+"sis": "Emirato. Asamblea Nacional suspendida desde mayo de 2024.",
+"gob": "Emir Mishal al-Ahmad al-Sabah",
+"ejnota": "Monarquía sin elecciones para el jefe de Estado ni de gobierno.",
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones nacionales previstas",
+"pron": "—",
+"pc": null
+}
+},
+"048": {
+"marca": "sin-competencia",
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Baréin",
+"c": "m",
+"motivo": "Monarquía con un Parlamento de poderes limitados; sin vínculo político con Milei.",
+"sis": "Monarquía constitucional. Consejo de Representantes electo y Consejo Consultivo designado.",
+"gob": "Rey Hamad bin Isa Al Khalifa; príncipe heredero y primer ministro Salmán bin Hamad",
+"ejnota": "Monarquía sin elecciones para el jefe de Estado ni de gobierno.",
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones nacionales previstas",
+"pron": "—",
+"pc": null
+}
+},
+"512": {
+"marca": "sin-competencia",
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Omán",
+"c": "m",
+"motivo": "Sultanato; sin vínculo político con Milei.",
+"sis": "Sultanato. Consejo de Omán (consultivo).",
+"gob": "Sultán Haitham bin Tarik",
+"ejnota": "Monarquía sin elecciones para el jefe de Estado ni de gobierno.",
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones nacionales previstas",
+"pron": "—",
+"pc": null
+}
+},
+"364": {
+"marca": "cuestionada",
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Irán",
+"c": "e",
+"motivo": "La Argentina responsabiliza a Irán por el atentado a la AMIA y el gobierno de Milei lo trata como enemigo. Las candidaturas las filtra el Consejo de Guardianes.",
+"sis": "Teocracia con elecciones restringidas. El líder supremo, vitalicio, está por encima del presidente electo.",
+"gob": "Líder supremo Mojtaba Khamenei, desde marzo de 2026 (su padre, Ali Khamenei, murió en un ataque de EE.UU. e Israel el 28/2/2026); presidente Masoud Pezeshkian",
+"prox": {
+"fecha": "2028",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"368": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Irak",
+"c": "m",
+"motivo": "Gobierno de equilibrio entre EE.UU. e Irán; sin vínculo con Milei.",
+"sis": "Parlamentario. Consejo de Representantes (329).",
+"gob": "Ali al-Zaidi (independiente, propuesto por el Marco de Coordinación), primer ministro desde el 14/5/2026; presidente Nizar Amedi",
+"prox": {
+"fecha": "2029",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"760": {
+"marca": "sin-competencia",
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Siria",
+"c": "m",
+"motivo": "Transición tras la caída de Assad; sin vínculo con Milei.",
+"sis": "Transición. Asamblea Popular (210): dos tercios elegidos por colegios electorales y un tercio designado por el presidente.",
+"gob": "Ahmed al-Sharaa, presidente de transición desde 2025",
+"ejnota": "No hay elección presidencial. La Asamblea transitoria se instaló el 12/7/2026 por 30 meses para redactar una Constitución y preparar elecciones.",
+"prox": {
+"fecha": "Hacia 2029",
+"que": "Primeras elecciones generales previstas al cabo de la transición",
+"pron": "—",
+"pc": null
+}
+},
+"422": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Líbano",
+"c": "m",
+"motivo": "Gobierno de Aoun y Salam, con Hezbolá todavía armado; sin vínculo con Milei.",
+"sis": "Parlamentario confesional. Parlamento (128).",
+"gob": "Presidente Joseph Aoun; primer ministro Nawaf Salam",
+"ejnota": "El presidente lo elige el Parlamento. Las legislativas de mayo de 2026 se postergaron dos años por la guerra.",
+"prox": {
+"fecha": "2028",
+"que": "Legislativas (postergadas)",
+"pron": "—",
+"pc": null
+}
+},
+"400": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Jordania",
+"c": "m",
+"motivo": "Monarquía constitucional; sin vínculo político con Milei.",
+"sis": "Monarquía constitucional. Cámara de Diputados (138) electa y Senado designado.",
+"gob": "Rey Abdalá II",
+"prox": {
+"fecha": "2028",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"887": {
+"marca": "sin-control",
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Yemen",
+"c": "g",
+"motivo": "Guerra civil: el gobierno reconocido no controla el norte ni la capital, en manos de los hutíes.",
+"sis": "Sin instituciones electas en funcionamiento.",
+"gob": "Consejo de Liderazgo Presidencial (reconocido internacionalmente); los hutíes controlan Saná",
+"ejnota": "La última elección presidencial fue en 2012.",
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones nacionales previstas",
+"pron": "—",
+"pc": null
+}
+},
+"818": {
+"marca": "cuestionada",
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Egipto",
+"c": "m",
+"motivo": "Régimen de Sisi; sin vínculo político con Milei.",
+"sis": "Presidencial. Cámara de Representantes y Senado.",
+"gob": "Abdel Fattah al-Sisi, presidente desde 2014",
+"prox": {
+"fecha": "2030",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"434": {
+"marca": "sin-control",
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Libia",
+"c": "g",
+"motivo": "Dos gobiernos rivales; no hay elecciones nacionales desde 2014.",
+"sis": "Dividido entre el gobierno de Trípoli (reconocido por la ONU) y el del este, respaldado por Haftar.",
+"gob": "Abdul Hamid Dbeibah (Trípoli) y el bloque de Khalifa Haftar (este)",
+"ejnota": "En agosto de 2026 las partes firmaron un acuerdo con la ONU para hacer elecciones en 24 meses.",
+"prox": {
+"fecha": "Hasta 2028",
+"que": "Presidencial y legislativas (acuerdo 4+4)",
+"pron": "—",
+"pc": null
+}
+},
+"788": {
+"marca": "cuestionada",
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Túnez",
+"c": "m",
+"motivo": "Saied gobierna por decreto desde 2021; sin vínculo con Milei.",
+"sis": "Presidencial. Asamblea de Representantes con poderes reducidos.",
+"gob": "Kaïs Saied, presidente desde 2019",
+"prox": {
+"fecha": "2029",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"012": {
+"marca": "cuestionada",
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Argelia",
+"c": "m",
+"motivo": "Régimen de Tebboune, alineado con Rusia; sin vínculo con Milei.",
+"sis": "Presidencial. Asamblea Popular Nacional (407).",
+"gob": "Abdelmadjid Tebboune, presidente desde 2019",
+"prox": {
+"fecha": "2029",
+"que": "Presidencial",
+"pron": "—",
+"pc": null
+}
+},
+"504": {
+"marca": null,
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Marruecos",
+"c": "m",
+"motivo": "Monarquía con gobierno electo; sin vínculo político con Milei.",
+"sis": "Monarquía constitucional. Cámara de Representantes (395); el rey nombra jefe de gobierno al partido más votado.",
+"gob": "Rey Mohammed VI; jefa de gobierno Fatima Ezzahra El Mansouri (PAM), primera mujer en el cargo, designada por el rey tras la elección del 23/9/2026",
+"prox": {
+"fecha": "2031",
+"que": "Legislativas",
+"pron": "—",
+"pc": null
+}
+},
+"275": {
+"marca": "sin-control",
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Palestina",
+"c": "g",
+"motivo": "Territorio dividido y ocupado; sin elecciones desde 2006.",
+"sis": "Autoridad Palestina en partes de Cisjordania; Gaza bajo administración de transición.",
+"gob": "Mahmud Abbas, presidente de la Autoridad Palestina desde 2005",
+"ejnota": "Las últimas elecciones legislativas fueron en 2006.",
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones nacionales previstas",
+"pron": "—",
+"pc": null
+}
+},
+"732": {
+"marca": "sin-control",
+"ej": [],
+"leg": [],
+"prio": false,
+"n": "Sahara Occidental",
+"c": "g",
+"motivo": "Territorio en disputa entre Marruecos y el Frente Polisario.",
+"sis": "Sin gobierno propio con control efectivo.",
+"gob": "Mayormente administrado por Marruecos",
+"ejnota": "Territorio no autónomo según la ONU.",
+"prox": {
+"fecha": "—",
+"que": "Sin elecciones nacionales previstas",
+"pron": "—",
+"pc": null
+}
 }
 },
 "calendario": [
@@ -8855,6 +9190,17 @@
 "fuente": "CNE, escrutinio final"
 },
 {
+"f": "2026-07-02",
+"id": "012",
+"pais": "Argelia",
+"tipo": "legislativa",
+"ganador": "FLN (primera fuerza)",
+"partido": "FLN",
+"pct": null,
+"parlamento": "Asamblea Popular Nacional (407): FLN 91; participación 21,2%",
+"fuente": "Tribunal Constitucional, vía APS y AP"
+},
+{
 "f": "2026-09-13",
 "id": "752",
 "pais": "Suecia",
@@ -8876,6 +9222,17 @@
 "parlamento": "Duma (450): Rusia Unida 349, PCFR 37, LDPR 23, Nueva Gente 19, Rusia Justa 17",
 "fuente": "Comisión Electoral Central, vía Meduza y AP",
 "res": "Elección sin oposición real"
+},
+{
+"f": "2026-09-23",
+"id": "504",
+"pais": "Marruecos",
+"tipo": "legislativa",
+"ganador": "PAM (primera fuerza); jefa de gobierno Fatima Ezzahra El Mansouri",
+"partido": "PAM",
+"pct": null,
+"parlamento": "Cámara de Representantes (395): PAM 97, RNI 66",
+"fuente": "Ministerio del Interior, vía Morocco World News y Reuters"
 },
 {
 "f": "2026-10-03",
