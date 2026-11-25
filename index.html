@@ -126,6 +126,7 @@ footer{font-size:14px;color:var(--mut)}
 footer p{max-width:80ch}
 .empty{color:var(--mut)}
 @media(max-width:600px){table{font-size:14px}.stack thead{display:none}.stack tr{display:grid;padding-block:10px;border-bottom:1px solid var(--line)}.stack td{display:flow-root;border:0;padding:3px 0;padding-inline-start:7.5em;text-align:start}.stack td::before{content:attr(data-l);float:inline-start;width:7em;margin-inline-start:-7.5em;color:var(--mut);font-size:13px}.stack td:empty{display:none}.mapbox{height:440px}.seg button{padding:0 12px;font-size:14px}}
+.reg-n{font-weight:500;font-size:.75em;color:var(--muted,#6b7280)}
 </style>
 <script>new MutationObserver(()=>{for(const c of document.querySelectorAll('.stack td:not([data-l])')){let i=0,p=c;while(p=p.previousElementSibling)i+=p.colSpan;c.dataset.l=c.closest('table').rows[0].cells[i]?.textContent||''}}).observe(document,{childList:true,subtree:true})</script>
 </head>
@@ -145,7 +146,7 @@ footer p{max-width:80ch}
 <div class="controls">
 <div class="seg" role="group" aria-label="Vista"><button id="vHoy" aria-pressed="true">Hoy</button><button id="vProx" aria-pressed="false">Próxima elección</button></div>
 <div class="seg" role="group" aria-label="Región"><button id="rLat" aria-pressed="false">Latinoamérica</button><button id="rMun" aria-pressed="true">Mundo</button></div>
-<div class="seg"><button id="bUE">Unión Europea ★</button></div>
+<div class="seg"><button id="bUE" aria-pressed="false">Unión Europea ★</button></div>
 </div>
 <div class="mapbox" id="mapbox">
 <svg id="map" role="img" aria-label="Mapa de alineamiento de gobiernos"></svg>
@@ -158,7 +159,7 @@ footer p{max-width:80ch}
 <section id="ficha" class="band" aria-live="polite"><div class="wrap" id="fichaIn"></div></section>
 
 <section class="band" id="calendario"><div class="wrap">
-<div class="sec-h"><h3>Calendario electoral</h3>
+<div class="sec-h"><h3>Calendario electoral <small class="reg-n">· <span class="reg">Todo el mundo</span></small></h3>
 <div class="filtros">
 <div class="seg" role="group" aria-label="Plazo"><button id="c6" aria-pressed="true">6 meses</button><button id="c12" aria-pressed="false">12 meses</button></div>
 <div class="seg" role="group" aria-label="Países"><button id="cTodos" aria-pressed="true">Todos</button><button id="cPrio" aria-pressed="false">Prioritarios</button></div>
@@ -168,12 +169,12 @@ footer p{max-width:80ch}
 </div></section>
 
 <section class="band" id="resultados" style="background:var(--card);border-block:1px solid var(--line)"><div class="wrap">
-<div class="sec-h"><h3>Resultados recientes</h3><p class="note" style="margin:0">Últimos 12 meses, la más reciente primero.</p></div>
+<div class="sec-h"><h3>Resultados recientes <small class="reg-n">· <span class="reg">Todo el mundo</span></small></h3><p class="note" style="margin:0">Últimos 12 meses, la más reciente primero.</p></div>
 <div class="scroll" id="recLista"></div>
 </div></section>
 
 <section class="band" id="paises"><div class="wrap">
-<h3 style="margin-top:0">Países con ficha</h3>
+<h3 style="margin-top:0">Países con ficha <small class="reg-n">· <span class="reg">Todo el mundo</span></small></h3>
 <div class="list" id="lista"></div>
 </div></section>
 </main>
@@ -225,7 +226,7 @@ function colorDe(id){const c=D.paises[id];if(!c)return id==="032"?"#fff":(conDat
 
 function draw(){
  const box=$("mapbox"),W=box.clientWidth,H=box.clientHeight;
- const target=region==="lat"?{type:"FeatureCollection",features:feats.filter(f=>(D.paises[f.id]&&esLat(f.id))||f.id==="032")}:{type:"Sphere"};
+ const target=region==="lat"?{type:"FeatureCollection",features:feats.filter(f=>(D.paises[f.id]&&esLat(f.id))||f.id==="032")}:region==="ue"?{type:"MultiPoint",coordinates:[[-11,34],[10,34],[34,34],[-11,70],[10,71],[34,70]]}:{type:"Sphere"};
  proj.fitExtent([[12,12],[W-12,H-12]],target);
  root.selectAll("*").remove();
  root.append("path").attr("d",path({type:"Sphere"})).style("fill","var(--sea)");
@@ -290,7 +291,7 @@ function zoomA(id){const box=$("mapbox"),W=box.clientWidth,H=box.clientHeight;le
  const k=Math.max(1,Math.min(6,0.8/Math.max((x1-x0)/W,(y1-y0)/H)));
  const t=d3.zoomIdentity.translate(W/2,H/2).scale(k).translate(-(x0+x1)/2,-(y0+y1)/2);
  svg.transition().duration(matchMedia("(prefers-reduced-motion: reduce)").matches?0:600).call(zoom.transform,t);}
-function elegir(id,scroll){sel=id;const c=D.paises[id];if(scroll){if(region==="lat"&&!esLat(id))setR("mun");zoomA(id);}
+function elegir(id,scroll){sel=id;const c=D.paises[id];if(scroll){if(!enRegion(id))setR("mun");zoomA(id);}
  root.selectAll("path.country").classed("sel",d=>d.id===id||(id==="EU"&&UE.includes(d.id)));root.selectAll("circle.isle").classed("sel",d=>d.id===id);
  if(!c){fichaBasica(id);if(scroll)$("ficha").scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});return;}
  const pr=c.prox||{};
@@ -305,30 +306,34 @@ function elegir(id,scroll){sel=id;const c=D.paises[id];if(scroll){if(region==="l
  if(scroll)$("ficha").scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});}
 
 function lista(){const ord=["a","m","e","g"];
- $("lista").innerHTML=ord.map(k=>{const xs=Object.entries(D.paises).filter(([,c])=>c.c===k).sort((x,y)=>x[1].n.localeCompare(y[1].n,"es"));
- return `<div><h4><i class="sw" style="background:${COL[k]}"></i>${NOM[k]} · ${xs.length}</h4>${xs.map(([id,c])=>`<button data-id="${esc(id)}">${esc(c.n)}${c.prio?" ★":""}<span>${esc(c.prox.fecha)}</span></button>`).join("")}</div>`}).join("");
- $("lista").addEventListener("click",e=>{const b=e.target.closest("button");if(b)elegir(b.dataset.id,true);});}
+ $("lista").innerHTML=ord.map(k=>{const xs=Object.entries(D.paises).filter(([id,c])=>c.c===k&&enRegion(id)).sort((x,y)=>x[1].n.localeCompare(y[1].n,"es"));
+ if(!xs.length)return "";return `<div><h4><i class="sw" style="background:${COL[k]}"></i>${NOM[k]} · ${xs.length}</h4>${xs.map(([id,c])=>`<button data-id="${esc(id)}">${esc(c.n)}${c.prio?" ★":""}<span>${esc(c.prox.fecha)}</span></button>`).join("")}</div>`}).join("");
+}
+$("lista").addEventListener("click",e=>{const b=e.target.closest("button");if(b)elegir(b.dataset.id,true);});
 
 function calendario(){const hoy=new Date().toISOString().slice(0,10);const lim=new Date();lim.setMonth(lim.getMonth()+cPlazo);const limS=lim.toISOString().slice(0,10);
- const xs=cal().filter(x=>(x.f?(x.f>=hoy&&x.f<=limS):cPlazo===12)&&(!cPrio||(D.paises[x.id]&&D.paises[x.id].prio))&&(!cTipo||x.tipo===cTipo))
+ const xs=cal().filter(x=>enRegion(x.id)&&(x.f?(x.f>=hoy&&x.f<=limS):cPlazo===12)&&(!cPrio||(D.paises[x.id]&&D.paises[x.id].prio))&&(!cTipo||x.tipo===cTipo))
   .sort((a,b)=>(a.f||"9999").localeCompare(b.f||"9999"));
  if(!xs.length){$("calLista").innerHTML=`<p class="empty">${cal().length?"No hay elecciones con estos filtros.":"Todavía no hay elecciones cargadas en el calendario."}</p>`;return;}
  let mes="",h="";for(const x of xs){const m=x.f?`${MESES[Number(x.f.slice(5,7))-1]} ${x.f.slice(0,4)}`:"Sin fecha exacta";if(m!==mes){h+=`<div class="mes">${m[0].toUpperCase()+m.slice(1)}</div>`;mes=m;}h+=evHTML(x,true);}
  $("calLista").innerHTML=h;}
-function recientes(){const xs=rec().slice().sort((a,b)=>(b.f||"").localeCompare(a.f||""));
+function recientes(){const xs=rec().filter(x=>enRegion(x.id)).sort((a,b)=>(b.f||"").localeCompare(a.f||""));
  if(!xs.length){$("recLista").innerHTML='<p class="empty">Todavía no hay resultados cargados.</p>';return;}
  $("recLista").innerHTML=`<table class="stack"><thead><tr><th>Fecha</th><th>País</th><th>Elección</th><th>Ganador</th><th>%</th><th>Parlamento</th><th>Fuente</th></tr></thead><tbody>${xs.map(x=>`<tr><td style="white-space:nowrap">${esc(x.f?x.f.split("-").reverse().join("/"):"")}</td><td><button class="pais" data-id="${esc(x.id)}" style="font:600 15px 'Libre Franklin',sans-serif;background:none;border:0;padding:0;color:var(--ink);cursor:pointer;text-decoration:underline">${esc(x.pais)}</button></td><td>${esc(TIPO[x.tipo]||x.tipo)}</td><td>${esc(x.ganador)}${x.partido?` <small>(${esc(x.partido)})</small>`:""}</td><td class="n">${x.pct!=null?esc(String(x.pct).replace(".",",")):"—"}</td><td>${esc(x.parlamento||"—")}</td><td>${esc(x.fuente)}${x.res?` <small>(con reservas: ${esc(x.res)})</small>`:""}</td></tr>`).join("")}</tbody></table>`;}
 function setV(v){vista=v;$("vHoy").setAttribute("aria-pressed",v==="hoy");$("vProx").setAttribute("aria-pressed",v==="prox");
  root.selectAll("path.country").style("fill",d=>colorDe(d.id)).style("fill-opacity",d=>opac(d.id));root.selectAll("circle.isle").style("fill",d=>colorDe(d.id)).style("fill-opacity",d=>opac(d.id));
  $("nota").textContent=v==="hoy"?"Tocá un país para ver su ficha. Los puntos marcan islas chicas del Caribe. Rayado: elecciones cuestionadas o sin competencia. Gris oscuro: países con elección en el calendario o resultado reciente, sin ficha completa (se pueden tocar). Gris claro: sin datos.":"Color según quién lidera las encuestas de la próxima elección. Color tenue: todavía no hay encuestas o no hay fecha; se ve quién gobierna hoy.";}
-function setR(r){region=r;$("rLat").setAttribute("aria-pressed",r==="lat");$("rMun").setAttribute("aria-pressed",r==="mun");draw();}
+function setR(r){region=r;$("rLat").setAttribute("aria-pressed",r==="lat");$("rMun").setAttribute("aria-pressed",r==="mun");$("bUE").setAttribute("aria-pressed",r==="ue");draw();lista();calendario();recientes();document.querySelectorAll(".reg").forEach(e=>e.textContent=REGN[r]);
+ if(r==="ue")elegir("EU",false);else if(sel&&!enRegion(sel))elegir(r==="lat"?"076":"076",false);}
+const REGN={mun:"Todo el mundo",lat:"América Latina y el Caribe",ue:"Unión Europea"};
+function enRegion(id){if(region==="mun")return true;if(region==="ue")return id==="EU"||UE.includes(id);return id!=="EU"&&esLat(id);}
 const pr2=(a,b,v)=>{$(a).setAttribute("aria-pressed",v);$(b).setAttribute("aria-pressed",!v);};
 $("c6").onclick=()=>{cPlazo=6;pr2("c6","c12",true);calendario();};$("c12").onclick=()=>{cPlazo=12;pr2("c6","c12",false);calendario();};
 $("cTodos").onclick=()=>{cPrio=false;pr2("cTodos","cPrio",true);calendario();};$("cPrio").onclick=()=>{cPrio=true;pr2("cTodos","cPrio",false);calendario();};
 $("cTipo").onchange=e=>{cTipo=e.target.value;calendario();};
 document.addEventListener("click",e=>{const b=e.target.closest("button.pais");if(b&&conDatos(b.dataset.id))elegir(b.dataset.id,true);});
 $("vHoy").onclick=()=>setV("hoy");$("vProx").onclick=()=>setV("prox");
-$("rLat").onclick=()=>setR("lat");$("bUE").onclick=()=>elegir("EU",true);$("rMun").onclick=()=>setR("mun");
+$("rLat").onclick=()=>setR("lat");$("bUE").onclick=()=>setR("ue");$("rMun").onclick=()=>setR("mun");
 $("zin").onclick=()=>svg.transition().call(zoom.scaleBy,1.6);$("zout").onclick=()=>svg.transition().call(zoom.scaleBy,1/1.6);
 
 Promise.all([fetch("data.json").then(r=>r.json()),fetch("world.json").then(r=>r.json())]).then(([d,w])=>{
