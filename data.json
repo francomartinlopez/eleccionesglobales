@@ -5507,6 +5507,462 @@
 ],
 "revisado": "25/11/2026"
 }
+},
+"578": {
+"n": "Noruega",
+"c": "m",
+"marca": null,
+"prio": true,
+"motivo": "Gobierno laborista de centroizquierda de Jonas Gahr Støre, sin afinidad ideológica con Milei. Relación pragmática: Noruega integra el EFTA, que firmó el acuerdo con el Mercosur, y sus empresas (Equinor, Yara, Hydro, Golar LNG) operan en la Argentina. Color propuesto, a validar.",
+"sis": "Monarquía parlamentaria. Storting unicameral de 169 bancas (proporcional, cada cuatro años, sin disolución anticipada), de cuya confianza depende el gobierno.",
+"gob": "Primer ministro Jonas Gahr Støre (Partido Laborista), desde 2021; desde 2025 gobierno laborista en minoría con apoyo de los partidos de centroizquierda",
+"ej": [],
+"ejnota": "Sistema parlamentario: el gobierno depende de la confianza del Storting.",
+"leg": [
+{
+"cam": "Storting",
+"anio": 2025,
+"total": 169,
+"p": [
+[
+"Laboristas",
+53,
+1
+],
+[
+"Partido del Progreso",
+47,
+0
+],
+[
+"Conservadores",
+24,
+0
+],
+[
+"Izquierda Socialista",
+9,
+0
+],
+[
+"Partido del Centro",
+9,
+0
+],
+[
+"Rojo",
+9,
+0
+],
+[
+"Verdes",
+7,
+0
+],
+[
+"Demócrata Cristiano",
+7,
+0
+],
+[
+"Liberales",
+3,
+0
+],
+[
+"Otros",
+1,
+0
+]
+],
+"fuente": "Valgdirektoratet",
+"res": "Cargado de referencia; falta contrastar con la Dirección Electoral de Noruega (Valgdirektoratet)"
+},
+{
+"cam": "Storting",
+"anio": 2021,
+"total": 169,
+"p": [
+[
+"Laboristas",
+48,
+1
+],
+[
+"Conservadores",
+36,
+0
+],
+[
+"Partido del Centro",
+28,
+1
+],
+[
+"Partido del Progreso",
+21,
+0
+],
+[
+"Izquierda Socialista",
+13,
+0
+],
+[
+"Rojo",
+8,
+0
+],
+[
+"Liberales",
+8,
+0
+],
+[
+"Verdes",
+3,
+0
+],
+[
+"Demócrata Cristiano",
+3,
+0
+],
+[
+"Otros",
+1,
+0
+]
+],
+"fuente": "Valgdirektoratet",
+"res": "Cargado de referencia; falta contrastar con la Dirección Electoral de Noruega (Valgdirektoratet). Gobernó la coalición Laboristas–Partido del Centro hasta enero de 2025"
+}
+],
+"prox": {
+"fecha": "Septiembre de 2029",
+"que": "Storting",
+"pron": "Sin elección nacional cercana (en septiembre de 2027 hay elecciones municipales y regionales). En 2025 el Partido del Progreso, de derecha populista, logró su mejor resultado histórico (23,8%) y es la principal oposición",
+"pc": "m",
+"fuente": "Rio Times (gobierno en minoría), resultados de 2025"
+},
+"impacto": {
+"eleccion": "Próxima elección en 2029. Noruega pesa por la energía (Equinor sigue en el offshore argentino), los fertilizantes y el acuerdo EFTA–Mercosur.",
+"escenarios": [
+{
+"si": "Sigue el laborismo de Støre",
+"c": "m",
+"comercio": "La Argentina exporta a Noruega carne, vino, maní y pescado e importa fertilizantes e insumos de alto valor; el acuerdo EFTA–Mercosur bajaría aranceles en ambos sentidos.",
+"aranceles": "Ratificación del acuerdo EFTA–Mercosur con cupos agrícolas.",
+"inversiones": "Equinor vendió en 2026 sus áreas de Vaca Muerta a Vista por unos US$ 1.100 millones, pero mantiene la exploración offshore con YPF en la Cuenca Austral, con perforación prevista hacia 2028.",
+"politica": "Relación pragmática, sin afinidad ideológica.",
+"rubros": {
+"industria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"agro": [
+"favorable",
+"Cupos para carne y vino con el acuerdo EFTA–Mercosur; fertilizantes noruegos (Yara)."
+],
+"mineria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"energia": [
+"favorable",
+"Exploración offshore de Equinor en el Mar Argentino."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+},
+{
+"si": "Gana la derecha (Partido del Progreso y Conservadores)",
+"c": "a",
+"comercio": "Sin cambios grandes; más apertura comercial y menos exigencias ambientales.",
+"aranceles": "Mismo acuerdo EFTA–Mercosur.",
+"inversiones": "Más respaldo al petróleo y al gas, también en el exterior.",
+"politica": "Más afinidad ideológica con el gobierno argentino.",
+"rubros": {
+"industria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"agro": [
+"favorable",
+"Igual que con los laboristas."
+],
+"mineria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"energia": [
+"favorable",
+"Más respaldo político a la exploración de hidrocarburos."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+}
+],
+"fuentes": [
+"Embajada argentina en Noruega (composición del comercio)",
+"Embajada de Noruega (empresas noruegas en la Argentina; acuerdo EFTA–Mercosur)",
+"Oilprice y The Energy Year (venta de Equinor a Vista, feb 2026)",
+"El Economista e iProfesional (Equinor offshore, nov 2026)",
+"Rio Times (gobierno en minoría)"
+],
+"revisado": "25/11/2026"
+}
+},
+"840": {
+"n": "Estados Unidos",
+"c": "a",
+"marca": null,
+"prio": true,
+"motivo": "El aliado más cercano del gobierno de Milei: Trump y Milei tienen afinidad política explícita, firmaron el Acuerdo sobre Comercio e Inversiones Recíprocos (5/2/2026) y EE.UU. es el principal origen de la inversión extranjera en la Argentina. Desde enero de 2027 el Congreso queda en manos demócratas.",
+"sis": "República presidencialista federal. Presidente elegido por un Colegio Electoral cada cuatro años (máximo dos mandatos); Congreso con Cámara de Representantes (435 bancas, cada dos años) y Senado (100, por tercios).",
+"gob": "Presidente Donald Trump (Partido Republicano), segundo mandato desde enero de 2025; vicepresidente J. D. Vance",
+"ej": [
+{
+"anio": 2024,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Voto popular (Colegio Electoral: Trump 312, Harris 226)",
+"c": [
+[
+"Donald Trump",
+"Republicano",
+49.8
+],
+[
+"Kamala Harris",
+"Demócrata",
+48.3
+]
+]
+}
+],
+"fuente": "Comisión Federal Electoral",
+"res": "Cargado de referencia; falta contrastar con las fuentes oficiales"
+},
+{
+"anio": 2020,
+"titulo": "Presidente",
+"rondas": [
+{
+"r": "Voto popular (Colegio Electoral: Biden 306, Trump 232)",
+"c": [
+[
+"Joe Biden",
+"Demócrata",
+51.3
+],
+[
+"Donald Trump",
+"Republicano",
+46.8
+]
+]
+}
+],
+"fuente": "Comisión Federal Electoral",
+"res": "Cargado de referencia; falta contrastar con las fuentes oficiales"
+}
+],
+"leg": [
+{
+"cam": "Cámara de Representantes",
+"anio": 2026,
+"total": 435,
+"p": [
+[
+"Demócratas",
+257,
+0
+],
+[
+"Republicanos",
+171,
+0
+],
+[
+"Sin definir",
+7,
+0
+]
+],
+"fuente": "AP (escrutinio al 19/11/2026)",
+"res": "Quedan 7 bancas por definir (recuentos y segundas vueltas en Luisiana el 12/12). Los nuevos legisladores asumen en enero de 2027"
+},
+{
+"cam": "Senado",
+"anio": 2026,
+"total": 100,
+"p": [
+[
+"Demócratas",
+54,
+0
+],
+[
+"Independientes (con los demócratas)",
+2,
+0
+],
+[
+"Republicanos",
+44,
+0
+]
+],
+"fuente": "AP (escrutinio al 19/11/2026)",
+"res": "Composición desde enero de 2027"
+},
+{
+"cam": "Cámara de Representantes",
+"anio": 2024,
+"total": 435,
+"p": [
+[
+"Republicanos",
+220,
+1
+],
+[
+"Demócratas",
+215,
+0
+]
+],
+"fuente": "Cámara de Representantes",
+"res": "Cargado de referencia; falta contrastar con las fuentes oficiales"
+},
+{
+"cam": "Senado",
+"anio": 2024,
+"total": 100,
+"p": [
+[
+"Republicanos",
+53,
+1
+],
+[
+"Demócratas",
+45,
+0
+],
+[
+"Independientes (con los demócratas)",
+2,
+0
+]
+],
+"fuente": "Senado de EE.UU.",
+"res": "Cargado de referencia; falta contrastar con las fuentes oficiales"
+}
+],
+"prox": {
+"fecha": "Noviembre de 2028",
+"que": "Presidente, toda la Cámara y un tercio del Senado. Trump no puede presentarse",
+"pron": "Sin elección nacional hasta 2028. En las legislativas de noviembre de 2026 los demócratas ganaron la Cámara y el Senado",
+"pc": "m",
+"fuente": "AP (legislativas de 2026)"
+},
+"impacto": {
+"eleccion": "Presidencial de noviembre de 2028. EE.UU. es el tercer socio comercial de la Argentina, el principal inversor y el aliado político del gobierno; con el Congreso demócrata desde 2027, algunas medidas de apoyo pueden tener más trabas.",
+"escenarios": [
+{
+"si": "Gana un candidato republicano en 2028",
+"c": "a",
+"comercio": "Continuidad del Acuerdo sobre Comercio e Inversiones Recíprocos. En 2025 las exportaciones a EE.UU. fueron récord: US$ 8.338 millones, impulsadas por el petróleo.",
+"aranceles": "Acceso preferencial acordado en 2026, sujeto a la política arancelaria general de EE.UU.",
+"inversiones": "EE.UU. es el principal origen de la inversión extranjera (18% del stock, más de US$ 32.000 millones); acuerdo bilateral sobre minerales críticos.",
+"politica": "Alineamiento político pleno.",
+"rubros": {
+"industria": [
+"incierto",
+"Más competencia de bienes estadounidenses por el acuerdo; acceso para algunos industriales argentinos."
+],
+"agro": [
+"incierto",
+"Acceso para carne y otros alimentos, pero EE.UU. compite con la Argentina en soja y maíz."
+],
+"mineria": [
+"favorable",
+"Acuerdo sobre minerales críticos; EE.UU. es el segundo destino de la minería argentina."
+],
+"energia": [
+"favorable",
+"El petróleo explica gran parte del récord exportador a EE.UU."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"favorable",
+"Servicios y tecnología con empresas estadounidenses."
+]
+}
+},
+{
+"si": "Gana un candidato demócrata en 2028",
+"c": "m",
+"comercio": "El acuerdo bilateral seguiría vigente, pero con menos impulso político y posibles revisiones.",
+"aranceles": "Posibles cambios en el trato preferencial.",
+"inversiones": "Las inversiones privadas siguen, con menos respaldo político explícito.",
+"politica": "Relación institucional, sin la afinidad personal entre presidentes.",
+"rubros": {
+"industria": [
+"neutro",
+"Sin cambios previsibles."
+],
+"agro": [
+"incierto",
+"Posible revisión de cupos."
+],
+"mineria": [
+"favorable",
+"El interés en minerales críticos es bipartidario."
+],
+"energia": [
+"incierto",
+"Más exigencias ambientales a los combustibles fósiles."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"neutro",
+"Sin cambios previsibles."
+]
+}
+}
+],
+"fuentes": [
+"Bolsa de Comercio de Rosario y El Economista (exportaciones récord a EE.UU., inversión estadounidense y acuerdo del 5/2/2026)",
+"Diario Financiero, con datos de la BCR (EE.UU., segundo destino de la minería)",
+"CARI (acuerdo bilateral sobre minerales críticos)",
+"AP (legislativas de 2026, escrutinio al 19/11/2026)"
+],
+"revisado": "25/11/2026"
+}
 }
 },
 "calendario": [
@@ -6390,7 +6846,7 @@
 "partido": "",
 "pct": null,
 "parlamento": "Senado: 54 D + 2 independientes, 44 R. Cámara: 257 D, 171 R, 7 pendientes (al 19/11)",
-"fuente": "AP, vía el mapa Elecciones EE.UU."
+"fuente": "AP"
 },
 {
 "f": "2026-11-07",
