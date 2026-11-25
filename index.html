@@ -144,7 +144,7 @@ footer p{max-width:80ch}
 <section class="band" id="mapa"><div class="wrap">
 <div class="controls">
 <div class="seg" role="group" aria-label="Vista"><button id="vHoy" aria-pressed="true">Hoy</button><button id="vProx" aria-pressed="false">Próxima elección</button></div>
-<div class="seg" role="group" aria-label="Región"><button id="rLat" aria-pressed="true">Latinoamérica</button><button id="rMun" aria-pressed="false">Mundo</button></div>
+<div class="seg" role="group" aria-label="Región"><button id="rLat" aria-pressed="false">Latinoamérica</button><button id="rMun" aria-pressed="true">Mundo</button></div>
 <div class="seg"><button id="bUE">Unión Europea ★</button></div>
 </div>
 <div class="mapbox" id="mapbox">
@@ -200,7 +200,7 @@ let cPlazo=6,cPrio=false,cTipo="";
 const ISLAS=["052","308","670","662","212","028","659","780","044","388"];
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const $=id=>document.getElementById(id);
-let D=null,feats=[],vista="hoy",region="lat",sel=null;
+let D=null,feats=[],vista="hoy",region="mun",sel=null;
 
 /* portada: retícula de meridianos y paralelos */
 {const p=d3.geoOrthographic().scale(330).translate([900,330]).rotate([60,-10]);
@@ -283,7 +283,7 @@ function recPais(id){const xs=rec().filter(x=>x.id===id);
  return xs.length?`<h3>Resultados recientes</h3>${xs.map(x=>`<div class="ev"><div class="fd">${esc(x.f?x.f.slice(8,10)+"/"+x.f.slice(5,7):"")}<small>${esc(x.f?x.f.slice(0,4):"")}</small></div><div><b>${esc(TIPO[x.tipo]||x.tipo)}:</b> ganó ${esc(x.ganador)}${x.partido?` (${esc(x.partido)})`:""}${x.pct!=null?` con ${esc(String(x.pct).replace(".",","))}%`:""}${x.parlamento?`<div>${esc(x.parlamento)}</div>`:""}<div class="src">Fuente: ${esc(x.fuente)}</div>${x.res?`<div class="res">Dato con reservas: ${esc(x.res)}</div>`:""}</div></div>`).join("")}`:"";}
 function fichaBasica(id){$("fichaIn").innerHTML=`<div class="fhead"><h2>${esc(nombre(id))}</h2><span class="chip">Sin ficha completa</span></div><p class="note">Este país lleva solo calendario y último resultado.</p>${calPais(id)}${recPais(id)}`;}
 const UE=["040","056","100","191","196","203","208","233","246","250","276","300","348","372","380","428","440","442","470","528","616","620","642","703","705","724","752"];
-function esLat(id){if(id==="EU")return false;const f=feats.find(f=>f.id===id);if(!f)return false;const [lo,la]=d3.geoCentroid(f);return lo<-25&&la<33;}
+function esLat(id){if(id==="EU")return false;const f=feats.find(f=>f.id===id);if(!f)return false;const [lo,la]=d3.geoCentroid(f);return lo>-120&&lo<-25&&la<33;}
 function zoomA(id){const box=$("mapbox"),W=box.clientWidth,H=box.clientHeight;let x0,y0,x1,y1;
  if(id==="EU"){const ps=[[-11,34],[10,34],[32,34],[-11,70],[10,71],[32,70]].map(proj);x0=d3.min(ps,p=>p[0]);x1=d3.max(ps,p=>p[0]);y0=d3.min(ps,p=>p[1]);y1=d3.max(ps,p=>p[1]);}
  else{const f=feats.find(f=>f.id===id);if(!f)return;[[x0,y0],[x1,y1]]=path.bounds(f);if(ISLAS.includes(id)){const [cx,cy]=proj(d3.geoCentroid(f));x0=cx-20;x1=cx+20;y0=cy-20;y1=cy+20;}}
