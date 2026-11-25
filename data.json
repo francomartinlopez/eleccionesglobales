@@ -5133,6 +5133,165 @@
 ],
 "revisado": "25/11/2026"
 }
+},
+"036": {
+"n": "Australia",
+"c": "m",
+"marca": null,
+"prio": true,
+"motivo": "Gobierno laborista de centroizquierda de Anthony Albanese, sin afinidad ideológica con Milei pero con una relación económica centrada en la minería: capitales australianos participan en proyectos de litio bajo el RIGI, como Galan Litio en Catamarca y Rio Tinto (anglo-australiana) en Catamarca y Salta. Color propuesto, a validar.",
+"sis": "Monarquía parlamentaria federal. Cámara de Representantes (150 bancas, voto preferencial obligatorio), de cuya mayoría sale el primer ministro; Senado de 76 bancas.",
+"gob": "Primer ministro Anthony Albanese (Partido Laborista), desde 2022, reelecto con amplia mayoría en mayo de 2025",
+"ej": [],
+"ejnota": "Sistema parlamentario: el primer ministro surge de la mayoría en la Cámara de Representantes.",
+"leg": [
+{
+"cam": "Cámara de Representantes",
+"anio": 2025,
+"total": 150,
+"p": [
+[
+"Laboristas",
+94,
+1
+],
+[
+"Coalición Liberal-Nacional",
+43,
+0
+],
+[
+"Verdes",
+1,
+0
+],
+[
+"Independientes y otros",
+12,
+0
+]
+],
+"fuente": "Comisión Electoral Australiana",
+"res": "Cargado de referencia; falta contrastar con la Comisión Electoral Australiana"
+},
+{
+"cam": "Cámara de Representantes",
+"anio": 2022,
+"total": 151,
+"p": [
+[
+"Laboristas",
+77,
+1
+],
+[
+"Coalición Liberal-Nacional",
+58,
+0
+],
+[
+"Verdes",
+4,
+0
+],
+[
+"Independientes y otros",
+12,
+0
+]
+],
+"fuente": "Comisión Electoral Australiana",
+"res": "Cargado de referencia; falta contrastar con la Comisión Electoral Australiana"
+}
+],
+"prox": {
+"fecha": "A más tardar en 2028",
+"que": "Cámara de Representantes y mitad del Senado",
+"pron": "Escenario partido en tres: One Nation (derecha populista de Pauline Hanson) disputa el primer lugar en votos con los laboristas (Newspoll de principios de noviembre: One Nation 28%, Laboristas 27%), y Roy Morgan (16/11) muestra a la Coalición adelante en dos partidos por 52 a 48 por primera vez desde 2025",
+"pc": "m",
+"fuente": "The Star (Newspoll), Roy Morgan, YouGov"
+},
+"impacto": {
+"eleccion": "Próxima elección federal hasta 2028. Australia pesa en la Argentina como inversor minero, sobre todo en litio, más que como socio comercial.",
+"escenarios": [
+{
+"si": "Siguen los laboristas de Albanese",
+"c": "m",
+"comercio": "Comercio chico: Australia compite con la Argentina en granos, carne y lana en los mismos mercados.",
+"aranceles": "Sin acuerdo comercial bilateral ni con el Mercosur en marcha.",
+"inversiones": "Siguen los proyectos de litio con capital australiano: Rio Tinto inauguró en octubre de 2026 una planta en Catamarca (casi US$ 1.400 millones) y el RIGI aprobó Galan Litio por US$ 217 millones.",
+"politica": "Relación pragmática, sin afinidad ideológica.",
+"rubros": {
+"industria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"agro": [
+"neutro",
+"Australia es competidor, no comprador, de los productos agrícolas argentinos."
+],
+"mineria": [
+"favorable",
+"Capitales australianos en el litio de Catamarca y Salta."
+],
+"energia": [
+"neutro",
+"Sin cambios relevantes."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+},
+{
+"si": "Gana la Coalición Liberal-Nacional o un gobierno con One Nation",
+"c": "a",
+"comercio": "Sin cambios grandes en el comercio.",
+"aranceles": "Sin cambios previsibles.",
+"inversiones": "Más respaldo a la minería y a la inversión en el exterior.",
+"politica": "Más afinidad ideológica con el gobierno argentino.",
+"rubros": {
+"industria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"agro": [
+"neutro",
+"Sigue la competencia en granos y carne."
+],
+"mineria": [
+"favorable",
+"Respaldo político a las mineras australianas."
+],
+"energia": [
+"neutro",
+"Sin cambios relevantes."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+}
+],
+"fuentes": [
+"El Economista (planta de Rio Tinto en Catamarca, oct 2026)",
+"Redimin (Galan Litio en el RIGI)",
+"Forbes Argentina (embajada australiana y RIGI)",
+"Secretaría de Minería (participación de capitales australianos)",
+"The Star y Roy Morgan (encuestas)"
+],
+"revisado": "25/11/2026"
+}
 }
 },
 "calendario": [
