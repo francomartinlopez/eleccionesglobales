@@ -4769,6 +4769,175 @@
 ],
 "revisado": "25/11/2026"
 }
+},
+"124": {
+"n": "Canadá",
+"c": "m",
+"marca": null,
+"prio": true,
+"motivo": "Gobierno liberal de centro de Mark Carney con buena relación bilateral: en mayo de 2026 Carney y Milei hablaron de acelerar el acuerdo Canadá–Mercosur y de profundizar la asociación en minería, energía y defensa. Canadá es el segundo inversor extranjero en la minería argentina. Distancia ideológica, buena relación: color propuesto, a validar.",
+"sis": "Monarquía parlamentaria federal. Cámara de los Comunes (343 bancas, por mayoría simple en distritos uninominales), de cuya mayoría sale el primer ministro; Senado designado.",
+"gob": "Primer ministro Mark Carney (Partido Liberal), desde marzo de 2025; ganó la elección de abril de 2025 con 169 bancas, a tres de la mayoría, y luego sumó diputados por cambios de bancada y elecciones parciales",
+"ej": [],
+"ejnota": "Sistema parlamentario: el primer ministro surge de la mayoría en la Cámara de los Comunes.",
+"leg": [
+{
+"cam": "Cámara de los Comunes",
+"anio": 2025,
+"total": 343,
+"p": [
+[
+"Liberales",
+169,
+1
+],
+[
+"Conservadores",
+144,
+0
+],
+[
+"Bloque Quebequés",
+22,
+0
+],
+[
+"Nuevo Partido Democrático",
+7,
+0
+],
+[
+"Verdes",
+1,
+0
+]
+],
+"fuente": "Elections Canada",
+"res": "Cargado de referencia; falta contrastar con Elections Canada. Composición el día de la elección; después varios conservadores pasaron a la bancada liberal y hubo elecciones parciales"
+},
+{
+"cam": "Cámara de los Comunes",
+"anio": 2021,
+"total": 338,
+"p": [
+[
+"Liberales",
+160,
+1
+],
+[
+"Conservadores",
+119,
+0
+],
+[
+"Bloque Quebequés",
+32,
+0
+],
+[
+"Nuevo Partido Democrático",
+25,
+0
+],
+[
+"Verdes",
+2,
+0
+]
+],
+"fuente": "Elections Canada",
+"res": "Cargado de referencia; falta contrastar con Elections Canada"
+}
+],
+"prox": {
+"fecha": "Octubre de 2029 (fecha fija, salvo elección anticipada)",
+"que": "Cámara de los Comunes; de la mayoría sale el primer ministro",
+"pron": "Los liberales de Carney lideran con amplitud: Research Co. (2-4/11) les da 47% contra 28% de los conservadores de Poilievre, y Carney aventaja a Poilievre como primer ministro preferido 46% a 22%",
+"pc": "m",
+"fuente": "Research Co. vía Castanet; Ipsos para Global News"
+},
+"impacto": {
+"eleccion": "Próxima elección en 2029. Canadá pesa sobre todo por la minería: es el segundo inversor extranjero en el sector y está detrás de Vicuña, el mayor proyecto del RIGI. El Mercosur y Canadá reactivaron en 2026 la negociación de un acuerdo comercial.",
+"escenarios": [
+{
+"si": "Siguen los liberales de Carney",
+"c": "m",
+"comercio": "Avance del acuerdo Canadá–Mercosur, que el gobierno argentino busca concretar en 2026; exportaciones agroindustriales en alza.",
+"aranceles": "El acuerdo bajaría aranceles para alimentos argentinos y para bienes canadienses; Canadá busca diversificar mercados tras su ruptura comercial con EE.UU.",
+"inversiones": "La inversión canadiense llegó a máximos en 2025; Vicuña confirmó un desembolso inicial de US$ 7.000 millones bajo el RIGI.",
+"politica": "Relación pragmática y cordial, con cooperación en defensa (la Argentina participó del ejercicio NANOOK).",
+"rubros": {
+"industria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"agro": [
+"favorable",
+"Más acceso con el acuerdo Canadá–Mercosur."
+],
+"mineria": [
+"favorable",
+"Vicuña, el megaproyecto de cobre en San Juan, y otras inversiones canadienses en minería."
+],
+"energia": [
+"favorable",
+"Interés canadiense en energía, señalado por Carney."
+],
+"construccion": [
+"favorable",
+"Infraestructura asociada a los proyectos mineros."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+},
+{
+"si": "Ganan los conservadores de Poilievre",
+"c": "a",
+"comercio": "Más afinidad con las reformas de Milei; el acuerdo con el Mercosur seguiría, aunque con más presión del agro canadiense.",
+"aranceles": "Sin cambios de fondo.",
+"inversiones": "Más respaldo político a la inversión minera y energética en el exterior.",
+"politica": "Afinidad ideológica con el gobierno argentino.",
+"rubros": {
+"industria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"agro": [
+"incierto",
+"Afinidad política, pero el agro canadiense compite con el argentino en granos y carne."
+],
+"mineria": [
+"favorable",
+"Respaldo a las mineras canadienses."
+],
+"energia": [
+"favorable",
+"Respaldo a petróleo y gas."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+}
+],
+"fuentes": [
+"Bolsa de Comercio de Rosario, may 2026 (relación Argentina–Canadá, inversión récord)",
+"Memo (Canadá, segundo inversor en minería)",
+"El Cronista (Vicuña, US$ 7.000 millones bajo el RIGI)",
+"Tiempo de San Juan y A24 (llamada Milei–Carney, may 2026)",
+"Ipsos (ruptura comercial de Canadá con EE.UU., ago 2026)"
+],
+"revisado": "25/11/2026"
+}
 }
 },
 "calendario": [
