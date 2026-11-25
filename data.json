@@ -6904,7 +6904,7 @@
 "c": "m",
 "motivo": "La Lista Estudiantil terminó con 14 años de Vučić; todavía no nombró primer ministro y su política exterior es difusa. Sin vínculo con Milei.",
 "sis": "Parlamentario con presidente electo por voto directo. Asamblea Nacional (250).",
-"gob": "Ana Brnabić, presidenta interina (presidenta de la Asamblea saliente). La Lista Estudiantil tiene 90 días desde el 17/11/2026 para formar gobierno",
+"gob": "Presidencia interina a cargo de la presidencia de la Asamblea (Ana Brnabić, desde la renuncia de Vučić el 27/9/2026). La Lista Estudiantil tiene 90 días desde el 17/11/2026 para formar gobierno",
 "ejnota": "Vučić renunció a la presidencia en septiembre de 2026 para ser candidato a primer ministro y perdió. La elección presidencial debe hacerse a más tardar el 27/12/2026.",
 "prox": {
 "fecha": "Hasta el 27/12/2026",
@@ -10481,6 +10481,100 @@
 "fuerzas": [],
 "fuente": "N1 y Telegraf (plazo constitucional tras la renuncia de Vučić)",
 "res": "Falta la convocatoria oficial"
+},
+{
+"f": "2027-04-15",
+"id": "706",
+"pais": "Somalia",
+"tipo": "legislativa",
+"cargos": "Parlamento federal",
+"estado": "anunciada",
+"fuerzas": [],
+"fuente": "Comisión Electoral, vía AFP y Reuters",
+"res": "La oposición rechaza el calendario y la Corte Suprema declaró ilegal la extensión del mandato"
+},
+{
+"f": "2027-05-15",
+"id": "706",
+"pais": "Somalia",
+"tipo": "presidencial",
+"cargos": "Presidente (lo elige el Parlamento)",
+"estado": "anunciada",
+"fuerzas": [],
+"fuente": "Comisión Electoral, vía AFP y Reuters",
+"res": "La oposición rechaza el calendario"
+},
+{
+"f": "",
+"fe": "Antes del 6/2/2027",
+"id": "242",
+"pais": "Fiyi",
+"tipo": "legislativa",
+"cargos": "Parlamento (55)",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "Oficina Electoral de Fiyi (plazo constitucional)",
+"res": "Falta la fecha oficial"
+},
+{
+"f": "",
+"fe": "Febrero de 2027",
+"id": "120",
+"pais": "Camerún",
+"tipo": "otra",
+"cargos": "Elecciones previstas (tipo a confirmar)",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "Africanews",
+"res": "Falta confirmar el tipo de elección y la fecha"
+},
+{
+"f": "",
+"fe": "2027",
+"id": "108",
+"pais": "Burundi",
+"tipo": "presidencial",
+"cargos": "Presidente",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "Calendario constitucional",
+"res": "Falta la fecha oficial"
+},
+{
+"f": "",
+"fe": "2027",
+"id": "450",
+"pais": "Madagascar",
+"tipo": "presidencial",
+"cargos": "Presidente",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "ISS (hoja de ruta de transición de 24 meses)",
+"res": "Depende de que la junta cumpla su hoja de ruta"
+},
+{
+"f": "",
+"fe": "2027",
+"id": "426",
+"pais": "Lesoto",
+"tipo": "legislativa",
+"cargos": "Asamblea Nacional (120)",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "Calendario constitucional",
+"res": "Falta la fecha oficial"
+},
+{
+"f": "",
+"fe": "Antes de fin de 2027",
+"id": "308",
+"pais": "Granada",
+"tipo": "general",
+"cargos": "Cámara de Representantes",
+"estado": "estimada",
+"fuerzas": [],
+"fuente": "Calendario constitucional",
+"res": "Falta la fecha oficial"
 }
 ],
 "recientes": [
