@@ -4430,6 +4430,155 @@
 ],
 "revisado": "25/11/2026"
 }
+},
+"356": {
+"n": "India",
+"c": "a",
+"marca": null,
+"prio": true,
+"motivo": "Relación cercana: Modi visitó la Argentina en julio de 2025 y ambos acordaron ampliar la asociación estratégica en defensa, energía, minerales y agro. En agosto de 2026 se comprometieron a completar en un año la ampliación del acuerdo Mercosur–India. Color propuesto, a validar.",
+"sis": "República parlamentaria federal. Lok Sabha (543 bancas, por mayoría simple en distritos uninominales), de cuya mayoría sale el primer ministro; Rajya Sabha elegida por los estados. El presidente lo elige un colegio de legisladores nacionales y estaduales.",
+"gob": "Primer ministro Narendra Modi (BJP), en el cargo desde 2014 (tercer mandato desde 2024), al frente de la coalición NDA; presidenta Droupadi Murmu hasta el 24/7/2027",
+"ej": [],
+"ejnota": "Sistema parlamentario: el primer ministro surge de la mayoría en la Lok Sabha. La presidencia, elegida de forma indirecta, se renueva en julio de 2027.",
+"leg": [
+{
+"cam": "Lok Sabha",
+"anio": 2024,
+"total": 543,
+"p": [
+[
+"NDA (BJP 240 y aliados)",
+293,
+1
+],
+[
+"Alianza INDIA (Congreso 99 y aliados)",
+234,
+0
+],
+[
+"Otros",
+16,
+0
+]
+],
+"fuente": "Comisión Electoral de India",
+"res": "Cargado de referencia; falta contrastar con la Comisión Electoral de India. El BJP perdió la mayoría propia y gobierna con aliados como TDP y JD(U)"
+},
+{
+"cam": "Lok Sabha",
+"anio": 2019,
+"total": 543,
+"p": [
+[
+"NDA (BJP 303 y aliados)",
+353,
+1
+],
+[
+"UPA (Congreso 52 y aliados)",
+91,
+0
+],
+[
+"Otros",
+99,
+0
+]
+],
+"fuente": "Comisión Electoral de India",
+"res": "Cargado de referencia; falta contrastar con la Comisión Electoral de India"
+}
+],
+"prox": {
+"fecha": "Presidente (indirecta): julio de 2027. Lok Sabha: abril–mayo de 2029",
+"que": "Presidencia (colegio electoral) y, en 2029, la Lok Sabha",
+"pron": "Para la presidencia, el NDA de Modi tiene ventaja en el colegio electoral tras sus triunfos en elecciones estaduales. No hay encuestas nacionales regulares para la Lok Sabha de 2029",
+"pc": "a",
+"fuente": "NewsX (colegio electoral 2027); fin del mandato de Murmu el 24/7/2027"
+},
+"impacto": {
+"eleccion": "La próxima elección general es en 2029; en julio de 2027 se elige presidente de forma indirecta. India es el principal comprador de aceites vegetales argentinos y socio en litio, energía y defensa.",
+"escenarios": [
+{
+"si": "Sigue el NDA de Modi",
+"c": "a",
+"comercio": "Continuidad del boom de aceites: en 2025 la Argentina pasó a ser el principal proveedor de aceites vegetales de India (3,53 millones de toneladas); India compra cerca del 53% del aceite de soja y el 35% del de girasol argentinos. En 2024 las exportaciones a India superaron los US$ 3.900 millones, 83% en aceites.",
+"aranceles": "Ampliación del acuerdo de preferencias Mercosur–India, con meta de cerrarla en un año desde agosto de 2026; India viene bajando aranceles a los aceites crudos.",
+"inversiones": "Interés indio en litio, cobre, uranio, petróleo y gas.",
+"politica": "Asociación estratégica con defensa y energía nuclear en la agenda.",
+"rubros": {
+"industria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"agro": [
+"favorable",
+"Principal mercado del aceite de soja y de girasol."
+],
+"mineria": [
+"favorable",
+"Interés en litio y cobre para la transición energética india."
+],
+"energia": [
+"favorable",
+"Interés en petróleo, gas y cooperación nuclear."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+},
+{
+"si": "Gana la alianza opositora INDIA (Congreso y aliados)",
+"c": "m",
+"comercio": "La demanda de aceites depende del consumo indio, no del gobierno: no se esperan cambios grandes.",
+"aranceles": "Más protección a los productores locales de oleaginosas podría subir los aranceles a los aceites.",
+"inversiones": "Menos impulso a la inversión externa en minerales críticos.",
+"politica": "Relación institucional, sin la afinidad personal con Milei.",
+"rubros": {
+"industria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"agro": [
+"incierto",
+"Riesgo de aranceles más altos a los aceites para proteger a los productores indios."
+],
+"mineria": [
+"neutro",
+"Sin señales claras."
+],
+"energia": [
+"neutro",
+"Sin señales claras."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+}
+],
+"fuentes": [
+"Bolsa de Comercio de Rosario (exportaciones a India 2024 y aceites 2025)",
+"Canal 26 y Economis (Argentina, principal proveedor de aceites de India en 2025)",
+"Cancillería argentina (ampliación del acuerdo Mercosur–India, 25/8/2026)",
+"IndBiz, Gobierno de India (visita de Modi, jul 2025)",
+"Buenos Aires Times (pedido de Modi sobre el acuerdo con el Mercosur)"
+],
+"revisado": "25/11/2026"
+}
 }
 },
 "calendario": [
