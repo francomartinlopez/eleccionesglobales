@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Genera site/datos-informe.json para la web de informes de Plexum (versión 1.2 del pedido).
+"""Genera site/datos-informe.json para la web de informes de Plexum (versión 1.3 del pedido).
 
 Elecciones del Mundo, apartado 13: agenda (próximos 60 días) y novedades «elección»
 (resultados de los últimos 90 días), sin la Argentina ni EE. UU.
@@ -88,7 +88,7 @@ def main():
              "fuente_original": x.get("fuente", "")}
         novedades.append(r)
 
-    out = {"web": "Elecciones del Mundo", "version": "1.0",
+    out = {"web": "Elecciones del Mundo", "version": "1.3",
            "generado": ahora.replace(microsecond=0).isoformat(),
            "indicadores": [], "novedades": novedades, "agenda": agenda, "faltantes": []}
     (BASE / "datos-informe.json").write_text(
