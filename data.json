@@ -4938,6 +4938,201 @@
 ],
 "revisado": "25/11/2026"
 }
+},
+"756": {
+"n": "Suiza",
+"c": "m",
+"marca": null,
+"prio": true,
+"motivo": "Gobierno colegiado de los cuatro grandes partidos, sin un jefe de gobierno con línea propia. Relación económica en máximos: Suiza compra la mayor parte del oro argentino y es uno de los principales inversores. El Parlamento aprobó en octubre de 2026 el acuerdo EFTA–Mercosur, pero hay un referendo en marcha para frenarlo. Color propuesto, a validar.",
+"sis": "República federal con democracia directa. Asamblea Federal con Consejo Nacional (200 bancas, proporcional) y Consejo de los Estados (46). El gobierno es el Consejo Federal de siete miembros elegidos por la Asamblea, repartidos entre los grandes partidos; la presidencia rota cada año. Con 50.000 firmas, una ley o un tratado van a votación popular.",
+"gob": "Consejo Federal de siete miembros: dos de la UDC/SVP, dos del PS/SP, dos del PLR/FDP y uno del Centro (Mitte)",
+"ej": [],
+"ejnota": "No hay elección directa del ejecutivo: la Asamblea Federal elige a los siete miembros del Consejo Federal después de cada elección legislativa.",
+"leg": [
+{
+"cam": "Consejo Nacional",
+"anio": 2023,
+"total": 200,
+"p": [
+[
+"UDC/SVP",
+62,
+1
+],
+[
+"PS/SP",
+41,
+1
+],
+[
+"Centro",
+29,
+1
+],
+[
+"PLR/FDP",
+28,
+1
+],
+[
+"Verdes",
+23,
+0
+],
+[
+"Verdes Liberales",
+10,
+0
+],
+[
+"Otros",
+7,
+0
+]
+],
+"fuente": "Oficina Federal de Estadística",
+"res": "Cargado de referencia; falta contrastar con la Oficina Federal de Estadística"
+},
+{
+"cam": "Consejo Nacional",
+"anio": 2019,
+"total": 200,
+"p": [
+[
+"UDC/SVP",
+53,
+1
+],
+[
+"PS/SP",
+39,
+1
+],
+[
+"PLR/FDP",
+29,
+1
+],
+[
+"Verdes",
+28,
+0
+],
+[
+"PDC (hoy Centro)",
+25,
+1
+],
+[
+"Verdes Liberales",
+16,
+0
+],
+[
+"PBD",
+3,
+0
+],
+[
+"Otros",
+7,
+0
+]
+],
+"fuente": "Oficina Federal de Estadística",
+"res": "Cargado de referencia; falta contrastar con la Oficina Federal de Estadística"
+}
+],
+"prox": {
+"fecha": "24/10/2027 (Consejo Nacional y Consejo de los Estados)",
+"que": "Asamblea Federal, que después elige el Consejo Federal",
+"pron": "La UDC/SVP sigue primera con cerca del 28% y el PS/SP segundo con el 17% (YouGov, octubre de 2026); el barómetro de la SRG muestra polarización, con avance de la UDC y el PS y retroceso del PLR y el Centro",
+"pc": "m",
+"fuente": "ch.ch (fecha), YouGov, SRG/Sotomo vía blue News y SRF"
+},
+"impacto": {
+"eleccion": "Elección federal del 24 de octubre de 2027 y, antes, un posible referendo contra el acuerdo EFTA–Mercosur: los opositores tienen hasta el 21 de enero de 2027 para juntar 50.000 firmas. Suiza es el principal destino del oro argentino.",
+"escenarios": [
+{
+"si": "El acuerdo EFTA–Mercosur sobrevive al referendo (o no hay referendo)",
+"c": "m",
+"comercio": "Exportaciones récord: en 2025 la Argentina vendió al bloque EFTA US$ 2.094 millones (más del 98% a Suiza), con un superávit de US$ 1.315 millones; el oro es el grueso de los envíos.",
+"aranceles": "El acuerdo libera la mayoría de las exportaciones suizas al Mercosur y abre 25 cupos para productos agrícolas sensibles, entre ellos carne y vino.",
+"inversiones": "El stock de inversión suiza superó los US$ 8.500 millones en 2025, un máximo; alimentos, químicos y comercio son los destinos principales.",
+"politica": "Relación pragmática con un gobierno colegiado y neutral.",
+"rubros": {
+"industria": [
+"incierto",
+"Maquinaria, químicos y farmacéuticos suizos más baratos, con más competencia para la industria local."
+],
+"agro": [
+"favorable",
+"Cupos para carne, vino y otros productos; Suiza es un mercado de alto poder adquisitivo."
+],
+"mineria": [
+"favorable",
+"Suiza recibe cerca de la mitad de lo que exporta San Juan y un tercio de lo de Santa Cruz, por el oro."
+],
+"energia": [
+"neutro",
+"Sin cambios relevantes."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"favorable",
+"Más inversión suiza en comercio y servicios."
+]
+}
+},
+{
+"si": "El referendo rechaza el acuerdo",
+"c": "e",
+"comercio": "El oro sigue fluyendo (no depende del acuerdo), pero se pierden los cupos agrícolas y las rebajas para el resto de los productos.",
+"aranceles": "Siguen los aranceles actuales en ambos sentidos.",
+"inversiones": "Menos previsibilidad para nuevas inversiones suizas.",
+"politica": "Señal de rechazo al Mercosur por motivos ambientales y agrícolas.",
+"rubros": {
+"industria": [
+"neutro",
+"Se mantiene la protección arancelaria actual."
+],
+"agro": [
+"desfavorable",
+"Se pierden los cupos para carne y vino."
+],
+"mineria": [
+"neutro",
+"El oro no depende del acuerdo."
+],
+"energia": [
+"neutro",
+"Sin cambios relevantes."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+}
+],
+"fuentes": [
+"Bolsa de Comercio de Rosario, jul 2026 (exportaciones al EFTA, superávit e inversión)",
+"Perfil y Agrolatam (peso de Suiza en San Juan y Santa Cruz)",
+"Economis (stock de inversión suiza)",
+"cash.ch (aprobación con fondos para el agro; 25 cupos agrícolas)",
+"blue News (referendo: firmas hasta el 21/1/2027)",
+"Parlamento suizo (votaciones del acuerdo, 2026)"
+],
+"revisado": "25/11/2026"
+}
 }
 },
 "calendario": [
@@ -4987,8 +5182,7 @@
 "cargos": "Votaciones populares federales",
 "estado": "confirmada",
 "fuerzas": [],
-"fuente": "Wikipedia",
-"res": "Fecha del calendario electoral de Wikipedia; falta contrastar con el organismo electoral"
+"fuente": "Parlamento suizo (días de votación federal 2026)"
 },
 {
 "f": "2026-12-05",
@@ -5343,11 +5537,16 @@
 {
 "n": "UDC/SVP",
 "p": "",
-"enc": 29.9
+"enc": 28
+},
+{
+"n": "PS/SP",
+"p": "",
+"enc": 17
 }
 ],
-"enc_fuente": "Barómetro electoral SRG SSR (Sotomo)",
-"enc_fecha": "sep 2026",
+"enc_fuente": "YouGov, barómetro de octubre de 2026 (cifras redondeadas; el Centro y el PLR siguen detrás)",
+"enc_fecha": "oct 2026",
 "fuente": "ch.ch (Confederación Suiza)"
 },
 {
@@ -5546,6 +5745,19 @@
 "enc_fuente": "Se espera un cuarto mandato de Xi",
 "enc_fecha": "nov 2026",
 "fuente": "bdnews24, East Asia Forum"
+},
+{
+"f": "",
+"fe": "2027, si se reúnen las firmas",
+"id": "756",
+"pais": "Suiza",
+"tipo": "referendo",
+"cargos": "Referendo contra el acuerdo de libre comercio EFTA–Mercosur (firmas hasta el 21/1/2027)",
+"estado": "estimada",
+"fuerzas": [],
+"enc_fuente": "Lo impulsa una alianza ambientalista; el Parlamento aprobó el acuerdo en octubre de 2026",
+"enc_fecha": "nov 2026",
+"fuente": "blue News, cash.ch"
 }
 ],
 "recientes": [
