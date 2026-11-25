@@ -4579,6 +4579,191 @@
 ],
 "revisado": "25/11/2026"
 }
+},
+"392": {
+"n": "Japón",
+"c": "a",
+"marca": null,
+"prio": true,
+"motivo": "Gobierno conservador de Sanae Takaichi, que se declara inspirada en Margaret Thatcher. Relación cooperativa: Argentina y Japón renovaron en 2026 un memorando para inversiones en petróleo, gas, energía y minería, y en junio de 2026 el Mercosur y Japón lanzaron la negociación de un acuerdo de asociación económica. Color propuesto, a validar.",
+"sis": "Monarquía parlamentaria. Dieta con Cámara de Representantes (465 bancas, mixta), que designa al primer ministro, y Cámara de Consejeros (248 bancas, renovación por mitades cada tres años).",
+"gob": "Primera ministra Sanae Takaichi (Partido Liberal Democrático), desde octubre de 2025 y redesignada en febrero de 2026, en coalición con el Partido de la Innovación de Japón (Ishin); emperador Naruhito",
+"ej": [],
+"ejnota": "Sistema parlamentario: la Cámara de Representantes designa al primer ministro. Takaichi fue redesignada el 18/2/2026 con 354 de 464 votos.",
+"leg": [
+{
+"cam": "Cámara de Representantes",
+"anio": 2026,
+"total": 465,
+"p": [
+[
+"PLD",
+316,
+1
+],
+[
+"Ishin",
+36,
+1
+],
+[
+"Sanseito",
+15,
+0
+],
+[
+"Team Mirai",
+11,
+0
+],
+[
+"Otros (oposición e independientes)",
+87,
+0
+]
+],
+"fuente": "Ministerio del Interior de Japón, vía Bloomberg, Nippon.com y Anadolu",
+"res": "Elección anticipada del 8/2/2026. El PLD logró 316 bancas, su mejor resultado histórico, y más de dos tercios con Ishin. Falta el desglose oficial del resto de la oposición"
+},
+{
+"cam": "Cámara de Representantes",
+"anio": 2024,
+"total": 465,
+"p": [
+[
+"PLD",
+191,
+1
+],
+[
+"Partido Constitucional Democrático",
+148,
+0
+],
+[
+"Ishin",
+38,
+0
+],
+[
+"Partido Democrático para el Pueblo",
+28,
+0
+],
+[
+"Komeito",
+24,
+1
+],
+[
+"Reiwa",
+9,
+0
+],
+[
+"Partido Comunista",
+8,
+0
+],
+[
+"Otros",
+16,
+0
+]
+],
+"fuente": "Ministerio del Interior de Japón",
+"res": "Cargado de referencia; falta contrastar con el Ministerio del Interior y Comunicaciones de Japón. El PLD y Komeito perdieron la mayoría y gobernaron en minoría"
+}
+],
+"prox": {
+"fecha": "Cámara de Consejeros: julio de 2028. Cámara de Representantes: a más tardar febrero de 2030 (puede adelantarse)",
+"que": "Mitad de la Cámara de Consejeros; luego la Cámara de Representantes",
+"pron": "Sin elección nacional cercana. Tras la elección anticipada de febrero de 2026, el PLD de Takaichi tiene más de dos tercios de la cámara baja con su aliado Ishin",
+"pc": "a",
+"fuente": "Bloomberg, Nippon.com, Anadolu"
+},
+"impacto": {
+"eleccion": "No hay elección nacional hasta 2028. Japón es un inversor importante y el Mercosur negocia con él un acuerdo de asociación económica desde junio de 2026; el comercio con la Argentina es chico y deficitario.",
+"escenarios": [
+{
+"si": "Sigue el PLD de Takaichi",
+"c": "a",
+"comercio": "Comercio chico: en 2025 la Argentina exportó a Japón US$ 296 millones e importó US$ 1.425 millones (déficit de US$ 1.129 millones). La Argentina representa menos del 0,1% de las importaciones japonesas.",
+"aranceles": "Negociación del acuerdo Mercosur–Japón, lanzada en junio de 2026, que podría bajar aranceles para alimentos y minerales argentinos.",
+"inversiones": "El stock de inversión japonesa llegó a US$ 2.634 millones en marzo de 2026; el memorando renovado apunta a petróleo, gas, energía y minería.",
+"politica": "Afinidad política con un gobierno conservador y cercano a EE.UU.; Japón busca diversificar proveedores frente a China.",
+"rubros": {
+"industria": [
+"incierto",
+"Un acuerdo abarataría autos y maquinaria japoneses y sumaría competencia; Toyota produce en el país."
+],
+"agro": [
+"favorable",
+"Posible acceso para carne, pescados y otros alimentos con el acuerdo."
+],
+"mineria": [
+"favorable",
+"Interés japonés en litio y cobre para diversificar proveedores."
+],
+"energia": [
+"favorable",
+"Memorando renovado para inversiones en petróleo, gas y energía."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+},
+{
+"si": "Gana la oposición de centroizquierda",
+"c": "m",
+"comercio": "Sin cambios grandes: la política comercial japonesa tiene amplio consenso.",
+"aranceles": "La negociación con el Mercosur podría ir más lenta por la presión de los productores agrícolas japoneses.",
+"inversiones": "Sin cambios previsibles.",
+"politica": "Relación institucional, sin afinidad ideológica.",
+"rubros": {
+"industria": [
+"neutro",
+"Sin cambios previsibles."
+],
+"agro": [
+"incierto",
+"Más protección agrícola en Japón."
+],
+"mineria": [
+"neutro",
+"Sin cambios previsibles."
+],
+"energia": [
+"neutro",
+"Sin cambios previsibles."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+}
+],
+"fuentes": [
+"El Cronista, con datos de Biglobal (comercio 2025 e inversión japonesa)",
+"El Cronista (Japón, menos del 0,1% de las importaciones)",
+"Perfil (memorando de inversiones renovado)",
+"Cancillería de Uruguay (lanzamiento de la negociación Mercosur–Japón)",
+"Gobierno argentino (comité bilateral en Tokio con Toyota, Nissan, Sumitomo y Marubeni)",
+"RTÉ (Takaichi y Thatcher)"
+],
+"revisado": "25/11/2026"
+}
 }
 },
 "calendario": [
