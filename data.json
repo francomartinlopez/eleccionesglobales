@@ -4048,6 +4048,250 @@
 "revisado": "25/11/2026"
 },
 "ejnota": "La presidencia de la Comisión no se vota en forma directa: la propone el Consejo Europeo y la confirma el Parlamento. Von der Leyen fue confirmada en julio de 2024."
+},
+"826": {
+"n": "Reino Unido",
+"c": "e",
+"marca": null,
+"prio": true,
+"motivo": "Relación en tensión por Malvinas desde septiembre de 2026: Milei inició sanciones contra 45 empresas y personas ligadas al petróleo de las islas (proyecto Sea Lion), Londres respondió que su compromiso es «inquebrantable» y reforzó el despliegue, y Milei suspendió su viaje al Reino Unido. Gobierna el laborismo de centroizquierda. Sigue el embargo británico de armas. Color propuesto, a validar.",
+"sis": "Monarquía parlamentaria. Cámara de los Comunes (650 bancas, por mayoría simple en distritos uninominales), de cuya mayoría sale el primer ministro; Cámara de los Lores no electa. El partido de gobierno puede cambiar de primer ministro sin elecciones.",
+"gob": "Primer ministro Andy Burnham (Laborista) desde el 20/7/2026, tras la renuncia de Keir Starmer; jefe de Estado el rey Carlos III",
+"ej": [],
+"ejnota": "Sistema parlamentario: el primer ministro surge de la mayoría en la Cámara de los Comunes. En julio de 2026 el laborismo reemplazó a Starmer por Burnham sin pasar por elecciones.",
+"leg": [
+{
+"cam": "Cámara de los Comunes",
+"anio": 2024,
+"total": 650,
+"p": [
+[
+"Laboristas",
+411,
+1
+],
+[
+"Conservadores",
+121,
+0
+],
+[
+"Liberal Demócratas",
+72,
+0
+],
+[
+"SNP",
+9,
+0
+],
+[
+"Sinn Féin",
+7,
+0
+],
+[
+"Reform UK",
+5,
+0
+],
+[
+"DUP",
+5,
+0
+],
+[
+"Verdes",
+4,
+0
+],
+[
+"Plaid Cymru",
+4,
+0
+],
+[
+"Otros",
+12,
+0
+]
+],
+"fuente": "Cámara de los Comunes (resultados 2024)",
+"res": "Cargado de referencia; falta contrastar con la Comisión Electoral y la Cámara de los Comunes. Votos: Laboristas 33,7%, Conservadores 23,7%, Reform UK 14,3%, Liberal Demócratas 12,2%, Verdes 6,7%"
+},
+{
+"cam": "Cámara de los Comunes",
+"anio": 2019,
+"total": 650,
+"p": [
+[
+"Conservadores",
+365,
+1
+],
+[
+"Laboristas",
+202,
+0
+],
+[
+"SNP",
+48,
+0
+],
+[
+"Liberal Demócratas",
+11,
+0
+],
+[
+"DUP",
+8,
+0
+],
+[
+"Sinn Féin",
+7,
+0
+],
+[
+"Plaid Cymru",
+4,
+0
+],
+[
+"Otros",
+5,
+0
+]
+],
+"fuente": "Cámara de los Comunes (resultados 2019)",
+"res": "Cargado de referencia; falta contrastar con la Comisión Electoral y la Cámara de los Comunes"
+}
+],
+"prox": {
+"fecha": "A más tardar en agosto de 2029 (el primer ministro puede adelantarla)",
+"que": "Cámara de los Comunes; de la mayoría sale el primer ministro",
+"pron": "Con Burnham, el laborismo recuperó el primer lugar: YouGov del 15-16/11 da Laboristas 27%, Conservadores 23% y Reform UK 21%, y More in Common (13-15/11) Laboristas 29%, Conservadores 25% y Reform UK 19%. Hasta septiembre lideraba Reform UK",
+"pc": "e",
+"fuente": "YouGov para The Times y Sky News; More in Common (Luke Tryl)"
+},
+"impacto": {
+"eleccion": "Próxima elección general hasta agosto de 2029. Con el Reino Unido pesan más Malvinas, el embargo de armas y las inversiones británicas en litio y energía que el comercio, que es chico.",
+"escenarios": [
+{
+"si": "Sigue el laborismo (Burnham)",
+"c": "e",
+"comercio": "Comercio chico y equilibrado: en 2025 la Argentina exportó US$ 577 millones e importó US$ 510 millones; más de un tercio de lo exportado es harina de soja. En 2025 el gobierno británico planteó explorar un acuerdo comercial; no se conocen avances desde la tensión por Malvinas.",
+"aranceles": "Sin acuerdo de libre comercio: rige el esquema británico general. Después del Brexit el Reino Unido conserva una cuota chica de carne Hilton.",
+"inversiones": "Las empresas británicas siguen con sus proyectos: Rio Tinto invirtió más de US$ 7.000 millones en litio. El gobierno argentino excluye del RIGI a las empresas sancionadas por Malvinas.",
+"politica": "Enfrentamiento por Malvinas: Londres defiende la explotación petrolera de las islas y mantiene el embargo de armas.",
+"rubros": {
+"industria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"agro": [
+"neutro",
+"Mercado chico, con la harina de soja como principal producto."
+],
+"mineria": [
+"neutro",
+"Las inversiones británicas en litio siguen, sin respaldo político nuevo."
+],
+"energia": [
+"desfavorable",
+"El petróleo de Malvinas (Sea Lion) avanza con respaldo británico y en competencia con el reclamo argentino."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+},
+{
+"si": "Gobiernan los conservadores (Badenoch)",
+"c": "m",
+"comercio": "Más afinidad con las reformas económicas de Milei y más interés en un acuerdo comercial.",
+"aranceles": "Sin cambios inmediatos; posible apertura de negociaciones comerciales.",
+"inversiones": "Más apoyo a la inversión privada británica en la Argentina.",
+"politica": "Badenoch elogió a Milei en 2025, pero en 2026 acusó a la Argentina de «amenazar» a las islas y pidió más fuerza militar.",
+"rubros": {
+"industria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"agro": [
+"favorable",
+"Más chances de un acuerdo comercial con cupos para carne y alimentos."
+],
+"mineria": [
+"favorable",
+"Respaldo a las inversiones en litio."
+],
+"energia": [
+"desfavorable",
+"Mismo respaldo al petróleo de Malvinas."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+},
+{
+"si": "Gobierna Reform UK (Farage)",
+"c": "m",
+"comercio": "Farage elogió en 2024 la desregulación de Milei; no hay señales sobre el comercio con la Argentina.",
+"aranceles": "Sin señales claras sobre un acuerdo con la Argentina.",
+"inversiones": "Sin señales claras.",
+"politica": "Fuerte choque por Malvinas: en su congreso de septiembre de 2026, Reform UK dijo que Farage «aplastaría» a la Argentina por las islas, un giro respecto de sus elogios a Milei.",
+"rubros": {
+"industria": [
+"neutro",
+"Sin cambios relevantes."
+],
+"agro": [
+"incierto",
+"Sin señales sobre el acceso de los alimentos argentinos."
+],
+"mineria": [
+"neutro",
+"Sin señales claras."
+],
+"energia": [
+"desfavorable",
+"Respaldo pleno al petróleo de Malvinas."
+],
+"construccion": [
+"neutro",
+"Sin cambios relevantes."
+],
+"comercio": [
+"neutro",
+"Sin cambios relevantes."
+]
+}
+}
+],
+"fuentes": [
+"Infocampo (comercio bilateral 2025 y harina de soja)",
+"Canal 26 (embajador británico: Rio Tinto y posible acuerdo comercial, nov 2025)",
+"AP vía Local10, Perfil e iProfesional (sanciones por Malvinas y exclusión del RIGI, sep 2026)",
+"El Economista y Perfil (respuesta británica)",
+"Emol / La Nación (viaje de Milei suspendido)",
+"Brussels Signal (Reform UK sobre Malvinas); Buenos Aires Times (Badenoch elogia a Milei)"
+],
+"revisado": "25/11/2026"
+}
 }
 },
 "calendario": [
